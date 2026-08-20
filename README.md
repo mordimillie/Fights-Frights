@@ -15,4 +15,6 @@ I've always wanted a monster expansion, but a lot of mob and boss mods didn't qu
 -  **the discord:** for offering suggetions.
 
 ## Links:
-https://discord.gg/aFC5bjFkNC  https://modrinth.com/mod/fights-frights  https://www.curseforge.com/minecraft/mc-mods/fightsfrights
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289DA?logo=discord&style=for-the-badge)](https://discord.gg/aFC5bjFkNC)
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-green?logo=modrinth&style=for-the-badge)](https://modrinth.com/mod/fights-frights)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-blue?logo=curseforge&style=for-the-badge)](https://www.curseforge.com/minecraft/mc-mods/fightsfrights)
