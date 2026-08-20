@@ -16,3 +16,5 @@ I am sorry if the quality isn't the best, I'm mostly an artist but I gave it my 
 
 ## Links:
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289DA?logo=discord&style=for-the-badge)](https://discord.gg/aFC5bjFkNC)
+
+### REQUIRES GECKOLIB!!!
