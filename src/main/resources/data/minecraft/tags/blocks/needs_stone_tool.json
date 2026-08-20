@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fightsfrights:redstone_display",
+    "fightsfrights:trashcan",
+    "fightsfrights:chiseled_hivestone",
+    "fightsfrights:hivestone_bricks_wall",
+    "fightsfrights:hivestone_bricks_stairs",
+    "fightsfrights:hivestone_bricks_slab",
+    "fightsfrights:hivestone_bricks",
+    "fightsfrights:polished_hivestone_wall",
+    "fightsfrights:polished_hivestone_stairs",
+    "fightsfrights:polished_hivestone",
+    "fightsfrights:polished_hivestone_slab",
+    "fightsfrights:hivestone_wall",
+    "fightsfrights:hivestone_stair",
+    "fightsfrights:hivestone_slab",
+    "fightsfrights:peeping_hivestone",
+    "fightsfrights:hivestone"
+  ]
+}
