@@ -1,0 +1,13 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 2,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Fights\u0026Frights]",
+      "[, Fights\u0026Frights, Source (Gradle)]",
+      "[, Fights\u0026Frights, Resources (Gradle)]"
+    ]
+  }
+}
