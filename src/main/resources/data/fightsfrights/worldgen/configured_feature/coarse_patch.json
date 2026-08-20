@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "xz_radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 6
+      }
+    },
+    "vertical_range": 5,
+    "vegetation_feature": {
+      "feature": "fightsfrights:hanging_cobwebs",
+      "placement": []
+    },
+    "vegetation_chance": 0.004,
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "fightsfrights:hivestone"
+      }
+    },
+    "replaceable": "#minecraft:base_stone_nether",
+    "depth": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.3
+  }
+}

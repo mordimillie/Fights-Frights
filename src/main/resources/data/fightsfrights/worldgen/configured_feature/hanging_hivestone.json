@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    },
+    "direction": "down",
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": {
+          "type": "weighted_list",
+          "distribution": [
+            {
+              "data": {
+                "type": "uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 18
+                }
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "type": "uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 12
+                }
+              },
+              "weight": 3
+            },
+            {
+              "data": {
+                "type": "uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 8
+                }
+              },
+              "weight": 10
+            }
+          ]
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "data": {
+                "Name": "fightsfrights:peeping_hivestone"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "fightsfrights:hivestone"
+              },
+              "weight": 18
+            }
+          ]
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "data": {
+                "Name": "fightsfrights:hivestone"
+              },
+              "weight": 6
+            },
+            {
+              "data": {
+                "Name": "fightsfrights:peeping_hivestone"
+              },
+              "weight": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
