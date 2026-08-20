@@ -1,0 +1,34 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "dark_forest",
+    "flower_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "windswept_forest",
+    "sunflower_plains",
+    "meadow",
+    "cherry_grove",
+    "badlands",
+    "bamboo_jungle",
+    "desert",
+    "dripstone_caves",
+    "eroded_badlands",
+    "grove",
+    "jagged_peaks",
+    "jungle",
+    "stony_peaks",
+    "windswept_hills",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "fightsfrights:terrantula",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

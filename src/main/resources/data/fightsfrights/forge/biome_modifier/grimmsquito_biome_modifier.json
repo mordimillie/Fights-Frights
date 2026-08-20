@@ -1,0 +1,21 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp",
+    "jungle",
+    "savanna",
+    "bamboo_jungle",
+    "sparse_jungle",
+    "desert",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "fightsfrights:grimmsquito",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

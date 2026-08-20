@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fightsfrights:bug_den",
+  "features": "fightsfrights:coarse_patch_floor",
+  "step": "local_modifications"
+}
