@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "fightsfrights:hex"
+    },
+    "title": {
+      "translate": "advancements.smells_like_evil.title"
+    },
+    "description": {
+      "translate": "advancements.smells_like_evil.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "smells_like_evil_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "minecraft:adventure/totem_of_undying"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "fightsfrights:mimentis_claw_single_use"
+    },
+    "title": {
+      "translate": "advancements.smoke_and_mirrors.title"
+    },
+    "description": {
+      "translate": "advancements.smoke_and_mirrors.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "smoke_and_mirrors_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "minecraft:adventure/kill_a_mob"
+}

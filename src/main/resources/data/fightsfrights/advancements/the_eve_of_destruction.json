@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "fightsfrights:ultimate_method_updated"
+    },
+    "title": {
+      "translate": "advancements.the_eve_of_destruction.title"
+    },
+    "description": {
+      "translate": "advancements.the_eve_of_destruction.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_eve_of_destruction_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "fightsfrights:smells_like_evil"
+}
