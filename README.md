@@ -7,7 +7,7 @@ I've always wanted a monster expansion, but a lot of mob and boss mods didn't qu
 ## Credits:
 
 -  **Lebeno/Mr. Frights:** mod owner, lead developer, secondary artist, and discord admin.
--  **Mordimillie:** secondary developer and the person who made this GitHub.
+-  **Mordimillie:** non Mcreator/secondary developer and the person who made this GitHub.
 -  **☽Eclipse Valley☼:** main artist and 3D modeler.
 -  **Lamesauce/Weether:** 3D modeler and sound designer.
 -  **Patuti:** discord admin.
