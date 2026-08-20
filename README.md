@@ -1,6 +1,6 @@
 # Fights & Frights
 
-"The monster expansion Mojang would never give us"-Lebeno
+"The monster expansion Mojang won't give us"-Lebeno
 
 I've always wanted a monster expansion, but a lot of mob and boss mods didn't quite scratch that vanilla itch I had, so I made the mod myself! I am sorry if the quality isn't the best, I'm mostly an artist but I gave it my best :) (not all mcreator mods are reskins btw, though I understand performance concerns)
 
