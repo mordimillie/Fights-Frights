@@ -6,7 +6,7 @@ I am sorry if the quality isn't the best, I'm mostly an artist but I gave it my 
 
 ## Credits:
 
--  **Lebeno/Mr. Frights:** mod owner, lead Mcreator developer, secondary artist, and discord admin.
+-  **Lebeno/Mr. Frights:** mod owner, lead developer, secondary artist, and discord admin.
 -  **Mordimillie:** secondary/non Mcreator developer and the person who made this GitHub.
 -  **☽Eclipse Valley☼:** main artist and 3D modeler.
 -  **Lamesauce/Weether:** 3D modeler and sound designer.
