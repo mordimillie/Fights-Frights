@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fightsfrights:block/jelly_bricks_slab"
+    },
+    "type=top": {
+      "model": "fightsfrights:block/jelly_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "fightsfrights:block/jelly_bricks_slab_full"
+    }
+  }
+}

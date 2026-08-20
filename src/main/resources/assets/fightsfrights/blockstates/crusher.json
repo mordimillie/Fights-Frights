@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fightsfrights:block/crusher"
+    },
+    "facing=east": {
+      "model": "fightsfrights:block/crusher",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fightsfrights:block/crusher",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fightsfrights:block/crusher",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fightsfrights:block/chitinbricksslab"
+    },
+    "type=top": {
+      "model": "fightsfrights:block/chitinbricksslab_top"
+    },
+    "type=double": {
+      "model": "fightsfrights:block/chitinbricksslab_full"
+    }
+  }
+}
