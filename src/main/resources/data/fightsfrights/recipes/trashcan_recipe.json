@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:shackle"
+    },
+    "b": {
+      "item": "minecraft:iron_nugget"
+    },
+    "c": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:trashcan",
+    "count": 1
+  }
+}
