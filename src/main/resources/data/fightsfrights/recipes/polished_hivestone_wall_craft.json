@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:polished_hivestone"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:polished_hivestone_wall",
+    "count": 6
+  }
+}

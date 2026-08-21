@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    " g "
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:rotten_handle"
+    },
+    "b": {
+      "item": "fightsfrights:golden_tongue"
+    },
+    "c": {
+      "item": "fightsfrights:gills"
+    },
+    "d": {
+      "item": "fightsfrights:goop"
+    },
+    "e": {
+      "item": "fightsfrights:terrantula_leg"
+    },
+    "f": {
+      "item": "fightsfrights:chip"
+    },
+    "g": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:monster_salad",
+    "count": 1
+  }
+}

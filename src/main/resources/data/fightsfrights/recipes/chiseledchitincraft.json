@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:chitinbricks"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:chiseled_chitin",
+    "count": 4
+  }
+}

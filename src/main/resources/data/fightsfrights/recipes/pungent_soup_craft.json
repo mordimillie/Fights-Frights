@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:gills"
+    },
+    {
+      "item": "fightsfrights:rotten_handle"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "fightsfrights:pungent_soup",
+    "count": 1
+  }
+}

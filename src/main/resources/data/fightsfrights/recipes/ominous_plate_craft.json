@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "fightsfrights:chitin"
+    },
+    {
+      "item": "fightsfrights:ominous_essence"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "fightsfrights:chitin"
+    },
+    {
+      "item": "fightsfrights:chitin"
+    },
+    {
+      "item": "fightsfrights:chitin"
+    }
+  ],
+  "result": {
+    "item": "fightsfrights:ominous_plate",
+    "count": 1
+  }
+}

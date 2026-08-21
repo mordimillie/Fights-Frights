@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tools",
+  "category": "equipment",
+  "pattern": [
+    "abb",
+    " cc",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "fightsfrights:shackle"
+    },
+    "c": {
+      "item": "fightsfrights:rotten_handle"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:putrid_scythe_2",
+    "count": 1
+  }
+}
