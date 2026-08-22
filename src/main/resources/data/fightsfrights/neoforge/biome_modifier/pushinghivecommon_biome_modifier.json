@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "fightsfrights:bug_den",
+  "features": "fightsfrights:pushinghivecommon",
+  "step": "local_modifications"
+}

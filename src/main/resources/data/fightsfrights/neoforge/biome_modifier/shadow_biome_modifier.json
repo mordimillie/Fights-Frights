@@ -1,0 +1,36 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "birch_forest",
+    "forest",
+    "dark_forest",
+    "beach",
+    "mangrove_swamp",
+    "swamp",
+    "lush_caves",
+    "dripstone_caves",
+    "desert",
+    "flower_forest",
+    "grove",
+    "jungle",
+    "savanna",
+    "sparse_jungle",
+    "badlands",
+    "wooded_badlands",
+    "windswept_hills",
+    "sunflower_plains",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "old_growth_birch_forest",
+    "windswept_forest",
+    "windswept_savanna",
+    "cherry_grove"
+  ],
+  "spawners": {
+    "type": "fightsfrights:shadow",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

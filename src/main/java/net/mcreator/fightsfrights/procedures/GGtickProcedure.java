@@ -1,0 +1,248 @@
+package net.mcreator.fightsfrights.procedures;
+
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.monster.Zombie;
+import net.minecraft.world.entity.monster.Stray;
+import net.minecraft.world.entity.monster.Skeleton;
+import net.minecraft.world.entity.monster.Husk;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.BlockPos;
+import net.minecraft.commands.arguments.EntityAnchorArgument;
+
+import net.mcreator.fightsfrights.init.FightsfrightsModParticleTypes;
+import net.mcreator.fightsfrights.init.FightsfrightsModEntities;
+import net.mcreator.fightsfrights.entity.PoisonOrbEntity;
+import net.mcreator.fightsfrights.entity.GhastlyGeneralEntity;
+import net.mcreator.fightsfrights.FightsfrightsMod;
+
+import java.util.List;
+import java.util.Comparator;
+
+public class GGtickProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+		if (entity == null)
+			return;
+		double TpRadius = 0;
+		double randomX = 0;
+		double randomZ = 0;
+		double scanY = 0;
+		if (!((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) == null) && entity.isAlive() && (entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).isAlive()) {
+			if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+				_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_ShootCooldown, (int) ((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_ShootCooldown) : 0) + 1));
+			if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+				_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_TeleportCooldown, (int) ((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_TeleportCooldown) : 0) + 1));
+			if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+				_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_SummonCooldown, (int) ((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_TeleportCooldown) : 0) + 1));
+			if ((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_SummonCooldown) : 0) >= 200 + Mth.nextInt(RandomSource.create(), 1, 200)
+					&& Math.sqrt(Math.pow(entity.getX() - (entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).getX(), 2) + Math.pow(entity.getY() - (entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).getY(), 2)
+							+ Math.pow(entity.getZ() - (entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).getZ(), 2)) <= 25) {
+				if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_TeleportCooldown, 0);
+				if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_ShootCooldown, 0);
+				if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_SummonCooldown, 0);
+				if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_Minion, 0);
+				{
+					final Vec3 _center = new Vec3(x, y, z);
+					List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(40 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
+					for (Entity entityiterator : _entfound) {
+						if (entityiterator instanceof Skeleton || entityiterator instanceof Stray || entityiterator instanceof Husk || entityiterator instanceof Zombie) {
+							if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+								_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_Minion, (int) ((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_Minion) : 0) + 1));
+						}
+					}
+				}
+				if (!((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_Minion) : 0) >= 12)) {
+					if (entity instanceof GhastlyGeneralEntity) {
+						((GhastlyGeneralEntity) entity).setAnimation("Summon");
+					}
+					if (world instanceof Level _level) {
+						if (!_level.isClientSide()) {
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("fightsfrights:ominous_summoning")), SoundSource.HOSTILE, 1, 1);
+						} else {
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("fightsfrights:ominous_summoning")), SoundSource.HOSTILE, 1, 1, false);
+						}
+					}
+					FightsfrightsMod.queueServerWork(65, () -> {
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getX()), (entity.getY() + 1.2), (entity.getZ()), 20, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = EntityType.STRAY.spawn(_level, BlockPos.containing(entity.getX() + 5, y + 1, entity.getZ()), MobSpawnType.MOB_SUMMONED);
+							if (entityToSpawn != null) {
+								entityToSpawn.setDeltaMovement(0, 0, 0);
+							}
+						}
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getX() + 5), (y + 2), (entity.getZ()), 10, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, (entity.getX() + 5), (y + 2), (entity.getZ()), 10, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = EntityType.SKELETON.spawn(_level, BlockPos.containing(entity.getX() - 5, y + 1, entity.getZ()), MobSpawnType.MOB_SUMMONED);
+							if (entityToSpawn != null) {
+								entityToSpawn.setDeltaMovement(0, 0, 0);
+							}
+						}
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getX() - 5), (y + 2), (entity.getZ()), 10, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, (entity.getX() - 5), (y + 2), (entity.getZ()), 10, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = EntityType.HUSK.spawn(_level, BlockPos.containing(entity.getX(), y + 1, entity.getZ() + 5), MobSpawnType.MOB_SUMMONED);
+							if (entityToSpawn != null) {
+								entityToSpawn.setDeltaMovement(0, 0, 0);
+							}
+						}
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getX()), (y + 2), (entity.getZ() + 5), 10, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, (entity.getX()), (y + 2), (entity.getZ() + 5), 10, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = EntityType.ZOMBIE.spawn(_level, BlockPos.containing(entity.getX(), y + 1, entity.getZ() - 5), MobSpawnType.MOB_SUMMONED);
+							if (entityToSpawn != null) {
+								entityToSpawn.setDeltaMovement(0, 0, 0);
+							}
+						}
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getX()), (y + 2), (entity.getZ() - 5), 10, 0.1, 0.1, 0.1, 0.05);
+						if (world instanceof ServerLevel _level)
+							_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, (entity.getX()), (y + 2), (entity.getZ() - 5), 10, 0.1, 0.1, 0.1, 0.05);
+					});
+				}
+			} else {
+				if ((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_TeleportCooldown) : 0) >= 350) {
+					if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_TeleportCooldown, 0);
+					if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_ShootCooldown, 0);
+					if (entity instanceof GhastlyGeneralEntity) {
+						((GhastlyGeneralEntity) entity).setAnimation("Teleport");
+					}
+					TpRadius = 20;
+					randomX = entity.getX() + Mth.nextInt(RandomSource.create(), (int) (TpRadius * (-1)), (int) TpRadius);
+					randomZ = entity.getZ() + Mth.nextInt(RandomSource.create(), (int) (TpRadius * (-1)), (int) TpRadius);
+					scanY = entity.getY() + TpRadius * 0.5;
+					for (int index0 = 0; index0 < (int) TpRadius; index0++) {
+						scanY = scanY - 1;
+						if ((world.getBlockState(BlockPos.containing(randomX, scanY, randomZ))).getBlock() == Blocks.AIR && (world.getBlockState(BlockPos.containing(randomX, scanY + 1, randomZ))).getBlock() == Blocks.AIR
+								&& world.getBlockState(BlockPos.containing(randomX, scanY - 1, randomZ)).canOcclude()) {
+							entity.getPersistentData().putDouble("randomX", randomX);
+							entity.getPersistentData().putDouble("scanY", scanY);
+							entity.getPersistentData().putDouble("randomZ", randomZ);
+							if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+								_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 20, 3, false, true));
+							FightsfrightsMod.queueServerWork(29, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getX()), (entity.getY() + 1.2), (entity.getZ()), 20, 0.1, 0.1, 0.1, 0.05);
+								if (world instanceof ServerLevel _level)
+									_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getPersistentData().getDouble("randomX")), (entity.getPersistentData().getDouble("scanY") + 0.7),
+											(entity.getPersistentData().getDouble("randomZ")), 20, 0.1, 0.1, 0.1, 0.05);
+								{
+									Entity _ent = entity;
+									_ent.teleportTo((entity.getPersistentData().getDouble("randomX")), (entity.getPersistentData().getDouble("scanY")), (entity.getPersistentData().getDouble("randomZ")));
+									if (_ent instanceof ServerPlayer _serverPlayer)
+										_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("randomX")), (entity.getPersistentData().getDouble("scanY")), (entity.getPersistentData().getDouble("randomZ")), _ent.getYRot(),
+												_ent.getXRot());
+								}
+								if (entity instanceof GhastlyGeneralEntity) {
+									((GhastlyGeneralEntity) entity).setAnimation("empty");
+								}
+							});
+							break;
+						}
+					}
+					FightsfrightsMod.queueServerWork(29, () -> {
+						if (world instanceof Level _level) {
+							if (!_level.isClientSide()) {
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.enderman.teleport")), SoundSource.HOSTILE, 1, 0);
+							} else {
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.enderman.teleport")), SoundSource.HOSTILE, 1, 0, false);
+							}
+						}
+					});
+				} else {
+					if ((entity instanceof GhastlyGeneralEntity _datEntI ? _datEntI.getEntityData().get(GhastlyGeneralEntity.DATA_ShootCooldown) : 0) >= 110) {
+						if (entity instanceof GhastlyGeneralEntity _datEntSetI)
+							_datEntSetI.getEntityData().set(GhastlyGeneralEntity.DATA_ShootCooldown, 0);
+						if (entity instanceof GhastlyGeneralEntity) {
+							((GhastlyGeneralEntity) entity).setAnimation("Shoot");
+						}
+						FightsfrightsMod.queueServerWork(22, () -> {
+							if (!((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) == null) && entity.isAlive() && (entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).isAlive()) {
+								if (world instanceof Level _level) {
+									if (!_level.isClientSide()) {
+										_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.blaze.shoot")), SoundSource.HOSTILE, 1, -2);
+									} else {
+										_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.blaze.shoot")), SoundSource.HOSTILE, 1, -2, false);
+									}
+								}
+								if (world instanceof ServerLevel _level)
+									_level.sendParticles((SimpleParticleType) (FightsfrightsModParticleTypes.OMINOUS_SOUL.get()), (entity.getX()), (entity.getY() + 1.2), (entity.getZ()), 20, 0.1, 0.1, 0.1, 0.05);
+								entity.lookAt(EntityAnchorArgument.Anchor.EYES, new Vec3(((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).getX()), ((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).getY()),
+										((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null).getZ())));
+								{
+									Entity _shootFrom = entity;
+									Level projectileLevel = _shootFrom.level();
+									if (!projectileLevel.isClientSide()) {
+										Projectile _entityToSpawn = new Object() {
+											public Projectile getArrow(Level level, Entity shooter, float damage, int knockback, byte piercing) {
+												AbstractArrow entityToSpawn = new PoisonOrbEntity(FightsfrightsModEntities.POISON_ORB.get(), level) {
+													@Override
+													public byte getPierceLevel() {
+														return piercing;
+													}
+
+													@Override
+													protected void doKnockback(LivingEntity livingEntity, DamageSource damageSource) {
+														if (knockback > 0) {
+															double d1 = Math.max(0.0, 1.0 - livingEntity.getAttributeValue(Attributes.KNOCKBACK_RESISTANCE));
+															Vec3 vec3 = this.getDeltaMovement().multiply(1.0, 0.0, 1.0).normalize().scale(knockback * 0.6 * d1);
+															if (vec3.lengthSqr() > 0.0) {
+																livingEntity.push(vec3.x, 0.1, vec3.z);
+															}
+														}
+													}
+												};
+												entityToSpawn.setOwner(shooter);
+												entityToSpawn.setBaseDamage(damage);
+												entityToSpawn.setSilent(true);
+												return entityToSpawn;
+											}
+										}.getArrow(projectileLevel, entity, 5, 1, (byte) 0);
+										_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
+										_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 2.1, 0);
+										projectileLevel.addFreshEntity(_entityToSpawn);
+									}
+								}
+							}
+						});
+					}
+				}
+			}
+		}
+	}
+}

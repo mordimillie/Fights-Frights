@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "fightsfrights:peeping_hivestone"
+    },
+    "c": {
+      "item": "fightsfrights:golden_tongue"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:mysteryblock",
+    "count": 2
+  }
+}

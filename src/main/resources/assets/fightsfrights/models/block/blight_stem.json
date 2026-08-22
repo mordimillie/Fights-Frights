@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fightsfrights:block/blightstem_top",
+    "up": "fightsfrights:block/blightstem_top",
+    "north": "fightsfrights:block/blightstem2",
+    "east": "fightsfrights:block/blightstem2",
+    "south": "fightsfrights:block/blightstem2",
+    "west": "fightsfrights:block/blightstem2",
+    "particle": "fightsfrights:block/blightstem_top"
+  },
+  "render_type": "solid"
+}

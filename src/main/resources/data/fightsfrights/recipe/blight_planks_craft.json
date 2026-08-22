@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:blight_hyphae"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:blight_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fightsfrights:blightdoor",
+    "fightsfrights:blight_trapdoor",
+    "fightsfrights:blight_button",
+    "fightsfrights:blight_fencegate",
+    "fightsfrights:blight_fence",
+    "fightsfrights:blight_slab",
+    "fightsfrights:blight_stairs",
+    "fightsfrights:blight_hyphae",
+    "fightsfrights:blight_planks",
+    "fightsfrights:dark_trama",
+    "fightsfrights:bllight_cap_block",
+    "fightsfrights:blight_stem"
+  ]
+}

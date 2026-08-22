@@ -1,0 +1,88 @@
+{
+  "has_precipitation": true,
+  "temperature": 1.7,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "ambient.crimson_forest.loop",
+    "particle": {
+      "options": {
+        "type": "fightsfrights:fly"
+      },
+      "probability": 0.001
+    },
+    "foliage_color": -11842760,
+    "grass_color": -11842760,
+    "sky_color": -12703984,
+    "fog_color": -13034993,
+    "water_color": -10595528,
+    "water_fog_color": -11056585
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "fightsfrights:mimentis",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "fightsfrights:terrantula",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "fightsfrights:grimmsquito",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "fightsfrights:nethercavespider",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "fightsfrights:nether_spider",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "fightsfrights:nethersilverfish",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "fightsfrights:fire_swarm",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

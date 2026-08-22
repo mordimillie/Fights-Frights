@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fightsfrights:slop",
+    "fightsfrights:chiseled_jelly",
+    "fightsfrights:jelly_bricks_wall",
+    "fightsfrights:jelly_bricks_stairs",
+    "fightsfrights:jelly_bricks_slab",
+    "fightsfrights:jelly_bricks",
+    "fightsfrights:smooth_jelly_wall",
+    "fightsfrights:smooth_jelly_stairs",
+    "fightsfrights:smooth_jelly_slab",
+    "fightsfrights:smooth_jelly",
+    "fightsfrights:jelly_block"
+  ]
+}

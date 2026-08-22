@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "fightsfrights:chip"
+    },
+    {
+      "item": "fightsfrights:chip"
+    },
+    {
+      "item": "fightsfrights:charged_flesh"
+    },
+    {
+      "item": "fightsfrights:chip"
+    },
+    {
+      "item": "fightsfrights:chip"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:vsd",
+    "count": 2
+  }
+}

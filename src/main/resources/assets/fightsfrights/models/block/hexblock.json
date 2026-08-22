@@ -1,0 +1,9 @@
+{
+  "parent": "fightsfrights:custom/ominoushexblock",
+  "textures": {
+    "all": "fightsfrights:block/hexblock",
+    "particle": "fightsfrights:block/hexblock",
+    "3": "fightsfrights:block/hexblock"
+  },
+  "render_type": "cutout"
+}

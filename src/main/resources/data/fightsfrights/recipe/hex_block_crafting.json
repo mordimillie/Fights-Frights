@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:hex"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:hexblock",
+    "count": 1
+  }
+}

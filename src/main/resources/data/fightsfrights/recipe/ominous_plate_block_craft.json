@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:ominous_plate"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:ominous_plate_block",
+    "count": 1
+  }
+}

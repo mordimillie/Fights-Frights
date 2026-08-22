@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:blight_trapdoor"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:blight_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "snowy_taiga",
+    "taiga",
+    "soul_sand_valley",
+    "basalt_deltas",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "fightsfrights:shackled",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

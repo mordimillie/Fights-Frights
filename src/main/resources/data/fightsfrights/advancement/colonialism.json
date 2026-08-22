@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "fightsfrights:terrantula_leg"
+    },
+    "title": {
+      "translate": "advancements.colonialism.title"
+    },
+    "description": {
+      "translate": "advancements.colonialism.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "colonialism_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "fightsfrights:itsy_bitsy"
+}

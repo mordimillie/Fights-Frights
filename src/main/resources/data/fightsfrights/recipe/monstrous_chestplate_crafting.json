@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "bab",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:monstruous_plate"
+    },
+    "b": {
+      "item": "fightsfrights:gills"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:monstrous_armor_chestplate",
+    "count": 1
+  }
+}

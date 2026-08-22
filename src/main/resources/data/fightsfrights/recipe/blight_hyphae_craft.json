@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:blight_stem"
+    },
+    {
+      "item": "fightsfrights:blight_stem"
+    },
+    {
+      "item": "fightsfrights:blight_stem"
+    },
+    {
+      "item": "fightsfrights:blight_stem"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:blight_hyphae",
+    "count": 3
+  }
+}

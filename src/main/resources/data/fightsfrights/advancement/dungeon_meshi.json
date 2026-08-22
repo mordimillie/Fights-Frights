@@ -1,0 +1,193 @@
+{
+  "display": {
+    "icon": {
+      "id": "fightsfrights:monster_salad"
+    },
+    "title": {
+      "translate": "advancements.dungeon_meshi.title"
+    },
+    "description": {
+      "translate": "advancements.dungeon_meshi.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dungeon_meshi_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:gills"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:rotten_handle"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:monster_pop"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:goop"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:golden_tongue"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:terrantula_leg"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_6": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:chip"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_7": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:banshaas_lungs"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_8": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:monster_salad"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_9": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_10": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spider_eye"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_11": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:charged_flesh"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_12": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:pungent_soup"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_13": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:cheese_stick"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_14": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:charged_chili"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_15": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:deleted_mod_element"
+          ]
+        }
+      }
+    },
+    "dungeon_meshi_16": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "fightsfrights:bug_dust"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "fightsfrights:trick_or_treat"
+}

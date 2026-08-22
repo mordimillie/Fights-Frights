@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:goop"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:smooth_jelly",
+    "count": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "fightsfrights:bug_dust"
+    },
+    "title": {
+      "translate": "advancements.cant_quit.title"
+    },
+    "description": {
+      "translate": "advancements.cant_quit.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cant_quit_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 12
+  },
+  "parent": "fightsfrights:itsy_bitsy"
+}

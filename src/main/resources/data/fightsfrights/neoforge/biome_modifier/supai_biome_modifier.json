@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "frozen_peaks",
+    "jagged_peaks",
+    "stony_peaks",
+    "windswept_forest",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_savanna"
+  ],
+  "spawners": {
+    "type": "fightsfrights:supai",
+    "weight": 5,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

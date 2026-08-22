@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Fights&Frights",
+    "icon": {
+      "value": "CUSTOM:Hex"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "fightsfrights:custom/totemblock",
+  "textures": {
+    "all": "fightsfrights:block/totemblock",
+    "particle": "fightsfrights:block/totemblock",
+    "3": "fightsfrights:block/totemblock"
+  },
+  "render_type": "cutout"
+}

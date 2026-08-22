@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:bllight_cap_block"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:dark_trama",
+    "count": 4
+  }
+}

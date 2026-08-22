@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:blight_planks"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:blight_button",
+    "count": 1
+  }
+}

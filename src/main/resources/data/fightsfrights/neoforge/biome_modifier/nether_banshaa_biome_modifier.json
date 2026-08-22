@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "nether_wastes",
+    "soul_sand_valley",
+    "warped_forest"
+  ],
+  "spawners": {
+    "type": "fightsfrights:nether_banshaa",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

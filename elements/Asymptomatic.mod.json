@@ -1,0 +1,31 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Carrier",
+    "icon": "asymptomatic",
+    "color": {
+      "value": -5847468,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": false,
+    "isProtectedByTotem": false,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "MAX_HEALTH"
+        },
+        "amount": 0.5,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "onActiveTick": {
+      "name": "AsymptomaticOnEffectActiveTick"
+    }
+  }
+}

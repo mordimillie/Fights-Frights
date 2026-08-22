@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:rotten_block"
+    },
+    {
+      "item": "fightsfrights:charged_scrap"
+    },
+    {
+      "item": "fightsfrights:rotten_block"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:charged_flesh",
+    "count": 16
+  }
+}

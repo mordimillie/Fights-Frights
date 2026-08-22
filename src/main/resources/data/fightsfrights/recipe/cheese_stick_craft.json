@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "fightsfrights:terrantula_leg"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:cheese_stick",
+    "count": 2
+  }
+}

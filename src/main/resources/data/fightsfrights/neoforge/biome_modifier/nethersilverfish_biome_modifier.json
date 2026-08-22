@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "fightsfrights:bug_den",
+  "spawners": {
+    "type": "fightsfrights:nethersilverfish",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

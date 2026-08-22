@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Mimic Beetles spawn chance",
+    "description": "Controls how common Mimic Beetles emerge from blocks",
+    "category": "SPAWNING",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 10
+  }
+}

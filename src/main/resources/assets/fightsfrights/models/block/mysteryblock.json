@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fightsfrights:block/mystery_block_scowl",
+    "up": "fightsfrights:block/mystery_block_pioneer",
+    "north": "fightsfrights:block/mystery_block_seer",
+    "east": "fightsfrights:block/mystery_block_patuti",
+    "south": "fightsfrights:block/mystery_block_terrantula",
+    "west": "fightsfrights:block/mystery_block_banshaa",
+    "particle": "fightsfrights:block/mystery_block_scowl"
+  },
+  "render_type": "solid"
+}

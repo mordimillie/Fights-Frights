@@ -1,0 +1,22 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "snowy_beach",
+    "stony_shore",
+    "dripstone_caves",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_ocean",
+    "ocean",
+    "river",
+    "swamp",
+    "mangrove_swamp"
+  ],
+  "spawners": {
+    "type": "fightsfrights:patuti",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

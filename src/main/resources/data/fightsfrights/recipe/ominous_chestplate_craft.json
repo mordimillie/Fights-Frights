@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "fightsfrights:monstrous_armor_chestplate"
+  },
+  "addition": {
+    "item": "fightsfrights:ominous_plate"
+  },
+  "result": {
+    "id": "fightsfrights:ominous_armor_chestplate"
+  }
+}

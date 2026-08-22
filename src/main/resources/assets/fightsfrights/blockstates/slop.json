@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fightsfrights:block/slop"
+    },
+    "type=top": {
+      "model": "fightsfrights:block/slop_top"
+    },
+    "type=double": {
+      "model": "fightsfrights:block/slop_full"
+    }
+  }
+}

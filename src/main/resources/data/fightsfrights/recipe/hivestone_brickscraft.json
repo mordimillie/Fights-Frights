@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:polished_hivestone"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:hivestone_bricks",
+    "count": 4
+  }
+}

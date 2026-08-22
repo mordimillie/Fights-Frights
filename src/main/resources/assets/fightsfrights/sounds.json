@@ -1,0 +1,632 @@
+{
+  "scowl_idle": {
+    "subtitle": "subtitles.scowl_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:scowl_idle",
+        "stream": false
+      }
+    ]
+  },
+  "scowl_hurt": {
+    "subtitle": "subtitles.scowl_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:scowl_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "scowl_death": {
+    "subtitle": "subtitles.scowl_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:scowl_death",
+        "stream": false
+      }
+    ]
+  },
+  "allman_death": {
+    "subtitle": "subtitles.allman_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:allman_death",
+        "stream": false
+      }
+    ]
+  },
+  "allman_hurt": {
+    "subtitle": "subtitles.allman_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:allman_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "allman_idle": {
+    "subtitle": "subtitles.allman_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:allman_idle",
+        "stream": false
+      }
+    ]
+  },
+  "seer_idle": {
+    "subtitle": "subtitles.seer_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:seeridle",
+        "stream": false
+      }
+    ]
+  },
+  "seer_hurt": {
+    "subtitle": "subtitles.seer_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:seerhurt",
+        "stream": false
+      }
+    ]
+  },
+  "seer_death": {
+    "subtitle": "subtitles.seer_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:seerdeath",
+        "stream": false
+      }
+    ]
+  },
+  "pioneer_idle": {
+    "subtitle": "subtitles.pioneer_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:pioneeridle",
+        "stream": false
+      }
+    ]
+  },
+  "pioneer_hurt": {
+    "subtitle": "subtitles.pioneer_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:pioneerhurt",
+        "stream": false
+      }
+    ]
+  },
+  "pioneer_death": {
+    "subtitle": "subtitles.pioneer_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:pioneerdeath",
+        "stream": false
+      }
+    ]
+  },
+  "patuti_idle": {
+    "subtitle": "subtitles.patuti_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:patutiidle",
+        "stream": false
+      }
+    ]
+  },
+  "patuti_hurt": {
+    "subtitle": "subtitles.patuti_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:patutihurt",
+        "stream": false
+      }
+    ]
+  },
+  "patuti_death": {
+    "subtitle": "subtitles.patuti_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:patutideath",
+        "stream": false
+      }
+    ]
+  },
+  "banshaa_idle": {
+    "subtitle": "subtitles.banshaa_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:banshaaidle",
+        "stream": false
+      }
+    ]
+  },
+  "banshaa_hurt": {
+    "subtitle": "subtitles.banshaa_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:banshaahurt",
+        "stream": false
+      }
+    ]
+  },
+  "banshaa_death": {
+    "subtitle": "subtitles.banshaa_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:banshaadeath",
+        "stream": false
+      }
+    ]
+  },
+  "banshaa_scream": {
+    "subtitle": "subtitles.banshaa_scream",
+    "sounds": [
+      {
+        "name": "fightsfrights:banshaascream",
+        "stream": false
+      }
+    ]
+  },
+  "ominous_bottle_breaks": {
+    "subtitle": "subtitles.ominous_bottle_breaks",
+    "sounds": [
+      {
+        "name": "fightsfrights:ominous_bottle_dispose_je2",
+        "stream": false
+      }
+    ]
+  },
+  "ravager_horn_resonates": {
+    "subtitle": "subtitles.ravager_horn_resonates",
+    "sounds": [
+      {
+        "name": "fightsfrights:ravager_roar",
+        "stream": false
+      }
+    ]
+  },
+  "crusher_chew": {
+    "subtitle": "subtitles.crusher_chew",
+    "sounds": [
+      {
+        "name": "fightsfrights:crusherchew",
+        "stream": false
+      }
+    ]
+  },
+  "reanimated_hurt": {
+    "subtitle": "subtitles.reanimated_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:reanimated_struck",
+        "stream": false
+      }
+    ]
+  },
+  "giant_hurt": {
+    "subtitle": "subtitles.giant_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:giant_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "giant_death": {
+    "subtitle": "subtitles.giant_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:giant_death",
+        "stream": false
+      }
+    ]
+  },
+  "giant_idle": {
+    "subtitle": "subtitles.giant_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:giant_idle",
+        "stream": false
+      }
+    ]
+  },
+  "giant_celebrate": {
+    "subtitle": "subtitles.giant_celebrate",
+    "sounds": [
+      {
+        "name": "fightsfrights:giant_celebrate",
+        "stream": false
+      }
+    ]
+  },
+  "reanimated_step": {
+    "subtitle": "subtitles.reanimated_step",
+    "sounds": [
+      {
+        "name": "fightsfrights:reanimated_step",
+        "stream": false
+      }
+    ]
+  },
+  "reanimated_death": {
+    "subtitle": "subtitles.reanimated_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:reanimated_death",
+        "stream": false
+      }
+    ]
+  },
+  "ggidle": {
+    "subtitle": "subtitles.ggidle",
+    "sounds": [
+      {
+        "name": "fightsfrights:ghastlygeneralidle",
+        "stream": false
+      }
+    ]
+  },
+  "gghurt": {
+    "subtitle": "subtitles.gghurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:ghastlygeneralhurt",
+        "stream": false
+      }
+    ]
+  },
+  "ggdeath": {
+    "subtitle": "subtitles.ggdeath",
+    "sounds": [
+      {
+        "name": "fightsfrights:ghastlygeneraldeath",
+        "stream": false
+      }
+    ]
+  },
+  "ominousgem": {
+    "subtitle": "subtitles.ominousgem",
+    "sounds": [
+      {
+        "name": "fightsfrights:ominousproyectilehit",
+        "stream": false
+      }
+    ]
+  },
+  "evillaugh": {
+    "subtitle": "subtitles.evillaugh",
+    "sounds": [
+      {
+        "name": "fightsfrights:evillaugh",
+        "stream": false
+      }
+    ]
+  },
+  "reanimated_idle": {
+    "subtitle": "subtitles.reanimated_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:reanimated_idle",
+        "stream": false
+      }
+    ]
+  },
+  "shackled_idle": {
+    "subtitle": "subtitles.shackled_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:shackled_idle",
+        "stream": false
+      }
+    ]
+  },
+  "shackled_hurt": {
+    "subtitle": "subtitles.shackled_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:shackled_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "shackled_death": {
+    "subtitle": "subtitles.shackled_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:shackled_death",
+        "stream": false
+      }
+    ]
+  },
+  "pp_death": {
+    "subtitle": "subtitles.pp_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:piglin_prosecutor_death",
+        "stream": false
+      }
+    ]
+  },
+  "pp_hurt": {
+    "subtitle": "subtitles.pp_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:piglin_prosecutor_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "pp_step": {
+    "subtitle": "subtitles.pp_step",
+    "sounds": [
+      {
+        "name": "fightsfrights:piglin_prosecutor_step",
+        "stream": false
+      }
+    ]
+  },
+  "hexplace": {
+    "subtitle": "subtitles.hexplace",
+    "sounds": [
+      {
+        "name": "fightsfrights:hexplace",
+        "stream": false
+      }
+    ]
+  },
+  "pp_idle": {
+    "subtitle": "subtitles.pp_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:piglin_prosecutor_idle",
+        "stream": false
+      }
+    ]
+  },
+  "ii_idle": {
+    "subtitle": "subtitles.ii_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:imperial_illager_idle",
+        "stream": false
+      }
+    ]
+  },
+  "ominous_summoning": {
+    "subtitle": "subtitles.ominous_summoning",
+    "sounds": [
+      {
+        "name": "fightsfrights:imperial_illager_summon",
+        "stream": false
+      }
+    ]
+  },
+  "ii_hurt": {
+    "subtitle": "subtitles.ii_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:imperial_illager_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "effigy_hurt": {
+    "subtitle": "subtitles.effigy_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:effigy_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "effigy_death": {
+    "subtitle": "subtitles.effigy_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:effigy_death",
+        "stream": false
+      }
+    ]
+  },
+  "terrantula_emerge": {
+    "subtitle": "subtitles.terrantula_emerge",
+    "sounds": [
+      {
+        "name": "fightsfrights:emerge",
+        "stream": false
+      }
+    ]
+  },
+  "mb_hurt": {
+    "subtitle": "subtitles.mb_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimicbeetlehurt1",
+        "stream": false
+      }
+    ]
+  },
+  "mb_idle": {
+    "subtitle": "subtitles.mb_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimicbeetlesidle",
+        "stream": false
+      }
+    ]
+  },
+  "mb_die": {
+    "subtitle": "subtitles.mb_die",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimicbeetlesdeath",
+        "stream": false
+      }
+    ]
+  },
+  "mb_step": {
+    "subtitle": "subtitles.mb_step",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimicbeetlesstep",
+        "stream": false
+      }
+    ]
+  },
+  "grimmsquito_idle": {
+    "subtitle": "subtitles.grimmsquito_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:grimmsquitoidle",
+        "stream": false
+      }
+    ]
+  },
+  "grimmsquito_hurt": {
+    "subtitle": "subtitles.grimmsquito_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:grimmsquitohurt",
+        "stream": false
+      }
+    ]
+  },
+  "grimmsquito_death": {
+    "subtitle": "subtitles.grimmsquito_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:grimmsquitodeath",
+        "stream": false
+      }
+    ]
+  },
+  "wingflapbuzz": {
+    "subtitle": "subtitles.wingflapbuzz",
+    "sounds": [
+      {
+        "name": "fightsfrights:wingflap",
+        "stream": false
+      }
+    ]
+  },
+  "shadow_hurt": {
+    "subtitle": "subtitles.shadow_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:shadow_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "shadow_death": {
+    "subtitle": "subtitles.shadow_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:shadow_death",
+        "stream": false
+      }
+    ]
+  },
+  "mimentis_idle": {
+    "subtitle": "subtitles.mimentis_idle",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimentis_idle",
+        "stream": false
+      }
+    ]
+  },
+  "mimentis_hurt": {
+    "subtitle": "subtitles.mimentis_hurt",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimentis_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "mimentis_death": {
+    "subtitle": "subtitles.mimentis_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimentis_death",
+        "stream": false
+      }
+    ]
+  },
+  "mimentis_transform": {
+    "subtitle": "subtitles.mimentis_transform",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimentis_transform",
+        "stream": false
+      }
+    ]
+  },
+  "mimentis_step": {
+    "subtitle": "subtitles.mimentis_step",
+    "sounds": [
+      {
+        "name": "fightsfrights:mimicbeetlesstep",
+        "stream": false
+      }
+    ]
+  },
+  "claw": {
+    "subtitle": "subtitles.claw",
+    "sounds": [
+      {
+        "name": "fightsfrights:claw",
+        "stream": false
+      }
+    ]
+  },
+  "sneeze": {
+    "subtitle": "subtitles.sneeze",
+    "sounds": [
+      {
+        "name": "fightsfrights:sneeze",
+        "stream": false
+      }
+    ]
+  },
+  "dreamcatcher": {
+    "subtitle": "subtitles.dreamcatcher",
+    "sounds": [
+      {
+        "name": "fightsfrights:dreamcatcher",
+        "stream": false
+      }
+    ]
+  },
+  "ii_death": {
+    "subtitle": "subtitles.ii_death",
+    "sounds": [
+      {
+        "name": "fightsfrights:imperial_illager_death",
+        "stream": false
+      }
+    ]
+  },
+  "trashcan": {
+    "subtitle": "subtitles.trashcan",
+    "sounds": [
+      {
+        "name": "fightsfrights:trashsplat",
+        "stream": false
+      }
+    ]
+  },
+  "trashcan_open": {
+    "subtitle": "subtitles.trashcan_open",
+    "sounds": [
+      {
+        "name": "fightsfrights:trashopen",
+        "stream": false
+      }
+    ]
+  }
+}

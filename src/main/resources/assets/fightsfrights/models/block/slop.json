@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fightsfrights:block/slop",
+    "bottom": "fightsfrights:block/slop",
+    "top": "fightsfrights:block/slop",
+    "side": "fightsfrights:block/slop"
+  },
+  "render_type": "solid"
+}

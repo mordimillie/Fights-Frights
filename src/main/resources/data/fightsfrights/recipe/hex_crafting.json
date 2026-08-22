@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:ravager_horn"
+    },
+    {
+      "item": "fightsfrights:charged_scrap"
+    },
+    {
+      "item": "fightsfrights:elder_spine"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "fightsfrights:empty_hex"
+    },
+    {
+      "item": "fightsfrights:banshaas_lungs"
+    },
+    {
+      "item": "fightsfrights:monstruous_plate"
+    },
+    {
+      "item": "fightsfrights:ominous_plate"
+    },
+    {
+      "item": "fightsfrights:monstruous_plate"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:hex",
+    "count": 1
+  }
+}

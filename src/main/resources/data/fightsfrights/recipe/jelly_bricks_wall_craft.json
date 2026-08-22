@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:jelly_bricks"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:jelly_bricks_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    },
+    {
+      "item": "fightsfrights:goop"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:jelly_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "CUSTOM:Chitin"
+      },
+      {
+        "value": "CUSTOM:OminousEssence"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "CUSTOM:Chitin"
+      },
+      {
+        "value": "CUSTOM:Chitin"
+      },
+      {
+        "value": "CUSTOM:Chitin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OminousPlate"
+    },
+    "name": "ominous_plate_craft",
+    "namespace": "mod"
+  }
+}

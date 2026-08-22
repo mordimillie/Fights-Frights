@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fightsfrights:block/smooth_chitin",
+    "bottom": "fightsfrights:block/smooth_chitin",
+    "top": "fightsfrights:block/smooth_chitin",
+    "side": "fightsfrights:block/smooth_chitin"
+  },
+  "render_type": "solid"
+}

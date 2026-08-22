@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fightsfrights:hivestone"
+  },
+  "result": {
+    "id": "fightsfrights:hivestone_slab",
+    "count": 2
+  }
+}

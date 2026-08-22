@@ -1,0 +1,31 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Summoned",
+    "icon": "summoned",
+    "color": {
+      "value": -10989,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "FLYING_SPEED"
+        },
+        "amount": 1.2,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "onExpired": {
+      "name": "SummonTimeEffectExpires"
+    }
+  }
+}

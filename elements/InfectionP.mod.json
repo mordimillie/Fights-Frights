@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Infection",
+    "splashName": "Splash Potion of Infection",
+    "lingeringName": "Lingering Potion of Infection",
+    "arrowName": "Arrow of Infection",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Infected"
+        },
+        "duration": 3600,
+        "infinite": true,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

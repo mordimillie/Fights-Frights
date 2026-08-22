@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:smooth_jelly"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:smooth_jelly_slab",
+    "count": 6
+  }
+}

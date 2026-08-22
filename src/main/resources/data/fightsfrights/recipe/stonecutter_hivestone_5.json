@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fightsfrights:hivestone"
+  },
+  "result": {
+    "id": "fightsfrights:polished_hivestone",
+    "count": 1
+  }
+}

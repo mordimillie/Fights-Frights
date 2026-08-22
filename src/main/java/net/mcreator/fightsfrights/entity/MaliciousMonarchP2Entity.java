@@ -1,0 +1,364 @@
+
+package net.mcreator.fightsfrights.entity;
+
+import software.bernie.geckolib.util.GeckoLibUtil;
+import software.bernie.geckolib.animation.RawAnimation;
+import software.bernie.geckolib.animation.PlayState;
+import software.bernie.geckolib.animation.AnimationState;
+import software.bernie.geckolib.animation.AnimationController;
+import software.bernie.geckolib.animation.AnimatableManager;
+import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.animatable.GeoEntity;
+
+import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
+
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.npc.Villager;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.ai.navigation.PathNavigation;
+import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.Goal;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.control.FlyingMoveControl;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.entity.Pose;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.DifficultyInstance;
+import net.minecraft.util.RandomSource;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerBossEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.fightsfrights.procedures.MMtickP2Procedure;
+import net.mcreator.fightsfrights.procedures.ImperialIllagerP2OnInitialEntitySpawnProcedure;
+import net.mcreator.fightsfrights.init.FightsfrightsModItems;
+
+import javax.annotation.Nullable;
+
+import java.util.EnumSet;
+
+public class MaliciousMonarchP2Entity extends Monster implements GeoEntity {
+	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(MaliciousMonarchP2Entity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(MaliciousMonarchP2Entity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(MaliciousMonarchP2Entity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<Integer> DATA_Minion = SynchedEntityData.defineId(MaliciousMonarchP2Entity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Integer> DATA_SummonCooldown = SynchedEntityData.defineId(MaliciousMonarchP2Entity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Integer> DATA_ShootCooldown = SynchedEntityData.defineId(MaliciousMonarchP2Entity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Integer> DATA_TeleportCooldown = SynchedEntityData.defineId(MaliciousMonarchP2Entity.class, EntityDataSerializers.INT);
+	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+	private boolean swinging;
+	private boolean lastloop;
+	private long lastSwing;
+	public String animationprocedure = "empty";
+	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.GREEN, ServerBossEvent.BossBarOverlay.PROGRESS);
+
+	public MaliciousMonarchP2Entity(EntityType<MaliciousMonarchP2Entity> type, Level world) {
+		super(type, world);
+		xpReward = 160;
+		setNoAi(false);
+		this.moveControl = new FlyingMoveControl(this, 10, true);
+	}
+
+	@Override
+	protected void defineSynchedData(SynchedEntityData.Builder builder) {
+		super.defineSynchedData(builder);
+		builder.define(SHOOT, false);
+		builder.define(ANIMATION, "undefined");
+		builder.define(TEXTURE, "imperial_illager_phantomp2");
+		builder.define(DATA_Minion, 0);
+		builder.define(DATA_SummonCooldown, 0);
+		builder.define(DATA_ShootCooldown, 0);
+		builder.define(DATA_TeleportCooldown, 0);
+	}
+
+	public void setTexture(String texture) {
+		this.entityData.set(TEXTURE, texture);
+	}
+
+	public String getTexture() {
+		return this.entityData.get(TEXTURE);
+	}
+
+	@Override
+	protected PathNavigation createNavigation(Level world) {
+		return new FlyingPathNavigation(this, world);
+	}
+
+	@Override
+	protected void registerGoals() {
+		super.registerGoals();
+		this.goalSelector.addGoal(1, new Goal() {
+			{
+				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
+			}
+
+			public boolean canUse() {
+				if (MaliciousMonarchP2Entity.this.getTarget() != null && !MaliciousMonarchP2Entity.this.getMoveControl().hasWanted()) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				return MaliciousMonarchP2Entity.this.getMoveControl().hasWanted() && MaliciousMonarchP2Entity.this.getTarget() != null && MaliciousMonarchP2Entity.this.getTarget().isAlive();
+			}
+
+			@Override
+			public void start() {
+				LivingEntity livingentity = MaliciousMonarchP2Entity.this.getTarget();
+				Vec3 vec3d = livingentity.getEyePosition(1);
+				MaliciousMonarchP2Entity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+			}
+
+			@Override
+			public void tick() {
+				LivingEntity livingentity = MaliciousMonarchP2Entity.this.getTarget();
+				if (MaliciousMonarchP2Entity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
+					MaliciousMonarchP2Entity.this.doHurtTarget(livingentity);
+				} else {
+					double d0 = MaliciousMonarchP2Entity.this.distanceToSqr(livingentity);
+					if (d0 < 16) {
+						Vec3 vec3d = livingentity.getEyePosition(1);
+						MaliciousMonarchP2Entity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+					}
+				}
+			}
+		});
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8, 20) {
+			@Override
+			protected Vec3 getPosition() {
+				RandomSource random = MaliciousMonarchP2Entity.this.getRandom();
+				double dir_x = MaliciousMonarchP2Entity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_y = MaliciousMonarchP2Entity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_z = MaliciousMonarchP2Entity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
+				return new Vec3(dir_x, dir_y, dir_z);
+			}
+		});
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1, false) {
+			@Override
+			protected boolean canPerformAttack(LivingEntity entity) {
+				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
+			}
+		});
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ReanimatedEntity.class, false, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Villager.class, false, false));
+		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(8, new FloatGoal(this));
+	}
+
+	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(serverLevel, source, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(FightsfrightsModItems.OMINOUS_SCEPTER.get()));
+	}
+
+	@Override
+	public SoundEvent getAmbientSound() {
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("fightsfrights:ii_idle"));
+	}
+
+	@Override
+	public SoundEvent getHurtSound(DamageSource ds) {
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("fightsfrights:ii_hurt"));
+	}
+
+	@Override
+	public SoundEvent getDeathSound() {
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("fightsfrights:ii_death"));
+	}
+
+	@Override
+	public boolean causeFallDamage(float l, float d, DamageSource source) {
+		return false;
+	}
+
+	@Override
+	public boolean hurt(DamageSource source, float amount) {
+		if (source.getDirectEntity() instanceof AbstractArrow)
+			return false;
+		if (source.is(DamageTypes.FALL))
+			return false;
+		return super.hurt(source, amount);
+	}
+
+	@Override
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata) {
+		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
+		ImperialIllagerP2OnInitialEntitySpawnProcedure.execute(this);
+		return retval;
+	}
+
+	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putString("Texture", this.getTexture());
+		compound.putInt("DataMinion", this.entityData.get(DATA_Minion));
+		compound.putInt("DataSummonCooldown", this.entityData.get(DATA_SummonCooldown));
+		compound.putInt("DataShootCooldown", this.entityData.get(DATA_ShootCooldown));
+		compound.putInt("DataTeleportCooldown", this.entityData.get(DATA_TeleportCooldown));
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("Texture"))
+			this.setTexture(compound.getString("Texture"));
+		if (compound.contains("DataMinion"))
+			this.entityData.set(DATA_Minion, compound.getInt("DataMinion"));
+		if (compound.contains("DataSummonCooldown"))
+			this.entityData.set(DATA_SummonCooldown, compound.getInt("DataSummonCooldown"));
+		if (compound.contains("DataShootCooldown"))
+			this.entityData.set(DATA_ShootCooldown, compound.getInt("DataShootCooldown"));
+		if (compound.contains("DataTeleportCooldown"))
+			this.entityData.set(DATA_TeleportCooldown, compound.getInt("DataTeleportCooldown"));
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		MMtickP2Procedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+		this.refreshDimensions();
+	}
+
+	@Override
+	public EntityDimensions getDefaultDimensions(Pose pose) {
+		return super.getDefaultDimensions(pose).scale(1f);
+	}
+
+	@Override
+	public void startSeenByPlayer(ServerPlayer player) {
+		super.startSeenByPlayer(player);
+		this.bossInfo.addPlayer(player);
+	}
+
+	@Override
+	public void stopSeenByPlayer(ServerPlayer player) {
+		super.stopSeenByPlayer(player);
+		this.bossInfo.removePlayer(player);
+	}
+
+	@Override
+	public void customServerAiStep() {
+		super.customServerAiStep();
+		this.bossInfo.setProgress(this.getHealth() / this.getMaxHealth());
+	}
+
+	@Override
+	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
+	}
+
+	@Override
+	public void setNoGravity(boolean ignored) {
+		super.setNoGravity(true);
+	}
+
+	public void aiStep() {
+		super.aiStep();
+		this.setNoGravity(true);
+	}
+
+	public static void init(RegisterSpawnPlacementsEvent event) {
+	}
+
+	public static AttributeSupplier.Builder createAttributes() {
+		AttributeSupplier.Builder builder = Mob.createMobAttributes();
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.32);
+		builder = builder.add(Attributes.MAX_HEALTH, 500);
+		builder = builder.add(Attributes.ARMOR, 6);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 16);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
+		builder = builder.add(Attributes.STEP_HEIGHT, 2.6);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 10);
+		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 3);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.32);
+		return builder;
+	}
+
+	private PlayState movementPredicate(AnimationState event) {
+		if (this.animationprocedure.equals("empty")) {
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("Idle"));
+			}
+			if (!this.onGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("Idle"));
+			}
+			return event.setAndContinue(RawAnimation.begin().thenLoop("Idle"));
+		}
+		return PlayState.STOP;
+	}
+
+	String prevAnim = "empty";
+
+	private PlayState procedurePredicate(AnimationState event) {
+		if (!animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED || (!this.animationprocedure.equals(prevAnim) && !this.animationprocedure.equals("empty"))) {
+			if (!this.animationprocedure.equals(prevAnim))
+				event.getController().forceAnimationReset();
+			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
+			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+				this.animationprocedure = "empty";
+				event.getController().forceAnimationReset();
+			}
+		} else if (animationprocedure.equals("empty")) {
+			prevAnim = "empty";
+			return PlayState.STOP;
+		}
+		prevAnim = this.animationprocedure;
+		return PlayState.CONTINUE;
+	}
+
+	@Override
+	protected void tickDeath() {
+		++this.deathTime;
+		if (this.deathTime == 20) {
+			this.remove(MaliciousMonarchP2Entity.RemovalReason.KILLED);
+			this.dropExperience(this);
+		}
+	}
+
+	public String getSyncedAnimation() {
+		return this.entityData.get(ANIMATION);
+	}
+
+	public void setAnimation(String animation) {
+		this.entityData.set(ANIMATION, animation);
+	}
+
+	@Override
+	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
+		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
+		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+	}
+
+	@Override
+	public AnimatableInstanceCache getAnimatableInstanceCache() {
+		return this.cache;
+	}
+}

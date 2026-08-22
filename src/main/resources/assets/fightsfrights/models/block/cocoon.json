@@ -1,0 +1,9 @@
+{
+  "parent": "fightsfrights:custom/cocoon",
+  "textures": {
+    "all": "fightsfrights:block/cocoon",
+    "particle": "fightsfrights:block/cocoon",
+    "0": "fightsfrights:block/cocoon"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle",
+    "lush_caves"
+  ],
+  "spawners": {
+    "type": "fightsfrights:scowl",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

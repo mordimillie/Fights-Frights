@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_slopes",
+    "snowy_beach",
+    "snowy_plains",
+    "snowy_taiga",
+    "deep_frozen_ocean",
+    "frozen_ocean",
+    "frozen_peaks",
+    "frozen_river",
+    "ice_spikes",
+    "grove",
+    "stony_peaks",
+    "jagged_peaks",
+    "beach"
+  ],
+  "spawners": {
+    "type": "fightsfrights:seer",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

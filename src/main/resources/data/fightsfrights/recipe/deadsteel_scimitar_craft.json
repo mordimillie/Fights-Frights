@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "fightsfrights:poison_orb_item"
+  },
+  "result": {
+    "id": "fightsfrights:deadsteel_scimitar"
+  }
+}

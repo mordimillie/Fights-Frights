@@ -1,0 +1,44 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "cursedeffect",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Ultimate Method",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:CreativeTab"
+      },
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 100.0,
+    "attackSpeed": 10.0,
+    "enchantability": 0,
+    "damageVsEntity": 5000.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "UltimateMethodLivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "UltimateMethodToolInInventoryTick"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "fightsfrights:terrantula_leg"
+    },
+    "title": {
+      "translate": "advancements.itsy_bitsy.title"
+    },
+    "description": {
+      "translate": "advancements.itsy_bitsy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "itsy_bitsy_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "minecraft:adventure/kill_a_mob"
+}

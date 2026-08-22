@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RottenHandle"
+      },
+      {
+        "value": "CUSTOM:MonstruousPlate"
+      },
+      {
+        "value": "CUSTOM:RottenHandle"
+      },
+      {
+        "value": "CUSTOM:Chip"
+      },
+      {
+        "value": "CUSTOM:GoldenTongue"
+      },
+      {
+        "value": "CUSTOM:Chip"
+      },
+      {
+        "value": "CUSTOM:BllightCapBlock"
+      },
+      {
+        "value": "CUSTOM:BllightCapBlock"
+      },
+      {
+        "value": "CUSTOM:BllightCapBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Crusher"
+    },
+    "name": "crusher_craft",
+    "namespace": "mod"
+  }
+}
