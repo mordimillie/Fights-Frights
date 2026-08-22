@@ -19,4 +19,6 @@ I am sorry if the quality isn't the best, I'm mostly an artist but I gave it my 
 
 ### REQUIRES GECKOLIB!!!
 
+#### Also please note that the "mcreator.gradle", "fightsfrights.mcreator", "models", and "elements" folders are only needed for importing the mod as an mcreator workspace and should not be included when building the mod.
+
 <sub>P.S. sorry for Lebeno's horrible naming conventions</sub>
