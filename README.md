@@ -21,4 +21,6 @@ I've always wanted a monster expansion, but a lot of mob and boss mods didn't qu
 
 ### REQUIRES GECKOLIB!!!
 
+#### Also please note that the "mcreator.gradle", "fightsfrights.mcreator", "models", and "elements" folders are only needed for importing the mod as an mcreator workspace and should not be included when building the mod.
+
 <sub>P.S. sorry for Lebeno's horrible naming conventions</sub>
