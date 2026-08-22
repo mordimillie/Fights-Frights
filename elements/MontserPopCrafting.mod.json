@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GoldenTongue"
+      },
+      {
+        "value": "CUSTOM:GoldenTongue"
+      },
+      {
+        "value": "CUSTOM:RottenHandle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MonsterPop"
+    },
+    "name": "montser_pop_crafting",
+    "namespace": "mod"
+  }
+}

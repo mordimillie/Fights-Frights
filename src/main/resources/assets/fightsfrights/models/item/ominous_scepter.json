@@ -1,0 +1,7 @@
+{
+  "parent": "fightsfrights:custom/staff",
+  "textures": {
+    "2": "fightsfrights:block/staff",
+    "particle": "fightsfrights:item/staff"
+  }
+}

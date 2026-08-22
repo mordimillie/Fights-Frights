@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "fightsfrights:block/smooth_chitin",
+    "particle": "fightsfrights:block/smooth_chitin"
+  },
+  "render_type": "solid"
+}

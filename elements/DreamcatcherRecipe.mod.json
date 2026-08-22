@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "Items.FEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dreamcatcher"
+    },
+    "name": "dreamcatcher_recipe",
+    "namespace": "mod"
+  }
+}

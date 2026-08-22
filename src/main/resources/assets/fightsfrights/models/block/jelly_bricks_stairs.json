@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "fightsfrights:block/jelly_bricks",
+    "bottom": "fightsfrights:block/jelly_bricks",
+    "top": "fightsfrights:block/jelly_bricks",
+    "side": "fightsfrights:block/jelly_bricks"
+  },
+  "render_type": "solid"
+}

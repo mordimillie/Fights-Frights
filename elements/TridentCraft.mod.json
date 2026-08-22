@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElderSpine"
+      },
+      {
+        "value": "CUSTOM:ElderSpine"
+      },
+      {
+        "value": "CUSTOM:ElderSpine"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.PRISMARINE_CRYSTALS"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.TRIDENT"
+    },
+    "name": "trident_craft",
+    "namespace": "mod"
+  }
+}

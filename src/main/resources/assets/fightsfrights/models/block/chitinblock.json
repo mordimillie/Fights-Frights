@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fightsfrights:block/chitin_block_top",
+    "up": "fightsfrights:block/chitin_block_top",
+    "north": "fightsfrights:block/chitin_block",
+    "east": "fightsfrights:block/chitin_block",
+    "south": "fightsfrights:block/chitin_block",
+    "west": "fightsfrights:block/chitin_block",
+    "particle": "fightsfrights:block/chitin_block_top"
+  },
+  "render_type": "solid"
+}

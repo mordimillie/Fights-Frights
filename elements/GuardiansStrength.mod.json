@@ -1,0 +1,42 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Guardian's Strength",
+    "splashName": "Splash Potion of Guardian's Strength",
+    "lingeringName": "Lingering Potion of Guardian's Strength",
+    "arrowName": "Arrow of Guardian's Strength",
+    "effects": [
+      {
+        "effect": {
+          "value": "CONDUIT_POWER"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "DOLPHINS_GRACE"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.TINTED_GLASS"
+      },
+      {
+        "value": "Blocks.REDSTONE_LAMP"
+      },
+      {
+        "value": "Blocks.TINTED_GLASS"
+      },
+      {
+        "value": "CUSTOM:Chip"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Chip"
+      },
+      {
+        "value": "Blocks.TINTED_GLASS"
+      },
+      {
+        "value": "Blocks.REDSTONE_LAMP"
+      },
+      {
+        "value": "Blocks.TINTED_GLASS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedstoneDisplay"
+    },
+    "name": "redstone_display_craft",
+    "namespace": "mod"
+  }
+}

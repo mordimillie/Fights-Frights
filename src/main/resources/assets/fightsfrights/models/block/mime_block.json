@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fightsfrights:block/mimeblockinvis",
+    "particle": "fightsfrights:block/mime_block"
+  },
+  "render_type": "translucent"
+}

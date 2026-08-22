@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "fightsfrights:block/chitin_bricks",
+    "bottom": "fightsfrights:block/chitin_bricks",
+    "top": "fightsfrights:block/chitin_bricks",
+    "side": "fightsfrights:block/chitin_bricks"
+  },
+  "render_type": "solid"
+}

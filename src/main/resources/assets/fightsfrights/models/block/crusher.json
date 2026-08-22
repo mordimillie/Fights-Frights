@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fightsfrights:block/crusherbottom",
+    "up": "fightsfrights:block/crushertop",
+    "north": "fightsfrights:block/crusherface",
+    "east": "fightsfrights:block/crusherside",
+    "south": "fightsfrights:block/crusherside",
+    "west": "fightsfrights:block/crusherside",
+    "particle": "fightsfrights:block/crusherbottom"
+  },
+  "render_type": "solid"
+}

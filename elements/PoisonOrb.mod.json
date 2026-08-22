@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:PoisonOrbItem"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 7.0,
+    "knockback": 2,
+    "entityModel": "Modelmossbomb",
+    "customModelTexture": "poisonorb.png",
+    "modelWidth": 0.30000000000000004,
+    "modelHeight": 0.30000000000000004,
+    "onHitsBlock": {
+      "name": "PoisonOrbProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "PoisonOrbProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "PoisonOrbWhileProjectileFlyingTick"
+    }
+  }
+}

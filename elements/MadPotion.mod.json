@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Maddening",
+    "splashName": "Splash Potion of Maddening",
+    "lingeringName": "Lingering Potion of Maddening",
+    "arrowName": "Arrow of Maddening",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Mad"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

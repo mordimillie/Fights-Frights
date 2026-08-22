@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fightsfrights:block/dark_trama",
+    "up": "fightsfrights:block/dark_trama",
+    "north": "fightsfrights:block/dark_trama",
+    "east": "fightsfrights:block/dark_trama",
+    "south": "fightsfrights:block/dark_trama",
+    "west": "fightsfrights:block/dark_trama",
+    "particle": "fightsfrights:block/dark_trama"
+  },
+  "render_type": "solid"
+}
