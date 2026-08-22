@@ -1,0 +1,109 @@
+{
+  "dryfield_ambient": {
+    "sounds": [
+      {
+        "name": "duelsdread:dryfield_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "droidhurt": {
+    "subtitle": "subtitles.droidhurt",
+    "sounds": [
+      {
+        "name": "duelsdread:droidhurt",
+        "stream": false
+      }
+    ]
+  },
+  "droiddeath": {
+    "subtitle": "subtitles.droiddeath",
+    "sounds": [
+      {
+        "name": "duelsdread:droiddeath",
+        "stream": false
+      }
+    ]
+  },
+  "swoosh": {
+    "subtitle": "subtitles.swoosh",
+    "sounds": [
+      {
+        "name": "duelsdread:swoosh",
+        "stream": false
+      }
+    ]
+  },
+  "wail_disc": {
+    "subtitle": "subtitles.wail_disc",
+    "sounds": [
+      {
+        "name": "duelsdread:wail_ripgirl",
+        "stream": false
+      }
+    ]
+  },
+  "chomp": {
+    "subtitle": "subtitles.chomp",
+    "sounds": [
+      {
+        "name": "duelsdread:crusherchew",
+        "stream": false
+      }
+    ]
+  },
+  "spam_death": {
+    "subtitle": "subtitles.spam_death",
+    "sounds": [
+      {
+        "name": "duelsdread:spamdeath",
+        "stream": false
+      }
+    ]
+  },
+  "savager_howl": {
+    "subtitle": "subtitles.savager_howl",
+    "sounds": [
+      {
+        "name": "duelsdread:savager_howl",
+        "stream": false
+      }
+    ]
+  },
+  "savager_hurt": {
+    "subtitle": "subtitles.savager_hurt",
+    "sounds": [
+      {
+        "name": "duelsdread:savager_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "savager_steps": {
+    "subtitle": "subtitles.savager_steps",
+    "sounds": [
+      {
+        "name": "duelsdread:savager_step",
+        "stream": false
+      }
+    ]
+  },
+  "savager_pants": {
+    "subtitle": "subtitles.savager_pants",
+    "sounds": [
+      {
+        "name": "duelsdread:savager_pants",
+        "stream": false
+      }
+    ]
+  },
+  "savager_death": {
+    "subtitle": "subtitles.savager_death",
+    "sounds": [
+      {
+        "name": "duelsdread:savager_death",
+        "stream": false
+      }
+    ]
+  }
+}

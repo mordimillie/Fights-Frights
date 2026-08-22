@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "aba",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "duelsdread:savage_tooth"
+    },
+    "b": {
+      "item": "minecraft:copper_block"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "duelsdread:savage_club",
+    "count": 1
+  }
+}

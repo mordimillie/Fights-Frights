@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "CUSTOM:TornCloth"
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": "CUSTOM:TornCloth"
+      },
+      {
+        "value": "CUSTOM:EnderSeed"
+      },
+      {
+        "value": "CUSTOM:TornCloth"
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": "CUSTOM:TornCloth"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnderBloom"
+    },
+    "name": "ender_bloom_craft",
+    "namespace": "mod"
+  }
+}

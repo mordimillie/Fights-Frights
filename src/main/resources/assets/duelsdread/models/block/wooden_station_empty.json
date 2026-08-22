@@ -1,0 +1,9 @@
+{
+  "parent": "duelsdread:custom/woodendroidblockbottom",
+  "textures": {
+    "all": "duelsdread:block/woodenconstructblock_base",
+    "particle": "minecraft:block/oak_planks",
+    "0": "duelsdread:block/woodenconstructblock_base"
+  },
+  "render_type": "solid"
+}

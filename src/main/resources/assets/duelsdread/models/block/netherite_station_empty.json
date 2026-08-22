@@ -1,0 +1,9 @@
+{
+  "parent": "duelsdread:custom/netheritedroidblockbottom",
+  "textures": {
+    "all": "duelsdread:block/netheritedroidblock",
+    "particle": "minecraft:block/netherite_block",
+    "0": "duelsdread:block/netheritedroidblock"
+  },
+  "render_type": "solid"
+}

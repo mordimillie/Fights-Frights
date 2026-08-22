@@ -1,0 +1,2166 @@
+{
+  "mod_elements": [
+    {
+      "name": "WeedWraith",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wraith",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/client/renderer/WeedWraithRenderer.java",
+          "src/main/java/net/mcreator/duelsdread/entity/WeedWraithEntity.java",
+          "src/main/java/net/mcreator/duelsdread/entity/model/WeedWraithModel.java",
+          "src/main/resources/data/duelsdread/forge/biome_modifier/weed_wraith_biome_modifier.json",
+          "src/main/resources/assets/duelsdread/models/item/weed_wraith_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/WeedWraith"
+    },
+    {
+      "name": "WeedWraithNightAggression",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wraith_night_aggression",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/WeedWraithNightAggressionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/WeedWraith"
+    },
+    {
+      "name": "WeedWrought",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wrought",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/models/item/weed_wrought_spawn_egg.json",
+          "src/main/resources/data/duelsdread/forge/biome_modifier/weed_wrought_biome_modifier.json",
+          "src/main/java/net/mcreator/duelsdread/entity/WeedWroughtEntity.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/WeedWroughtRenderer.java",
+          "src/main/java/net/mcreator/duelsdread/entity/model/WeedWroughtModel.java"
+        ]
+      },
+      "path": "~/Mobs/WeedWrought"
+    },
+    {
+      "name": "Dryfield",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryfield",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/worldgen/biome/dryfield.json",
+          "src/main/resources/data/duelsdread/worldgen/configured_feature/dryfield_tree.json",
+          "src/main/java/net/mcreator/duelsdread/world/features/treedecorators/DryfieldFruitDecorator.java",
+          "src/main/java/net/mcreator/duelsdread/world/features/treedecorators/DryfieldLeaveDecorator.java",
+          "src/main/resources/data/duelsdread/worldgen/placed_feature/dryfield_tree.json",
+          "src/main/java/net/mcreator/duelsdread/world/features/treedecorators/DryfieldTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Biomes/Dryfield"
+    },
+    {
+      "name": "GrassField",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_field",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/forge/biome_modifier/grass_field_biome_modifier.json",
+          "src/main/resources/data/duelsdread/worldgen/configured_feature/grass_field.json",
+          "src/main/resources/data/duelsdread/worldgen/placed_feature/grass_field.json"
+        ]
+      },
+      "path": "~/Biomes/Dryfield"
+    },
+    {
+      "name": "Bushfield",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bushfield",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/forge/biome_modifier/bushfield_biome_modifier.json",
+          "src/main/resources/data/duelsdread/worldgen/configured_feature/bushfield.json",
+          "src/main/resources/data/duelsdread/worldgen/placed_feature/bushfield.json"
+        ]
+      },
+      "path": "~/Biomes/Dryfield"
+    },
+    {
+      "name": "WHEATpatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whea_tpatch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/forge/biome_modifier/whea_tpatch_biome_modifier.json",
+          "src/main/resources/data/duelsdread/worldgen/placed_feature/whea_tpatch.json",
+          "src/main/resources/data/duelsdread/worldgen/configured_feature/whea_tpatch.json"
+        ]
+      },
+      "path": "~/Biomes/Dryfield"
+    },
+    {
+      "name": "Rockpatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rockpatch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/forge/biome_modifier/rockpatch_biome_modifier.json",
+          "src/main/resources/data/duelsdread/worldgen/configured_feature/rockpatch.json",
+          "src/main/resources/data/duelsdread/worldgen/placed_feature/rockpatch.json"
+        ]
+      },
+      "path": "~/Biomes/Dryfield"
+    },
+    {
+      "name": "WeedWroughtEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wrought_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/WeedWroughtEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/WeedWraith"
+    },
+    {
+      "name": "WeedWraithDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wraith_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/loot_tables/entities/weedwraith.json"
+        ]
+      },
+      "path": "~/Mobs/WeedWraith"
+    },
+    {
+      "name": "WeedWroughtDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wrought_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/loot_tables/entities/weedwrought.json"
+        ]
+      },
+      "path": "~/Mobs/WeedWrought"
+    },
+    {
+      "name": "WrithingWeed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "writhing_weed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/item/WrithingWeedItem.java",
+          "src/main/resources/assets/duelsdread/models/item/writhing_weed.json"
+        ]
+      },
+      "path": "~/Items/WrithingWeed"
+    },
+    {
+      "name": "FertileDust",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fertile_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/fertile_dust.json"
+        ]
+      },
+      "path": "~/Items/WrithingWeed"
+    },
+    {
+      "name": "CarrotDuplication",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_duplication",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/carrot_duplication.json"
+        ]
+      },
+      "path": "~/Items/WrithingWeed"
+    },
+    {
+      "name": "PotatoDuplication",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_duplication",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/potato_duplication.json"
+        ]
+      },
+      "path": "~/Items/WrithingWeed"
+    },
+    {
+      "name": "WheatDuplication",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheat_duplication",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/wheat_duplication.json"
+        ]
+      },
+      "path": "~/Items/WrithingWeed"
+    },
+    {
+      "name": "BeetrootDuplication",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_duplication",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/beetroot_duplication.json"
+        ]
+      },
+      "path": "~/Items/WrithingWeed"
+    },
+    {
+      "name": "NightHarvest",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_harvest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/advancements/night_harvest.json"
+        ]
+      },
+      "path": "~/Items/WrithingWeed"
+    },
+    {
+      "name": "CopperDroid",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_droid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/entity/model/CopperDroidModel.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/CopperDroidRenderer.java",
+          "src/main/java/net/mcreator/duelsdread/entity/CopperDroidEntity.java",
+          "src/main/resources/assets/duelsdread/models/item/copper_droid_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "DroidStationFullOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "droid_station_full_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/DroidStationFullOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "CopperStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/models/item/copper_station.json",
+          "src/main/resources/data/duelsdread/loot_tables/blocks/copper_station.json",
+          "src/main/resources/assets/duelsdread/blockstates/copper_station.json",
+          "src/main/resources/assets/duelsdread/models/block/copper_station.json",
+          "src/main/java/net/mcreator/duelsdread/block/CopperStationBlock.java"
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "CopperStationEmpty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_station_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/block/CopperStationEmptyBlock.java",
+          "src/main/resources/data/duelsdread/loot_tables/blocks/copper_station_empty.json",
+          "src/main/resources/assets/duelsdread/models/item/copper_station_empty.json",
+          "src/main/resources/assets/duelsdread/models/block/copper_station_empty.json",
+          "src/main/resources/assets/duelsdread/blockstates/copper_station_empty.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "DroidWanderRadius",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "droid_wander_radius",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "NetheriteDroid",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_droid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/client/renderer/NetheriteDroidRenderer.java",
+          "src/main/java/net/mcreator/duelsdread/entity/NetheriteDroidEntity.java",
+          "src/main/java/net/mcreator/duelsdread/entity/model/NetheriteDroidModel.java",
+          "src/main/resources/assets/duelsdread/models/item/netherite_droid_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "NetheriteStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_station",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/block/NetheriteStationBlock.java",
+          "src/main/resources/assets/duelsdread/blockstates/netherite_station.json",
+          "src/main/resources/data/duelsdread/loot_tables/blocks/netherite_station.json",
+          "src/main/resources/assets/duelsdread/models/item/netherite_station.json",
+          "src/main/resources/assets/duelsdread/models/block/netherite_station.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "NetheriteStationEmpty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_station_empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/loot_tables/blocks/netherite_station_empty.json",
+          "src/main/resources/assets/duelsdread/models/item/netherite_station_empty.json",
+          "src/main/resources/assets/duelsdread/models/block/netherite_station_empty.json",
+          "src/main/java/net/mcreator/duelsdread/block/NetheriteStationEmptyBlock.java",
+          "src/main/resources/assets/duelsdread/blockstates/netherite_station_empty.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "NetheriteStationOnPower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_station_on_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/NetheriteStationOnPowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "NetheriteDroidOnInitialSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_droid_on_initial_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/NetheriteDroidOnInitialSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "NetheriteDroidDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_droid_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/NetheriteDroidDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "NetheriteDroidTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_droid_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/NetheriteDroidTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "UnlessSelf",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unless_self",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/UnlessSelfProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "NetheriteStationCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_station_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/netherite_station_craft.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/EvilDroid"
+    },
+    {
+      "name": "UnlessPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unless_player",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/UnlessPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "Spamdur",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamdur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/entity/SpamdurEntity.java",
+          "src/main/java/net/mcreator/duelsdread/entity/model/SpamdurModel.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/SpamdurRenderer.java",
+          "src/main/resources/data/duelsdread/forge/biome_modifier/spamdur_biome_modifier.json",
+          "src/main/resources/assets/duelsdread/models/item/spamdur_spawn_egg.json",
+          "src/main/java/net/mcreator/duelsdread/entity/layer/SpamdurLayer.java"
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "PerpetualOneDayBlindingStewPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perpetual_one_day_blinding_stew_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/PerpetualOneDayBlindingStewPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/OneDayBlindingStew"
+    },
+    {
+      "name": "PerpetualOneDayBlindingStew",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perpetual_one_day_blinding_stew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/item/PerpetualOneDayBlindingStewItem.java",
+          "src/main/resources/assets/duelsdread/models/item/perpetual_one_day_blinding_stew.json"
+        ]
+      },
+      "path": "~/Items/OneDayBlindingStew"
+    },
+    {
+      "name": "StewCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stew_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/stew_craft.json"
+        ]
+      },
+      "path": "~/Items/OneDayBlindingStew"
+    },
+    {
+      "name": "St2Craft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "st_2_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/st_2_craft.json"
+        ]
+      },
+      "path": "~/Items/OneDayBlindingStew"
+    },
+    {
+      "name": "SpamdurOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamdur_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SpamdurOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "Bloodspamdur",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodspamdur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/entity/layer/BloodspamdurLayer.java",
+          "src/main/java/net/mcreator/duelsdread/entity/model/BloodspamdurModel.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/BloodspamdurRenderer.java",
+          "src/main/resources/assets/duelsdread/models/item/bloodspamdur_spawn_egg.json",
+          "src/main/java/net/mcreator/duelsdread/entity/BloodspamdurEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "Spamteleport",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamteleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SpamteleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "CopperDroidSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_droid_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/CopperDroidSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "CopperDroidTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_droid_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/CopperDroidTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "CopperDroidDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_droid_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/CopperDroidDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "SpamdurOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamdur_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SpamdurOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "SummonedEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoned_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SummonedEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "Summoned",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoned",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/potion/SummonedMobEffect.java"
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "BloodspamdurSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodspamdur_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/BloodspamdurSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "DoDuelsNDread",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_duels_n_dread",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "SpawnSpamdur",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_spamdur",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "SpawnSpamdurRule",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_spamdur_rule",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SpawnSpamdurRuleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur"
+    },
+    {
+      "name": "SpawnWraithsRule",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_wraiths_rule",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SpawnWraithsRuleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/WeedWraith"
+    },
+    {
+      "name": "SpawnWraiths",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_wraiths",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Mobs/WeedWraith"
+    },
+    {
+      "name": "TornCloth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torn_cloth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/item/TornClothItem.java",
+          "src/main/resources/assets/duelsdread/models/item/torn_cloth.json"
+        ]
+      },
+      "path": "~/Items/TornCloth"
+    },
+    {
+      "name": "CrudeDroid",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crude_droid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/entity/CrudeDroidEntity.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/CrudeDroidRenderer.java",
+          "src/main/java/net/mcreator/duelsdread/entity/model/CrudeDroidModel.java",
+          "src/main/resources/assets/duelsdread/models/item/crude_droid_spawn_egg.json",
+          "src/main/resources/data/duelsdread/forge/biome_modifier/crude_droid_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/CrudeDroid"
+    },
+    {
+      "name": "RedstoneHeart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/models/item/redstone_heart.json",
+          "src/main/java/net/mcreator/duelsdread/item/RedstoneHeartItem.java"
+        ]
+      },
+      "path": "~/Items/RedstoneHeart"
+    },
+    {
+      "name": "CrudeDroidDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crude_droid_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/loot_tables/entities/crudedroid.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/CrudeDroid"
+    },
+    {
+      "name": "WoodenConstruct",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_construct",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/entity/WoodenConstructEntity.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/WoodenConstructRenderer.java",
+          "src/main/resources/assets/duelsdread/models/item/wooden_construct_spawn_egg.json",
+          "src/main/java/net/mcreator/duelsdread/entity/model/WoodenConstructModel.java"
+        ]
+      },
+      "path": "~/Mobs/Droids/WoodenConstruct"
+    },
+    {
+      "name": "WoodenStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/blockstates/wooden_station.json",
+          "src/main/resources/assets/duelsdread/models/block/wooden_station.json",
+          "src/main/resources/assets/duelsdread/models/item/wooden_station.json",
+          "src/main/java/net/mcreator/duelsdread/block/WoodenStationBlock.java",
+          "src/main/resources/data/duelsdread/loot_tables/blocks/wooden_station.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/WoodenConstruct"
+    },
+    {
+      "name": "WoodenStationEmpty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_station_empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/loot_tables/blocks/wooden_station_empty.json",
+          "src/main/resources/assets/duelsdread/blockstates/wooden_station_empty.json",
+          "src/main/resources/assets/duelsdread/models/block/wooden_station_empty.json",
+          "src/main/resources/assets/duelsdread/models/item/wooden_station_empty.json",
+          "src/main/java/net/mcreator/duelsdread/block/WoodenStationEmptyBlock.java"
+        ]
+      },
+      "path": "~/Mobs/Droids/WoodenConstruct"
+    },
+    {
+      "name": "WoodStationPowerOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_station_power_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/WoodStationPowerOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/WoodenConstruct"
+    },
+    {
+      "name": "WoodenConstructSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_construct_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/WoodenConstructSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/WoodenConstruct"
+    },
+    {
+      "name": "WoodenConstructTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_construct_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/WoodenConstructTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/WoodenConstruct"
+    },
+    {
+      "name": "CrudeDroidEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crude_droid_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/CrudeDroidEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Droids/CrudeDroid"
+    },
+    {
+      "name": "WoodenConstructCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_construct_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/wooden_construct_craft.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/WoodenConstruct"
+    },
+    {
+      "name": "CopperDroidCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_droid_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/copper_droid_craft.json"
+        ]
+      },
+      "path": "~/Mobs/Droids/CopperDroid"
+    },
+    {
+      "name": "EnderSeed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_seed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/models/item/ender_seed.json",
+          "src/main/java/net/mcreator/duelsdread/item/EnderSeedItem.java"
+        ]
+      },
+      "path": "~/Items/EnderSeed"
+    },
+    {
+      "name": "EnderseedCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderseed_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/enderseed_craft.json"
+        ]
+      },
+      "path": "~/Items/EnderSeed"
+    },
+    {
+      "name": "SeedTeleport",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seed_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SeedTeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/EnderSeed"
+    },
+    {
+      "name": "EnderBloom",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_bloom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/item/EnderBloomItem.java",
+          "src/main/resources/assets/duelsdread/models/item/ender_bloom.json"
+        ]
+      },
+      "path": "~/Items/EnderSeed"
+    },
+    {
+      "name": "EnderBloomCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_bloom_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/ender_bloom_craft.json"
+        ]
+      },
+      "path": "~/Items/EnderSeed"
+    },
+    {
+      "name": "BloomTeleport",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloom_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/BloomTeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/EnderSeed"
+    },
+    {
+      "name": "GazingHood",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gazing_hood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/models/item/gazing_hood_helmet.json",
+          "src/main/java/net/mcreator/duelsdread/item/GazingHoodItem.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/GazingHoodArmorRenderer.java",
+          "src/main/java/net/mcreator/duelsdread/item/model/GazingHoodModel.java"
+        ]
+      },
+      "path": "~/Items/GazingHood"
+    },
+    {
+      "name": "GazingHoodEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gazing_hood_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/GazingHoodEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/GazingHood"
+    },
+    {
+      "name": "GazingHoodCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gazing_hood_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/gazing_hood_craft.json"
+        ]
+      },
+      "path": "~/Items/GazingHood"
+    },
+    {
+      "name": "Savager",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/models/item/savager_spawn_egg.json",
+          "src/main/java/net/mcreator/duelsdread/entity/model/SavagerModel.java",
+          "src/main/resources/data/duelsdread/forge/biome_modifier/savager_biome_modifier.json",
+          "src/main/java/net/mcreator/duelsdread/entity/SavagerEntity.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/SavagerRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Savager"
+    },
+    {
+      "name": "Wail",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/item/WailItem.java",
+          "src/main/resources/assets/duelsdread/models/item/wail.json"
+        ]
+      },
+      "path": "~/Items/Disc"
+    },
+    {
+      "name": "Gnashed",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnashed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/potion/GnashedMobEffect.java"
+        ]
+      },
+      "path": "~/Items/Maw_Club"
+    },
+    {
+      "name": "GnashedEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnashed_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/GnashedEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Maw_Club"
+    },
+    {
+      "name": "Gnashing",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnashing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/enchantment/GnashingEnchantment.java"
+        ]
+      },
+      "path": "~/Items/Maw_Club"
+    },
+    {
+      "name": "GnashingDamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnashing_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/GnashingDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Maw_Club"
+    },
+    {
+      "name": "GnashingParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnashing_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/client/particle/GnashingParticleParticle.java",
+          "src/main/resources/assets/duelsdread/particles/gnashing_particle.json"
+        ]
+      },
+      "path": "~/Items/Maw_Club"
+    },
+    {
+      "name": "SavageTooth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savage_tooth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/item/SavageToothItem.java",
+          "src/main/resources/assets/duelsdread/models/item/savage_tooth.json"
+        ]
+      },
+      "path": "~/Items/Savage_Tooth"
+    },
+    {
+      "name": "SavageClub",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savage_club",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duelsdread/models/item/savage_club.json",
+          "src/main/java/net/mcreator/duelsdread/item/SavageClubItem.java"
+        ]
+      },
+      "path": "~/Items/Maw_Club"
+    },
+    {
+      "name": "SavageClubCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savage_club_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/recipes/savage_club_craft.json"
+        ]
+      },
+      "path": "~/Items/Maw_Club"
+    },
+    {
+      "name": "Sitboy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitboy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SitboyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Savager"
+    },
+    {
+      "name": "SavagerDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savager_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/loot_tables/entities/savager.json"
+        ]
+      },
+      "path": "~/Mobs/Savager"
+    },
+    {
+      "name": "HAND",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/entity/HANDEntity.java",
+          "src/main/java/net/mcreator/duelsdread/client/renderer/HANDRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Spamdur/Hand"
+    },
+    {
+      "name": "HANDProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/HANDProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur/Hand"
+    },
+    {
+      "name": "HANDWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/HANDWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Spamdur/Hand"
+    },
+    {
+      "name": "Ugh",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ugh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/UghProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Savager"
+    },
+    {
+      "name": "AtWarWithRatiosAndAverages",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "at_war_with_ratios_and_averages",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/advancements/at_war_with_ratios_and_averages.json"
+        ]
+      },
+      "path": "~/Mobs/Savager"
+    },
+    {
+      "name": "PartnersInCrime",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partners_in_crime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duelsdread/advancements/partners_in_crime.json"
+        ]
+      },
+      "path": "~/Mobs/Savager"
+    },
+    {
+      "name": "SpawnSavager",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_savager",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/Mobs/Savager"
+    },
+    {
+      "name": "SpawnSavagerRule",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_savager_rule",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/duelsdread/procedures/SpawnSavagerRuleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Savager"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "dryfield_ambient",
+      "files": [
+        "dryfield_ambient"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "droidhurt",
+      "files": [
+        "droidhurt"
+      ],
+      "category": "voice",
+      "subtitle": "Droid is hurt"
+    },
+    {
+      "name": "droiddeath",
+      "files": [
+        "droiddeath"
+      ],
+      "category": "voice",
+      "subtitle": "Droid stops working"
+    },
+    {
+      "name": "swoosh",
+      "files": [
+        "swoosh"
+      ],
+      "category": "block",
+      "subtitle": "Swoosh"
+    },
+    {
+      "name": "wail_disc",
+      "files": [
+        "wail_ripgirl"
+      ],
+      "category": "block",
+      "subtitle": "Old record plays"
+    },
+    {
+      "name": "chomp",
+      "files": [
+        "crusherchew"
+      ],
+      "category": "ambient",
+      "subtitle": "Chomp!"
+    },
+    {
+      "name": "spam_death",
+      "files": [
+        "spamdeath"
+      ],
+      "category": "hostile",
+      "subtitle": "Prophet fades"
+    },
+    {
+      "name": "savager_howl",
+      "files": [
+        "savager_howl"
+      ],
+      "category": "hostile",
+      "subtitle": "Savager howls"
+    },
+    {
+      "name": "savager_hurt",
+      "files": [
+        "savager_hurt"
+      ],
+      "category": "hostile",
+      "subtitle": "Savager whines"
+    },
+    {
+      "name": "savager_steps",
+      "files": [
+        "savager_step"
+      ],
+      "category": "hostile",
+      "subtitle": "Footsteps"
+    },
+    {
+      "name": "savager_pants",
+      "files": [
+        "savager_pants"
+      ],
+      "category": "hostile",
+      "subtitle": "Savager pants"
+    },
+    {
+      "name": "savager_death",
+      "files": [
+        "savager_death"
+      ],
+      "category": "hostile",
+      "subtitle": "Savager dies"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Dryfield"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Dryfield"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:NetheriteStation"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:NetheriteStationEmpty",
+      "~CUSTOM:NetheriteStation",
+      "~CUSTOM:CopperStationEmpty",
+      "~CUSTOM:CopperStation"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WoodenStationEmpty",
+      "~CUSTOM:WoodenStation"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CopperStation"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SavageClub"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Wail"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Dryfield"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.duelsdread.spamdur": "Spamdur",
+      "item.duelsdread.wail": "Wail",
+      "block.duelsdread.copper_station": "Copper Station",
+      "advancements.partners_in_crime.descr": "Tame Savager with rotten flesh and make it sit.",
+      "item.duelsdread.savager_spawn_egg": "Savager Spawn Egg",
+      "subtitles.savager_howl": "Savager howls",
+      "item.duelsdread.writhing_weed": "Writhing Weed",
+      "gamerule.doDuelsNDread": "Spawn Duels\u0026Dread Mobs",
+      "subtitles.savager_steps": "Footsteps",
+      "gamerule.spawnWraiths": "Spawn Wraiths",
+      "gamerule.droidWanderRadius.description": "Changes the radius a Copper Droid wanders from its station",
+      "item.duelsdread.savage_club": "Savage Club",
+      "subtitles.chomp": "Chomp!",
+      "item.duelsdread.netherite_droid_spawn_egg": "Netherite Droid Spawn Egg",
+      "item.duelsdread.weed_wraith_spawn_egg": "Weed Wraith Spawn Egg",
+      "subtitles.swoosh": "Swoosh",
+      "subtitles.savager_hurt": "Savager whines",
+      "subtitles.savager_death": "Savager dies",
+      "item.duelsdread.ender_bloom": "Ender Bloom",
+      "entity.duelsdread.netherite_droid": "Netherite Droid",
+      "subtitles.droidstep": "Footsteps",
+      "subtitles.spam_death": "Prophet fades",
+      "subtitles.droidsetp": "Footsteps",
+      "subtitles.savager_pants": "Savager pants",
+      "entity.duelsdread.bloodspamdur": "Blood Spamdur",
+      "subtitles.wail_disc": "Old record plays",
+      "subtitles.droiddeath": "Droid stops working",
+      "item.duelsdread.wooden_construct_spawn_egg": "Wooden Construct Spawn Egg",
+      "entity.duelsdread.crude_droid": "Crude droid",
+      "entity.duelsdread.wooden_construct": "Wooden Construct",
+      "entity.duelsdread.weed_wraith": "Weed Wraith",
+      "gamerule.spawnWraiths.description": "Enables the spawn of Weedwraiths and Weedwroughts",
+      "gamerule.spawnSavager": "Spawn Savagers",
+      "item.duelsdread.copper_droid_spawn_egg": "Copper Droid Spawn Egg",
+      "item.duelsdread.bloodspamdur_spawn_egg": "Blood Spamdur Spawn Egg",
+      "entity.duelsdread.copper_droid": "Copper Droid",
+      "enchantment.duelsdread.gnashing": "Gnashing",
+      "item.duelsdread.perpetual_one_day_blinding_stew": "Perpetual one-day blinding stew",
+      "biome.duelsdread.dryfield": "Dryfield",
+      "advancements.at_war_with_ratios_and_averages.title": "At war with ratios and averages",
+      "item.duelsdread.weed_wrought_spawn_egg": "Weed Wrought Spawn Egg",
+      "item.duelsdread.gazing_hood_leggings": "Gazing Hood Leggings",
+      "block.duelsdread.wooden_station_empty": "Wooden Station",
+      "subtitles.savager_idle": "Savager barks",
+      "block.duelsdread.copper_station_empty": "Copper Station",
+      "gamerule.spawnSavager.description": "Enables the spawn of Savagers",
+      "item.duelsdread.ender_seed": "Ender Seed",
+      "advancements.night_harvest.title": "Night Harvest",
+      "advancements.at_war_with_ratios_and_averages.descr": "Encounter a Savager",
+      "advancements.night_harvest.descr": "Defeat a Weed Wraith at night",
+      "item.duelsdread.gazing_hood_helmet": "Gazing Hood ",
+      "block.duelsdread.netherite_station": "Netherite Station",
+      "subtitles.dryfield_ambient": "",
+      "subtitles.savager_step": "Footsteps",
+      "item.duelsdread.gazing_hood_boots": "Gazing Hood Boots",
+      "item.duelsdread.spamdur_spawn_egg": "Spamdur Spawn Egg",
+      "effect.duelsdread.gnashed": "Gnashed",
+      "gamerule.droidWanderRadius": "Copper Droid wander radius",
+      "item.duelsdread.gazing_hood_chestplate": "Gazing Hood Chestplate",
+      "item.duelsdread.savage_tooth": "Savage Tooth",
+      "item.duelsdread.torn_cloth": "Torn Cloth",
+      "block.duelsdread.wooden_station": "Wooden Station",
+      "entity.duelsdread.savager": "Savager",
+      "item.duelsdread.redstone_heart": "Redstone Heart",
+      "subtitles.droidhurt": "Droid is hurt",
+      "item.duelsdread.crude_droid_spawn_egg": "Crude droid Spawn Egg",
+      "gamerule.spawnSpamdur": "Spawn Spamdur",
+      "item.duelsdread.wail.desc": "Rip Girl - Wail",
+      "gamerule.spawnSpamdur.description": "Enables the spawn of Spamdur",
+      "effect.duelsdread.summoned": "Summoned",
+      "gamerule.doDuelsNDread.description": "Enables the spawn of mobs from Duels\u0026Dread",
+      "advancements.partners_in_crime.title": "Partners in crime",
+      "entity.duelsdread.weed_wrought": "Weed Wrought",
+      "block.duelsdread.netherite_station_empty": "Netherite Station"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "WeedWrought",
+            "children": []
+          },
+          {
+            "name": "WeedWraith",
+            "children": []
+          },
+          {
+            "name": "Spamdur",
+            "children": [
+              {
+                "name": "Hand",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Droids",
+            "children": [
+              {
+                "name": "CopperDroid",
+                "children": []
+              },
+              {
+                "name": "CrudeDroid",
+                "children": []
+              },
+              {
+                "name": "EvilDroid",
+                "children": []
+              },
+              {
+                "name": "WoodenConstruct",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Savager",
+            "children": [
+              {
+                "name": "Advancements",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "Dryfield",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "WrithingWeed",
+            "children": []
+          },
+          {
+            "name": "OneDayBlindingStew",
+            "children": []
+          },
+          {
+            "name": "TornCloth",
+            "children": []
+          },
+          {
+            "name": "RedstoneHeart",
+            "children": []
+          },
+          {
+            "name": "EnderSeed",
+            "children": []
+          },
+          {
+            "name": "GazingHood",
+            "children": []
+          },
+          {
+            "name": "Disc",
+            "children": []
+          },
+          {
+            "name": "Maw_Club",
+            "children": []
+          },
+          {
+            "name": "Savage_Tooth",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "duelsdread",
+    "modName": "Duels\u0026Dread",
+    "version": "1.0.0",
+    "author": "leobl, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.duelsdread"
+  },
+  "mcreatorVersion": 202400452410
+}

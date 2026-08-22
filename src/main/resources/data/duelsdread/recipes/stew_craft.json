@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duelsdread:writhing_weed"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "duelsdread:perpetual_one_day_blinding_stew",
+    "count": 1
+  }
+}

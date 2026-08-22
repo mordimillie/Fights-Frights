@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "duelsdread:dryfield",
+  "features": "duelsdread:bushfield",
+  "step": "surface_structures"
+}

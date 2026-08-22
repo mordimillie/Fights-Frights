@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "duelsdread:netherite_station_empty",
+    "duelsdread:netherite_station",
+    "duelsdread:copper_station_empty",
+    "duelsdread:copper_station"
+  ]
+}

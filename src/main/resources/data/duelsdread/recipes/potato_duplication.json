@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "duelsdread:writhing_weed"
+    }
+  ],
+  "result": {
+    "item": "minecraft:potato",
+    "count": 5
+  }
+}

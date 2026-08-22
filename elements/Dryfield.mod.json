@@ -1,0 +1,206 @@
+{
+  "_fv": 73,
+  "_type": "biome",
+  "definition": {
+    "name": "Dryfield",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.MUD"
+    },
+    "airColor": {
+      "value": -5193560,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -7499128,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -2639769,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -3886536,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -9146041,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -9476527,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": "CUSTOM:dryfield_ambient"
+    },
+    "music": {
+      "value": "ambient.soul_sand_valley.loop"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 1.4,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.1,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": 0.5,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 3,
+    "treeStem": {
+      "value": "Blocks.MANGROVE_WOOD"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "defaultFeatures": [
+      "ReedsAndPumpkins",
+      "DeadBushes"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityHusk"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 70,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 70,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 50,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:WeedWraith"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 140,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:WeedWrought"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 70,
+        "spawnType": "ambient"
+      }
+    ]
+  }
+}

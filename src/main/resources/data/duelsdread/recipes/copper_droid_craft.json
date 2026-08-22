@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_block"
+    },
+    "b": {
+      "item": "minecraft:echo_shard"
+    },
+    "c": {
+      "item": "duelsdread:wooden_station"
+    },
+    "d": {
+      "item": "minecraft:soul_sand"
+    },
+    "e": {
+      "item": "duelsdread:redstone_heart"
+    }
+  },
+  "result": {
+    "item": "duelsdread:copper_station",
+    "count": 1
+  }
+}

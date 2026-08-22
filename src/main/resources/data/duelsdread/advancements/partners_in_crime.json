@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "duelsdread:savage_tooth"
+    },
+    "title": {
+      "translate": "advancements.partners_in_crime.title"
+    },
+    "description": {
+      "translate": "advancements.partners_in_crime.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "partners_in_crime_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "duelsdread:at_war_with_ratios_and_averages"
+}

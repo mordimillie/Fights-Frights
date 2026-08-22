@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "duelsdread:blocks/wooden_station_empty",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "duelsdread:wooden_station_empty"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "duelsdread:dryfield",
+  "spawners": {
+    "type": "duelsdread:weed_wrought",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

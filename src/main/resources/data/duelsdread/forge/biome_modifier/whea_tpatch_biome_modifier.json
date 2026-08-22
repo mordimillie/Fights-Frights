@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "duelsdread:dryfield",
+  "features": "duelsdread:whea_tpatch",
+  "step": "surface_structures"
+}

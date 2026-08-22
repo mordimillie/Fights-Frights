@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "b": {
+      "item": "duelsdread:torn_cloth"
+    },
+    "c": {
+      "item": "minecraft:echo_shard"
+    },
+    "d": {
+      "item": "duelsdread:ender_seed"
+    }
+  },
+  "result": {
+    "item": "duelsdread:ender_bloom",
+    "count": 1
+  }
+}

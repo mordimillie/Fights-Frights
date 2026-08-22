@@ -1,0 +1,9 @@
+{
+  "parent": "duelsdread:custom/copperdroidblock",
+  "textures": {
+    "all": "duelsdread:block/copperdroidblock",
+    "particle": "minecraft:block/copper_block",
+    "0": "duelsdread:block/copperdroidblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "duelsdread:block/wooden_station"
+    },
+    "facing=east": {
+      "model": "duelsdread:block/wooden_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "duelsdread:block/wooden_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "duelsdread:block/wooden_station",
+      "y": 270
+    }
+  }
+}

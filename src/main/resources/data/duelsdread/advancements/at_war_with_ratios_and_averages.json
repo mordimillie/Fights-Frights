@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "duelsdread:savage_tooth"
+    },
+    "title": {
+      "translate": "advancements.at_war_with_ratios_and_averages.title"
+    },
+    "description": {
+      "translate": "advancements.at_war_with_ratios_and_averages.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "at_war_with_ratios_and_averages_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "minecraft:adventure/kill_a_mob"
+}

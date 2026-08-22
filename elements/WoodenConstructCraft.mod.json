@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "CUSTOM:RedstoneHeart"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Items.REDSTONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WoodenStation"
+    },
+    "name": "wooden_construct_craft",
+    "namespace": "mod"
+  }
+}

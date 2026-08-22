@@ -1,0 +1,84 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Weed Wraith",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "TotalHead",
+					"parent": "Weed Wraith",
+					"pivot": [0, 23, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "TotalHead",
+					"pivot": [0, 23, 0],
+					"cubes": [
+						{"origin": [-4, 23, -3.5], "size": [8, 7, 7], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "Attack",
+					"parent": "TotalHead",
+					"pivot": [0, 23, -0.5],
+					"cubes": [
+						{"origin": [-4, 23, -3.5], "size": [8, 8, 7], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Weed Wraith",
+					"pivot": [0, 23, 0],
+					"cubes": [
+						{"origin": [-4, 10, -2], "size": [8, 13, 4], "uv": [0, 29]}
+					]
+				},
+				{
+					"name": "Right Arm",
+					"parent": "Weed Wraith",
+					"pivot": [-4, 21, 0],
+					"cubes": [
+						{"origin": [-7, 2, -2], "size": [3, 21, 4], "uv": [24, 29], "mirror": true},
+						{"origin": [-7, 2, 2], "size": [3, 5, 7], "uv": [30, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "Left Arm",
+					"parent": "Weed Wraith",
+					"pivot": [4, 21, 0],
+					"cubes": [
+						{"origin": [4, 2, -2], "size": [3, 21, 4], "uv": [24, 29]},
+						{"origin": [4, 2, 2], "size": [3, 5, 7], "uv": [30, 0]}
+					]
+				},
+				{
+					"name": "Right Leg",
+					"parent": "Weed Wraith",
+					"pivot": [-2.4, 10, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [3, 10, 4], "uv": [30, 12], "mirror": true}
+					]
+				},
+				{
+					"name": "Left Leg",
+					"parent": "Weed Wraith",
+					"pivot": [2.4, 10, 0],
+					"cubes": [
+						{"origin": [1, 0, -2], "size": [3, 10, 4], "uv": [30, 12]}
+					]
+				}
+			]
+		}
+	]
+}
