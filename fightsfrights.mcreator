@@ -627,6 +627,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -733,6 +737,7 @@
           "src/main/java/net/mcreator/fightsfrights/entity/TerrantulaEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/terrantula_spawn_egg.json",
           "src/main/java/net/mcreator/fightsfrights/client/renderer/TerrantulaRenderer.java",
+          "src/main/java/net/mcreator/fightsfrights/entity/layer/TerrantulaLayer.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/terrantula_biome_modifier.json",
           "src/main/java/net/mcreator/fightsfrights/entity/model/TerrantulaModel.java"
         ]
@@ -2467,19 +2472,6 @@
       "path": "~/Items/Blightcap/BlightWood"
     },
     {
-      "name": "BlightSlabCraft2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blight_slab_craft_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fightsfrights/recipes/blight_slab_craft_2.json"
-        ]
-      },
-      "path": "~/Items/Blightcap/BlightWood"
-    },
-    {
       "name": "BlightSlabCraft3",
       "type": "recipe",
       "compiles": true,
@@ -2553,19 +2545,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/recipes/stick_craft.json"
-        ]
-      },
-      "path": "~/Items/Blightcap/BlightWood"
-    },
-    {
-      "name": "StickCraft2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stick_craft_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fightsfrights/recipes/stick_craft_2.json"
         ]
       },
       "path": "~/Items/Blightcap/BlightWood"
@@ -2645,28 +2624,6 @@
         "files": [
           "src/main/resources/data/fightsfrights/recipes/blight_grindstone_craft.json"
         ]
-      },
-      "path": "~/Items/Blightcap/BlightWood"
-    },
-    {
-      "name": "PlankExtension",
-      "type": "itemextension",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plank_extension",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Items/Blightcap/BlightWood"
-    },
-    {
-      "name": "StemExtension",
-      "type": "itemextension",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stem_extension",
-      "metadata": {
-        "files": []
       },
       "path": "~/Items/Blightcap/BlightWood"
     },
@@ -5038,23 +4995,6 @@
       "path": "~/Mobs/Bosses/Piglin Prosecutor/WickedWarmonger"
     },
     {
-      "name": "FissuredNetherrack",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fissured_netherrack",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/FissuredNetherrackBlock.java",
-          "src/main/resources/data/fightsfrights/loot_tables/blocks/fissured_netherrack.json",
-          "src/main/resources/assets/fightsfrights/blockstates/fissured_netherrack.json",
-          "src/main/resources/assets/fightsfrights/models/block/fissured_netherrack.json",
-          "src/main/resources/assets/fightsfrights/models/item/fissured_netherrack.json"
-        ]
-      },
-      "path": "~/Mobs/Bosses/Piglin Prosecutor/WickedWarmonger"
-    },
-    {
       "name": "MaliciousMonarchP1",
       "type": "animatedentity",
       "compiles": true,
@@ -5715,7 +5655,7 @@
           }
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "BeetleBlue",
@@ -5729,7 +5669,7 @@
           "src/main/resources/assets/fightsfrights/particles/beetle_blue.json"
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "UltimateMethodUpdated",
@@ -5756,7 +5696,7 @@
           "src/main/resources/data/fightsfrights/advancements/colonialism.json"
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "Beetleyellow",
@@ -5770,7 +5710,7 @@
           "src/main/java/net/mcreator/fightsfrights/client/particle/BeetleyellowParticle.java"
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "BeetleRed",
@@ -5784,7 +5724,7 @@
           "src/main/resources/assets/fightsfrights/particles/beetle_red.json"
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "BeetleGold",
@@ -5798,7 +5738,7 @@
           "src/main/java/net/mcreator/fightsfrights/client/particle/BeetleGoldParticle.java"
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "MimicBeetle",
@@ -6366,6 +6306,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicTerrantulaRenderer.java",
+          "src/main/java/net/mcreator/fightsfrights/entity/layer/MimicTerrantulaLayer.java",
           "src/main/java/net/mcreator/fightsfrights/entity/MimicTerrantulaEntity.java",
           "src/main/java/net/mcreator/fightsfrights/entity/model/MimicTerrantulaModel.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_terrantula_spawn_egg.json"
@@ -7916,8 +7857,11 @@
       "registry_name": "hivestone",
       "metadata": {
         "files": [
+          "src/main/resources/data/fightsfrights/forge/biome_modifier/hivestone_biome_modifier.json",
+          "src/main/resources/data/fightsfrights/worldgen/configured_feature/hivestone.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone.json",
           "src/main/java/net/mcreator/fightsfrights/block/HivestoneBlock.java",
+          "src/main/resources/data/fightsfrights/worldgen/placed_feature/hivestone.json",
           "src/main/resources/assets/fightsfrights/blockstates/hivestone.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone.json",
           "src/main/resources/assets/fightsfrights/models/item/hivestone.json"
@@ -8586,7 +8530,7 @@
         "files": [],
         "type": "logic"
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "Dreamcatcher",
@@ -8760,6 +8704,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -8791,6 +8747,18 @@
           "src/main/java/net/mcreator/fightsfrights/procedures/SeerNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
           {
             "name": "world",
             "type": "world"
@@ -8824,6 +8792,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -8856,6 +8836,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -8887,6 +8879,18 @@
           "src/main/java/net/mcreator/fightsfrights/procedures/TerrantulaNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
           {
             "name": "world",
             "type": "world"
@@ -9008,6 +9012,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -9039,6 +9055,18 @@
           "src/main/java/net/mcreator/fightsfrights/procedures/GrimmsquitoNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
           {
             "name": "world",
             "type": "world"
@@ -9084,6 +9112,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -9116,6 +9156,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -9147,6 +9199,18 @@
           "src/main/java/net/mcreator/fightsfrights/procedures/SupaiNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
           {
             "name": "world",
             "type": "world"
@@ -10413,7 +10477,7 @@
         "files": [],
         "type": "number"
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "Itsagirl",
@@ -10476,6 +10540,18 @@
           "src/main/java/net/mcreator/fightsfrights/procedures/OverworldBanshaasProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
           {
             "name": "world",
             "type": "world"
@@ -10883,12 +10959,12 @@
       "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nethersilverfish",
+      "registry_name": "hivemite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fightsfrights/models/item/nethersilverfish_spawn_egg.json",
-          "src/main/resources/data/fightsfrights/forge/biome_modifier/nethersilverfish_biome_modifier.json",
+          "src/main/resources/data/fightsfrights/forge/biome_modifier/hivemite_biome_modifier.json",
           "src/main/java/net/mcreator/fightsfrights/entity/NethersilverfishEntity.java",
+          "src/main/resources/assets/fightsfrights/models/item/hivemite_spawn_egg.json",
           "src/main/java/net/mcreator/fightsfrights/client/renderer/NethersilverfishRenderer.java"
         ]
       },
@@ -11003,6 +11079,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11133,7 +11213,7 @@
           "src/main/java/net/mcreator/fightsfrights/entity/MimicBeetlesEntity.java"
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "MimicBeetlesFeed",
@@ -11172,7 +11252,7 @@
           }
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "MimicBeetlesDrop",
@@ -11185,7 +11265,7 @@
           "src/main/resources/data/fightsfrights/loot_tables/entities/mimic_beetles.json"
         ]
       },
-      "path": "~/Mobs/MimicBeetles/MimicBeetlesRedone"
+      "path": "~/Mobs/MimicBeetles"
     },
     {
       "name": "FireFlyParticle",
@@ -11261,6 +11341,274 @@
         ]
       },
       "path": "~/Mobs/NetherVariants/FireFlyer"
+    },
+    {
+      "name": "PioneerHead",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pioneer_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fightsfrights/entity/PioneerHeadEntity.java",
+          "src/main/java/net/mcreator/fightsfrights/entity/layer/PioneerHeadLayer.java",
+          "src/main/resources/assets/fightsfrights/models/item/pioneer_head_spawn_egg.json",
+          "src/main/java/net/mcreator/fightsfrights/client/renderer/PioneerHeadRenderer.java",
+          "src/main/resources/data/fightsfrights/forge/biome_modifier/pioneer_head_biome_modifier.json",
+          "src/main/java/net/mcreator/fightsfrights/entity/model/PioneerHeadModel.java"
+        ]
+      },
+      "path": "~/Mobs/Pioneer/Pioneer_Head"
+    },
+    {
+      "name": "PioneerEntityDiesHead",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pioneer_entity_dies_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fightsfrights/procedures/PioneerEntityDiesHeadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Pioneer/Pioneer_Head"
+    },
+    {
+      "name": "PioneerOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pioneer_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fightsfrights/procedures/PioneerOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Pioneer"
+    },
+    {
+      "name": "PatutiEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patuti_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fightsfrights/procedures/PatutiEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Patuti"
+    },
+    {
+      "name": "StrippedBlightStem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_blight_stem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fightsfrights/loot_tables/blocks/stripped_blight_stem.json",
+          "src/main/java/net/mcreator/fightsfrights/block/StrippedBlightStemBlock.java",
+          "src/main/resources/assets/fightsfrights/models/block/stripped_blight_stem.json",
+          "src/main/resources/assets/fightsfrights/blockstates/stripped_blight_stem.json",
+          "src/main/resources/assets/fightsfrights/models/item/stripped_blight_stem.json"
+        ]
+      },
+      "path": "~/Items/Blightcap/BlightWood"
+    },
+    {
+      "name": "BlightPlanksCraft3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blight_planks_craft_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fightsfrights/recipes/blight_planks_craft_3.json"
+        ]
+      },
+      "path": "~/Items/Blightcap/BlightWood"
+    },
+    {
+      "name": "StrippedBlightHyphae",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_blight_hyphae",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fightsfrights/models/item/stripped_blight_hyphae.json",
+          "src/main/java/net/mcreator/fightsfrights/block/StrippedBlightHyphaeBlock.java",
+          "src/main/resources/assets/fightsfrights/blockstates/stripped_blight_hyphae.json",
+          "src/main/resources/assets/fightsfrights/models/block/stripped_blight_hyphae.json",
+          "src/main/resources/data/fightsfrights/loot_tables/blocks/stripped_blight_hyphae.json"
+        ]
+      },
+      "path": "~/Items/Blightcap/BlightWood"
+    },
+    {
+      "name": "StrippingBlightwood",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripping_blightwood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fightsfrights/procedures/StrippingBlightwoodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blightcap/BlightWood"
+    },
+    {
+      "name": "BlightPlanksCraft4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blight_planks_craft_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fightsfrights/recipes/blight_planks_craft_4.json"
+        ]
+      },
+      "path": "~/Items/Blightcap/BlightWood"
+    },
+    {
+      "name": "StrippedBlightHyphaeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_blight_hyphae_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fightsfrights/recipes/stripped_blight_hyphae_craft.json"
+        ]
+      },
+      "path": "~/Items/Blightcap/BlightWood"
+    },
+    {
+      "name": "HangDrip",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hang_drip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fightsfrights/worldgen/placed_feature/hang_drip.json",
+          "src/main/resources/data/fightsfrights/worldgen/configured_feature/hang_drip.json",
+          "src/main/resources/data/fightsfrights/forge/biome_modifier/hang_drip_biome_modifier.json"
+        ]
+      },
+      "path": "~/Biomes/BugDen/Generators"
+    },
+    {
+      "name": "Pushdrip",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pushdrip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fightsfrights/worldgen/placed_feature/pushdrip.json",
+          "src/main/resources/data/fightsfrights/worldgen/configured_feature/pushdrip.json",
+          "src/main/resources/data/fightsfrights/forge/biome_modifier/pushdrip_biome_modifier.json"
+        ]
+      },
+      "path": "~/Biomes/BugDen/Generators"
+    },
+    {
+      "name": "ScreenHead",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screen_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fightsfrights/item/model/ScreenHeadModel.java",
+          "src/main/resources/assets/fightsfrights/models/item/screen_head_helmet.json",
+          "src/main/java/net/mcreator/fightsfrights/client/renderer/ScreenHeadArmorRenderer.java",
+          "src/main/java/net/mcreator/fightsfrights/item/ScreenHeadItem.java"
+        ]
+      },
+      "path": "~/Items/ScreenHead"
+    },
+    {
+      "name": "Fightsfrightsmobspawnchance",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fightsfrightsmobspawnchance",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
     }
   ],
   "variable_elements": [
@@ -11850,14 +12198,14 @@
       "~CUSTOM:BugDen"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:OminousPlateBlock",
-      "~CUSTOM:FissuredNetherrack"
+      "~CUSTOM:OminousPlateBlock"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:MonstrousPlateBlock"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:Cocoon"
+      "~CUSTOM:Cocoon",
+      "~CUSTOM:RottenBlock"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:MimentisClaw",
@@ -11904,7 +12252,6 @@
       "~CUSTOM:PeepingHivestone",
       "~CUSTOM:Hivestone",
       "~CUSTOM:MimeBlock",
-      "~CUSTOM:FissuredNetherrack",
       "~CUSTOM:VSD",
       "~CUSTOM:Crusher",
       "~CUSTOM:Hexblock",
@@ -11912,6 +12259,8 @@
       "~CUSTOM:TotemBlock"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedBlightHyphae",
+      "~CUSTOM:StrippedBlightStem",
       "~CUSTOM:Blightdoor",
       "~CUSTOM:BlightTrapdoor",
       "~CUSTOM:BlightButton",
@@ -12000,7 +12349,144 @@
       "~CUSTOM:DeadsteelScimitar"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "MATERIALS": [
+      "Shackle",
+      "RottenHandle",
+      "Goop",
+      "ElderSpine",
+      "MonstruousPlate",
+      "ChargedScrap",
+      "MimicBeetle",
+      "Nightmare",
+      "Chitin",
+      "OminousPlate",
+      "OminousPlateBlock",
+      "MonstrousPlateBlock"
+    ],
+    "FOOD": [
+      "RottenHandle",
+      "GoldenTongue",
+      "Goop",
+      "MonsterPop",
+      "Gills",
+      "Chip",
+      "TerrantulaLeg",
+      "BanshaasLungs",
+      "Forewings",
+      "ChargedFlesh",
+      "OminousBottle",
+      "OminousEssence",
+      "PungentSoup",
+      "ChargedChili",
+      "MonsterSalad",
+      "CheeseStick",
+      "BugDust",
+      "Pathogen"
+    ],
+    "DECORATIONS": [
+      "RottenBlock",
+      "BlightStem",
+      "BllightCapBlock",
+      "Blightcap",
+      "BlightHyphae",
+      "StrippedBlightStem",
+      "StrippedBlightHyphae",
+      "Cocoon",
+      "Hivestone",
+      "PeepingHivestone",
+      "JellyBlock",
+      "Slop"
+    ],
+    "TRANSPORTATION": [
+      "TotemBlock",
+      "EmptyHexBlock",
+      "Hexblock",
+      "Crusher",
+      "Trashcan",
+      "VSD",
+      "PeepingHivestone",
+      "Mysteryblock"
+    ],
+    "TOOLS": [
+      "Hex",
+      "EmptyHex",
+      "RavagerHorn",
+      "ChargedScrap",
+      "Allbomb",
+      "PoisonOrbItem",
+      "OminousScepter",
+      "PutridScythe2",
+      "MimentisClaw",
+      "MimentisClawSingleUse",
+      "Antidote",
+      "Syringe",
+      "Dreamcatcher"
+    ],
+    "COMBAT": [
+      "MonstrousArmor",
+      "OminousArmor",
+      "ScreenHead",
+      "BluntJavelin",
+      "DeadsteelScimitar",
+      "OminousTusk",
+      "OminousScepter",
+      "UltimateMethodUpdated",
+      "PoisonousProboscis",
+      "TerrifyingProboscis",
+      "BlindingProboscis",
+      "InfectiousProboscis",
+      "WitheredProboscis"
+    ],
+    "BUILDING_BLOCKS": [
+      "BlightStem",
+      "StrippedBlightStem",
+      "DarkTrama",
+      "BlightPlanks",
+      "BlightHyphae",
+      "StrippedBlightHyphae",
+      "BlightStairs",
+      "BlightSlab",
+      "BlightFence",
+      "BlightFencegate",
+      "BlightButton",
+      "BlightTrapdoor",
+      "Blightdoor",
+      "MimeBlock",
+      "Hivestone",
+      "HivestoneSlab",
+      "HivestoneStair",
+      "HivestoneWall",
+      "PolishedHivestoneSlab",
+      "PolishedHivestone",
+      "PolishedHivestoneStairs",
+      "PolishedHivestoneWall",
+      "HivestoneBricks",
+      "HivestoneBricksSlab",
+      "HivestoneBricksStairs",
+      "HivestoneBricksWall",
+      "ChiseledHivestone",
+      "Chitinblock",
+      "Smoothchitin",
+      "Chitinbricks",
+      "Smoothchitinslabs",
+      "SmoothChitinStairs",
+      "SmoothChitinWall",
+      "Chitinbricksslab",
+      "Chitinbricksstairs",
+      "Chitinbrickswall",
+      "ChiseledChitin",
+      "SmoothJelly",
+      "SmoothJellySlab",
+      "SmoothJellyStairs",
+      "SmoothJellyWall",
+      "JellyBricks",
+      "JellyBricksSlab",
+      "JellyBricksStairs",
+      "JellyBricksWall",
+      "ChiseledJelly"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.fightsfrights.hivestone_wall": "Hivestone Wall",
@@ -12011,20 +12497,22 @@
       "advancements.itsalive.title": "IT\u0027S ALIVE!",
       "subtitles.ggidle": "Ghastly General rattles",
       "entity.fightsfrights.mimic_seer": "Seer",
-      "gamerule.spawnSeer": "Spawn Seers",
       "subtitles.ii_death": "Imperial Illager is dethroned",
+      "gamerule.spawnSeer": "Spawn Seers",
       "item_group.fightsfrights.creative_tab": "Fights\u0026Frights",
       "block.fightsfrights.jelly_bricks_stairs": "Jelly Bricks Stairs",
       "entity.fightsfrights.mimic_terrantula": "Terrantula",
       "death.attack.infection.player": "%1$s died from infection whilst trying to escape %2$s",
       "subtitles.trashcan": "Trashcan dumps",
       "advancements.cant_quit.descr": "Eat a handful of Bug Dust, and try not to stop.",
+      "gamerule.fightsfrightsmobspawnchance": "Fights\u0026Frights Mob Spawn Chance",
       "advancements.dungeon_meshi.descr": "Eat every consumable monster part and meal",
       "subtitles.shackled_death": "Shackled fades from memory",
-      "block.fightsfrights.trashcan": "Trashcan",
       "item.fightsfrights.mimic_patuti_spawn_egg": "Patuti Spawn Egg",
+      "block.fightsfrights.trashcan": "Trashcan",
       "item.fightsfrights.goop": "Jelly",
       "gamerule.spawnPatuti": "Spawn Patutis",
+      "gamerule.fightsfrightsmobspawnchance.description": "Adjusts the spawn of FF mobs (the number mean \"x chance of 20\" to succeed spawn)",
       "subtitles.scowl": "",
       "death.attack.overcharged.player": "%1$s was overcharged whilst trying to escape %2$s",
       "item.fightsfrights.mimic_seer_spawn_egg": "Seer Spawn Egg",
@@ -12036,8 +12524,8 @@
       "item.fightsfrights.banshaa_spawn_egg": "Banshaa Spawn Egg",
       "entity.fightsfrights.imperial_illager_p_1": "Imperial Illager",
       "advancements.colonialism.title": "Colonialism",
-      "subtitles.mimentis_step": "Mimentis crawls",
       "entity.fightsfrights.imperial_illager_p_2": "Imperial Illager",
+      "subtitles.mimentis_step": "Mimentis crawls",
       "effect.fightsfrights.mad": "Mad",
       "item.fightsfrights.ravager_horn": "Ravager Horn",
       "item.fightsfrights.monstrous_armor_chestplate": "Monstrous Chestplate",
@@ -12045,16 +12533,16 @@
       "subtitles.gghurt": "Ghastly General is hurt",
       "subtitles.hexplace": "Totem is placed",
       "entity.fightsfrights.mimic_banshaa": "Banshaa",
-      "subtitles.ii_hurt": "Imperial Illager is hurt",
       "entity.fightsfrights.nether_spider": "Hive Spider",
+      "subtitles.ii_hurt": "Imperial Illager is hurt",
       "subtitles.evillaugh": "Evil comes forth",
       "item.minecraft.tipped_arrow.effect.infection_p": "Arrow of Infection",
       "item.fightsfrights.malicious_monarch_p_1_spawn_egg": "Malicious Monarch Spawn Egg",
       "item.fightsfrights.effigy_spawn_egg": "Effigy Spawn Egg",
       "item.minecraft.lingering_potion.effect.infection_p": "Lingering Potion of Infection",
       "block.fightsfrights.circuit_lever": "Circuit Lever",
-      "block.fightsfrights.mime_block": "Mime Block",
       "subtitles.ii_idle": "Imperial Illager grunts",
+      "block.fightsfrights.mime_block": "Mime Block",
       "block.fightsfrights.chitinblock": "Chitin Block",
       "subtitles.patuti_death": "Patuti dies",
       "item.fightsfrights.monstrous_armor_helmet": "Monstrous Helmet",
@@ -12064,29 +12552,30 @@
       "item.fightsfrights.mimentis_claw_single_use": "Mimentis Claw",
       "gamerule.spawnGrimmsquito.description": "Enables the spawn of Grimmsquitos",
       "gamerule.spawnShadow.description": "Enables the spawn of Shadows",
-      "gamerule.doMimicBeetles": "Spawn Mimic Beetles in ores",
-      "item.minecraft.tipped_arrow.effect.gazingpotion": "Arrow of Gazing",
       "item.minecraft.potion.effect.infection_p": "Potion of Infection",
-      "death.attack.infection.item": "%1$s was killed by %2$s using a deadly pathogen %3$s",
+      "item.minecraft.tipped_arrow.effect.gazingpotion": "Arrow of Gazing",
+      "gamerule.doMimicBeetles": "Spawn Mimic Beetles in ores",
       "item.fightsfrights.shadow_spawn_egg": "Shadow Spawn Egg",
+      "death.attack.infection.item": "%1$s was killed by %2$s using a deadly pathogen %3$s",
       "item.minecraft.potion.effect.terrified_potion": "Terrifying Potion",
+      "item.fightsfrights.screen_head_leggings": "Screen Head Leggings",
       "gamerule.spawnTerrantula.description": "Enables the spawn of Terrantulas",
       "subtitles.patuti_idle": "Patuti gurgles",
       "subtitles.seer_hurt": "Seer is hit",
       "item.fightsfrights.pathogen": "Pathogen",
       "item.fightsfrights.seer_spawn_egg": "Seer Spawn Egg",
       "item.fightsfrights.terrantula_spawn_egg": "Terrantula Spawn Egg",
-      "item.minecraft.lingering_potion.effect.guardians_strength": "Lingering Potion of Guardian\u0027s Strength",
       "subtitles.ominousgem": "Ominous explosion",
+      "item.minecraft.lingering_potion.effect.guardians_strength": "Lingering Potion of Guardian\u0027s Strength",
+      "block.fightsfrights.stripped_blight_stem": "Stripped Blight Stem",
       "subtitles.banshaa_hurt": "Banshaa is hurt",
       "block.fightsfrights.smooth_jelly_wall": "Smooth Jelly Slab",
       "item.fightsfrights.antidote": "Antidote",
       "item.minecraft.potion.effect.gazingpotion": "Potion of Gazing",
-      "block.fightsfrights.slop": "Slop",
       "gamerule.spawnMimentis.description": "Enables the spawn of Mimentis",
+      "block.fightsfrights.slop": "Slop",
       "entity.fightsfrights.reanimated": "Reanimated",
       "item.minecraft.lingering_potion.effect.terrified_potion": "Terrifying Lingering Potion",
-      "item.fightsfrights.nethersilverfish_spawn_egg": "Hive Silverfish Spawn Egg",
       "item.fightsfrights.monster_pop": "Monster Pop",
       "advancements.good_augury.descr": "Rid yourself of the omen",
       "subtitles.mb_idle": "Mimic Beetles click",
@@ -12096,8 +12585,8 @@
       "subtitles.giant_celebrate": "Illager Giant celebrates",
       "subtitles.shadow_death": "Shadow dissipates",
       "subtitles.seer_idle": "Seer Gurgles",
-      "subtitles.pp_step": "Piglin Prosecutor steps",
       "item.fightsfrights.nether_spider_spawn_egg": "Hive Spider Spawn Egg",
+      "subtitles.pp_step": "Piglin Prosecutor steps",
       "item.fightsfrights.supai_spawn_egg": "Supai Spawn Egg",
       "advancements.itsagirl.title": "It\u0027s a girl!",
       "block.fightsfrights.chiseled_hivestone": "Chiseled Hivestone",
@@ -12121,8 +12610,8 @@
       "subtitles.banshaa_idle": "Banshaa weeps",
       "subtitles.giant_death": "Illager Giant dies",
       "advancements.the_eve_of_destruction.descr": "Use an Ominous Hex to call forth the dammed",
-      "advancements.tallman.title": "Tallman",
       "item.fightsfrights.monstrous_armor_leggings": "Monstrous Leggings",
+      "advancements.tallman.title": "Tallman",
       "block.fightsfrights.blightdoor": "Blight Door",
       "subtitles.claw": "Claw pierces",
       "item.minecraft.tipped_arrow.effect.haste": "Arrow of Haste",
@@ -12146,8 +12635,8 @@
       "subtitles.pioneer_death": "Pioneer breaks down",
       "subtitles.mimentis_death": "Mimentis dies",
       "advancements.itsy_bitsy.descr": "Expose the burrowing menace",
-      "death.attack.infection": "%1$s died from an untreated infection",
       "subtitles.grimmsquito_hurt": "Grimmsquito is hurt",
+      "death.attack.infection": "%1$s died from an untreated infection",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "subtitles.pioneer_hurt": "Pioneer is hurt",
       "death.attack.overcharged": "%1$s was overcharged",
@@ -12160,8 +12649,8 @@
       "subtitles.patuti_hurt": "Patuti is hurt",
       "item.minecraft.tipped_arrow.effect.averted_potion": "Arrow of Aversion",
       "block.fightsfrights.polished_hivestone": "Polished Hivestone",
-      "entity.fightsfrights.effigy": "Effigy",
       "advancements.trick_or_treat.title": "Trick Or Treat",
+      "entity.fightsfrights.effigy": "Effigy",
       "block.fightsfrights.blight_stem": "Blight Stem",
       "block.fightsfrights.blight_button": "Blight Button",
       "advancements.quarantine.descr": "Contract an infection (can be disabled through gamerules)",
@@ -12169,8 +12658,8 @@
       "block.fightsfrights.hivestone": "Hivestone",
       "gamerule.shackledSmoke": "Shackled smoke cloud",
       "block.fightsfrights.blight_stairs": "Blight Stairs",
-      "item.fightsfrights.mimentis_claw": "Reinforced Mimentis Claw",
       "item.minecraft.lingering_potion.effect.haste_2": "Lingering Potion of Haste",
+      "item.fightsfrights.mimentis_claw": "Reinforced Mimentis Claw",
       "biome.fightsfrights.bug_den": "Hive",
       "effect.fightsfrights.infected": "Infected",
       "subtitles.ggdeath": "Ghastly General goes back to the depths",
@@ -12178,8 +12667,8 @@
       "item.fightsfrights.fire_swarm_spawn_egg": "Fire Swarm Spawn Egg",
       "entity.fightsfrights.fire_swarm": "Fire Swarm",
       "gui.fightsfrights.trashcan_gui.label_empty": "Trashcan",
-      "block.fightsfrights.smooth_chitin_stairs": "Smooth Chitin Stairs",
       "entity.fightsfrights.mimic_scowl": "Scowl",
+      "block.fightsfrights.smooth_chitin_stairs": "Smooth Chitin Stairs",
       "item.fightsfrights.nether_banshaa_spawn_egg": "Banshaa Spawn Egg",
       "item.minecraft.tipped_arrow.effect.deathblight": "Arrow of Deathblight",
       "subtitles.pp_idle": "Piglin Prosecutor scoffs",
@@ -12195,17 +12684,18 @@
       "gamerule.spawnAllman.description": "Enables the spawn of Allmen",
       "item.minecraft.splash_potion.effect.gazingpotion": "Splash Potion of Gazing",
       "block.fightsfrights.ominous_plate_block": "Ominous Plate Block",
-      "item.minecraft.tipped_arrow.effect.terrified_potion": "Terrifying Arrow",
       "advancements.the_eve_of_destruction.title": "The Eve Of Destruction",
+      "item.minecraft.tipped_arrow.effect.terrified_potion": "Terrifying Arrow",
       "item.fightsfrights.ominous_essence": "Ominous Essence",
       "subtitles.dreamcatcher": "Dreamcatcher catches",
       "painting.fightsfrights.reanimated_altar.title": "Reanimator",
-      "block.fightsfrights.hivestone_bricks_slab": "Hivestone Bricks Slab",
+      "block.fightsfrights.stripped_blight_hyphae": "Stripped Blight Hyphae",
       "entity.fightsfrights.patuti": "Patuti",
+      "block.fightsfrights.hivestone_bricks_slab": "Hivestone Bricks Slab",
       "subtitles.allman_death": "Allman perishes",
       "entity.fightsfrights.mimic_beetles": "Mimic Beetles",
       "item.fightsfrights.cheese_stick": "Terrantula tequeño",
-      "advancements.colonialism.descr": "Give a Terrantula Leg to Mimic Beetles",
+      "advancements.colonialism.descr": "Give a Terrantula Leg or Gills to Mimic Beetles",
       "gamerule.doInfection.description": "Enables the Infection effect as well as pathogens",
       "item.fightsfrights.mimic_banshaa_spawn_egg": "Banshaa Spawn Egg",
       "gamerule.spawnPioneers": "Spawn Pioneers",
@@ -12223,6 +12713,7 @@
       "item.minecraft.splash_potion.effect.mad_potion": "Splash Potion of Maddening",
       "block.fightsfrights.smooth_jelly_stairs": "Smooth Jelly Slab",
       "subtitles.seer_death": "Seer Dies",
+      "entity.fightsfrights.pioneer_head": "Pioneer",
       "item.fightsfrights.ominous_tusk": "Ominous Tusk",
       "item.fightsfrights.ultimate_method_updated": "Ultimate Method",
       "gamerule.spawnOverworldBanshaas.description": "Makes Banshaas spawn in the overworld",
@@ -12288,18 +12779,19 @@
       "item.fightsfrights.poison_orb_item": "Ominous Gem",
       "block.fightsfrights.monstrous_plate_block": "Monstrous Plate Block",
       "item.fightsfrights.putrid_scythe_2": "Putrid Scythe",
+      "item.fightsfrights.hivemite_spawn_egg": "Hive Mite Spawn Egg",
       "subtitles.ominous_bottle_breaks": "ominous bottle breaks",
-      "entity.fightsfrights.nethercavespider": "Deep Hive Spider",
+      "entity.fightsfrights.nethercavespider": "Crimson Spider",
       "subtitles.shackle_idle": "Shackle remembers",
       "gamerule.doReanimated.description": "Enables the spawn of Banshaas",
       "subtitles.effigy_hurt": "Effigy is hurt",
       "entity.fightsfrights.mimic_grimmsquito": "Grimmsquito",
       "item.fightsfrights.terrifying_proboscis": "Terrifying Proboscis",
       "gamerule.beetleChance.description": "Controls how common Mimic Beetles emerge from blocks",
+      "item.fightsfrights.screen_head_helmet": "Screen Head",
       "item.fightsfrights.golden_tongue": "Golden Tongue",
       "advancements.cant_quit.title": "Can\u0027t Quit...",
       "advancements.quarantine.title": "2020",
-      "entity.fightsfrights.nethersilverfish": "Hive Silverfish",
       "subtitles.grimmsquito_death": "Grimmsquito dies",
       "entity.fightsfrights.wicke_warmonger": "Wicked Warmonger",
       "subtitles.grimmsquito_idle": "Bug buzzes",
@@ -12360,14 +12852,14 @@
       "gamerule.spawnSupai.description": "Enables the spawn of Supae",
       "subtitles.fiendsong": "Fiendish song plays",
       "item.fightsfrights.ominous_armor_leggings": "Ominous  Leggings",
+      "entity.fightsfrights.hivemite": "Hive Mite",
       "item.minecraft.splash_potion.effect.haste_2": "Splash Potion of Haste",
       "entity.fightsfrights.mimic_allman": "Allman",
       "block.fightsfrights.chitinbricks": "Chitin Bricks",
       "advancements.chomp.title": "Chomp",
       "block.fightsfrights.polished_hivestone_wall": "Polished Hivestone Wall",
       "item.fightsfrights.patuti_spawn_egg": "Patuti Spawn Egg",
-      "block.fightsfrights.fissured_netherrack": "Fissured Netherrack",
-      "item.fightsfrights.nethercavespider_spawn_egg": "Deep Hive Spider Spawn Egg",
+      "item.fightsfrights.nethercavespider_spawn_egg": "Crimson Spider Spawn Egg",
       "gamerule.spawnScowl": "Spawn Scowls",
       "item.fightsfrights.monstruous_plate": "Monstruous Plate",
       "subtitles.crusher_chew": "Crusher Crushes",
@@ -12377,6 +12869,7 @@
       "item.fightsfrights.banshaas_lungs": "Banshaa\u0027s Lungs",
       "entity.fightsfrights.shackled": "Shackled",
       "item.fightsfrights.shackled_spawn_egg": "Shackled Spawn Egg",
+      "item.fightsfrights.screen_head_boots": "Screen Head Boots",
       "item.fightsfrights.ominous_bottle": "Ominous Bottle",
       "subtitles.mb_step": "Mimic Beetles crawl",
       "entity.fightsfrights.supai": "Supai",
@@ -12394,9 +12887,11 @@
       "item.fightsfrights.empty_hex": "Empty Hex",
       "gamerule.spawnSupai": "Spawn Supae",
       "advancements.tallman.descr": "Make an Allman summon help",
+      "item.fightsfrights.pioneer_head_spawn_egg": "Pioneer Spawn Egg",
       "gamerule.spawnAllman": "Spawn Allmen",
       "block.fightsfrights.dreamcatcher": "Dreamcatcher",
       "block.fightsfrights.chiseled_chitin": "Chiseled Chitin",
+      "item.fightsfrights.screen_head_chestplate": "Screen Head Chestplate",
       "subtitles.scowl_idle": "Scowl Scowls",
       "advancements.itsagirl.descr": "Pop a Scowl with an arrow",
       "item.fightsfrights.ominous_armor_helmet": "Ominous  Helmet",
@@ -12686,6 +13181,10 @@
           {
             "name": "Redstone_Display",
             "children": []
+          },
+          {
+            "name": "ScreenHead",
+            "children": []
           }
         ]
       },
@@ -12783,7 +13282,12 @@
           },
           {
             "name": "Pioneer",
-            "children": []
+            "children": [
+              {
+                "name": "Pioneer_Head",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Terrantula",
@@ -12919,12 +13423,7 @@
           },
           {
             "name": "MimicBeetles",
-            "children": [
-              {
-                "name": "MimicBeetlesRedone",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "name": "NetherVariants",
@@ -12951,7 +13450,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "geckolib"
+      "geckolib",
+      "jei"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
