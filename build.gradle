@@ -5,7 +5,7 @@ plugins {
 
 version = '1.0'
 group = 'com.yourname.modid'
-archivesBaseName = 'fightsfrights-forge-1.20.1-2.5.'
+archivesBaseName = 'fightsfrights-forge-1.20.1'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
