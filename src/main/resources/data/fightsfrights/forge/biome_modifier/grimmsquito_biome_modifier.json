@@ -14,7 +14,7 @@
   ],
   "spawners": {
     "type": "fightsfrights:grimmsquito",
-    "weight": 15,
+    "weight": 8,
     "minCount": 1,
     "maxCount": 4
   }

@@ -17,7 +17,7 @@
   ],
   "spawners": {
     "type": "fightsfrights:seer",
-    "weight": 15,
+    "weight": 20,
     "minCount": 1,
     "maxCount": 4
   }

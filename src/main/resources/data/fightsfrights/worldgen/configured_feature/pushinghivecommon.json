@@ -14,7 +14,7 @@
       "feature": "fightsfrights:pushing_hivestone",
       "placement": []
     },
-    "vegetation_chance": 0.12,
+    "vegetation_chance": 0.16,
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

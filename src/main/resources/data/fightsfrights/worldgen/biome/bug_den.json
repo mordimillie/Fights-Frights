@@ -50,14 +50,14 @@
         "maxCount": 2
       },
       {
-        "type": "fightsfrights:nethersilverfish",
+        "type": "fightsfrights:hivemite",
         "weight": 50,
         "minCount": 2,
         "maxCount": 4
       },
       {
         "type": "fightsfrights:fire_swarm",
-        "weight": 35,
+        "weight": 25,
         "minCount": 1,
         "maxCount": 1
       }

@@ -5,8 +5,8 @@
     "xz_radius": {
       "type": "uniform",
       "value": {
-        "min_inclusive": 3,
-        "max_inclusive": 6
+        "min_inclusive": 1,
+        "max_inclusive": 5
       }
     },
     "vertical_range": 5,

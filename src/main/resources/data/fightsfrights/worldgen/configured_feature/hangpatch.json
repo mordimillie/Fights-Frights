@@ -14,7 +14,7 @@
       "feature": "fightsfrights:hanging_hivestone",
       "placement": []
     },
-    "vegetation_chance": 0.02,
+    "vegetation_chance": 0.08,
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

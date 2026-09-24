@@ -8,7 +8,7 @@
       "registry_name": "allman_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AllmanEntityIsHurtProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AllmanEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -39,7 +39,7 @@
       "registry_name": "allman_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AllmanOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AllmanOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -70,10 +70,10 @@
       "registry_name": "allman",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/model/AllmanModel.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/AllmanRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/AllmanModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/AllmanRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/allman_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/AllmanEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/AllmanEntity.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/allman_biome_modifier.json"
         ]
       },
@@ -87,10 +87,10 @@
       "registry_name": "scowl",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ScowlRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ScowlRenderer.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/scowl_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/ScowlEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ScowlModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/ScowlEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/ScowlModel.java",
           "src/main/resources/assets/fightsfrights/models/item/scowl_spawn_egg.json"
         ]
       },
@@ -104,7 +104,7 @@
       "registry_name": "moss_bomb_projectile_hits_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MossBombProjectileHitsBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MossBombProjectileHitsBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -135,7 +135,7 @@
       "registry_name": "moss_bomb_while_projectile_flying_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MossBombWhileProjectileFlyingTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MossBombWhileProjectileFlyingTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -166,7 +166,7 @@
       "registry_name": "moss_bomb_projectile_hits_player",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MossBombProjectileHitsPlayerProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MossBombProjectileHitsPlayerProcedure.java"
         ],
         "dependencies": [
           {
@@ -185,7 +185,7 @@
       "registry_name": "scowl_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ScowlOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ScowlOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -204,8 +204,8 @@
       "registry_name": "moss_bomb_proyectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/MossBombProyectileEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MossBombProyectileRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/MossBombProyectileEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MossBombProyectileRenderer.java"
         ]
       },
       "path": "~/Mobs/Scowl/ScowlProyectile"
@@ -218,7 +218,7 @@
       "registry_name": "scowl_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ScowlOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ScowlOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -237,7 +237,7 @@
       "registry_name": "shackle_rightclicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShackleRightclickedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShackleRightclickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -272,7 +272,7 @@
       "registry_name": "shackle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/ShackleItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/ShackleItem.java",
           "src/main/resources/assets/fightsfrights/models/item/shackle.json"
         ]
       },
@@ -286,7 +286,7 @@
       "registry_name": "putrid_scythe_living_entity_is_hit_with_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PutridScytheLivingEntityIsHitWithItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PutridScytheLivingEntityIsHitWithItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -305,7 +305,7 @@
       "registry_name": "rotten_handle_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/RottenHandlePlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/RottenHandlePlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -324,7 +324,7 @@
       "registry_name": "rotten_handle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/RottenHandleItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/RottenHandleItem.java",
           "src/main/resources/assets/fightsfrights/models/item/rotten_handle.json"
         ]
       },
@@ -351,7 +351,7 @@
       "registry_name": "golden_tongue_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GoldenTonguePlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GoldenTonguePlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -371,7 +371,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/golden_tongue.json",
-          "src/main/java/net/mcreator/fightsfrights/item/GoldenTongueItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/GoldenTongueItem.java"
         ]
       },
       "path": "~/Items/GoldenTongue"
@@ -397,7 +397,7 @@
       "registry_name": "jellied",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/JelliedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/JelliedMobEffect.java"
         ]
       },
       "path": "~/Effects/Jellied"
@@ -410,7 +410,7 @@
       "registry_name": "goop_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GoopPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GoopPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -429,7 +429,7 @@
       "registry_name": "goop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/GoopItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/GoopItem.java",
           "src/main/resources/assets/fightsfrights/models/item/goop.json"
         ]
       },
@@ -443,7 +443,7 @@
       "registry_name": "monster_pop_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MonsterPopPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MonsterPopPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -479,7 +479,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/monster_pop.json",
-          "src/main/java/net/mcreator/fightsfrights/item/MonsterPopItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/MonsterPopItem.java"
         ]
       },
       "path": "~/Items/MonsterPop"
@@ -507,10 +507,10 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/seer_spawn_egg.json",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/seer_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/SeerEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/SeerLayer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/SeerModel.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/SeerRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/SeerEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/SeerLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/SeerModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/SeerRenderer.java"
         ]
       },
       "path": "~/Mobs/Seer"
@@ -523,11 +523,11 @@
       "registry_name": "patuti",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/model/PatutiModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/PatutiEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/PatutiModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/PatutiEntity.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/patuti_biome_modifier.json",
           "src/main/resources/assets/fightsfrights/models/item/patuti_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/PatutiRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/PatutiRenderer.java"
         ]
       },
       "path": "~/Mobs/Patuti"
@@ -540,7 +540,7 @@
       "registry_name": "amphibian",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/AmphibianMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/AmphibianMobEffect.java"
         ]
       },
       "path": "~/Effects"
@@ -553,7 +553,7 @@
       "registry_name": "gills_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GillsPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GillsPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -573,7 +573,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/gills.json",
-          "src/main/java/net/mcreator/fightsfrights/item/GillsItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/GillsItem.java"
         ]
       },
       "path": "~/Items/Gills"
@@ -586,7 +586,7 @@
       "registry_name": "patuti_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PatutiOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PatutiOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -607,10 +607,10 @@
         "files": [
           "src/main/resources/data/fightsfrights/forge/biome_modifier/pioneer_biome_modifier.json",
           "src/main/resources/assets/fightsfrights/models/item/pioneer_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/PioneerModel.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/PioneerRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/PioneerEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/PioneerLayer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/model/PioneerModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/PioneerRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/PioneerEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/PioneerLayer.java"
         ]
       },
       "path": "~/Mobs/Pioneer"
@@ -623,7 +623,7 @@
       "registry_name": "pioneer_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PioneerOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PioneerOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -658,7 +658,7 @@
       "registry_name": "chip_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ChipPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ChipPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -697,7 +697,7 @@
       "registry_name": "chip",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/ChipItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/ChipItem.java",
           "src/main/resources/assets/fightsfrights/models/item/chip.json"
         ]
       },
@@ -711,7 +711,7 @@
       "registry_name": "seer_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SeerOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SeerOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -734,12 +734,12 @@
       "registry_name": "terrantula",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/TerrantulaEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/TerrantulaEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/terrantula_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/TerrantulaRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/TerrantulaLayer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/TerrantulaRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/TerrantulaLayer.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/terrantula_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/TerrantulaModel.java"
+          "src/main/java/com/FnF/fightsfrights/entity/model/TerrantulaModel.java"
         ]
       },
       "path": "~/Mobs/Terrantula"
@@ -752,7 +752,7 @@
       "registry_name": "terrantula_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TerrantulaOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TerrantulaOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -787,7 +787,7 @@
       "registry_name": "terrantula_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TerrantulaOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TerrantulaOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -822,7 +822,7 @@
       "registry_name": "terrantula_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TerrantulaEntityIsHurtProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TerrantulaEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -857,7 +857,7 @@
       "registry_name": "terrantula_leg_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TerrantulaLegPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TerrantulaLegPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -877,7 +877,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/terrantula_leg.json",
-          "src/main/java/net/mcreator/fightsfrights/item/TerrantulaLegItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/TerrantulaLegItem.java"
         ]
       },
       "path": "~/Items/TerrantulaLeg"
@@ -891,10 +891,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/banshaa_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/BanshaaEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/BanshaaRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/BanshaaEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/BanshaaRenderer.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/banshaa_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/BanshaaModel.java"
+          "src/main/java/com/FnF/fightsfrights/entity/model/BanshaaModel.java"
         ]
       },
       "path": "~/Mobs/Banshaa"
@@ -907,7 +907,7 @@
       "registry_name": "banshaa_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BanshaaOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BanshaaOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -942,7 +942,7 @@
       "registry_name": "gazed_on_effect_active_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GazedOnEffectActiveTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GazedOnEffectActiveTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -977,7 +977,7 @@
       "registry_name": "gazed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/GazedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/GazedMobEffect.java"
         ]
       },
       "path": "~/Effects/Gazed"
@@ -990,7 +990,7 @@
       "registry_name": "mad",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/MadMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/MadMobEffect.java"
         ]
       },
       "path": "~/Effects/Mad"
@@ -1003,7 +1003,7 @@
       "registry_name": "banshaas_lungs_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BanshaasLungsPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BanshaasLungsPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -1038,7 +1038,7 @@
       "registry_name": "banshaas_lungs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/BanshaasLungsItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/BanshaasLungsItem.java",
           "src/main/resources/assets/fightsfrights/models/item/banshaas_lungs.json"
         ]
       },
@@ -1074,7 +1074,7 @@
       "registry_name": "gazing_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/GazingCraftBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/GazingCraftBrewingRecipe.java"
         ]
       },
       "path": "~/Effects/Gazed"
@@ -1087,7 +1087,7 @@
       "registry_name": "haste_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/HasteCraftBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/HasteCraftBrewingRecipe.java"
         ]
       },
       "path": "~/Items/TerrantulaLeg"
@@ -1100,7 +1100,7 @@
       "registry_name": "haste_plus",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/HastePlusBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/HastePlusBrewingRecipe.java"
         ]
       },
       "path": "~/Items/TerrantulaLeg"
@@ -1124,7 +1124,7 @@
       "registry_name": "monster_salad_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MonsterSaladPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MonsterSaladPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -1159,7 +1159,7 @@
       "registry_name": "monster_salad",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/MonsterSaladItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/MonsterSaladItem.java",
           "src/main/resources/assets/fightsfrights/models/item/monster_salad.json"
         ]
       },
@@ -1236,7 +1236,7 @@
       "registry_name": "maddening_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/MaddeningCraftBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/MaddeningCraftBrewingRecipe.java"
         ]
       },
       "path": "~/Effects/Mad"
@@ -1249,7 +1249,7 @@
       "registry_name": "rotten_block_on_bone_meal_success",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/RottenBlockOnBoneMealSuccessProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/RottenBlockOnBoneMealSuccessProcedure.java"
         ],
         "dependencies": [
           {
@@ -1280,7 +1280,7 @@
       "registry_name": "rotten_block_entity_walks_on_the_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/RottenBlockEntityWalksOnTheBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/RottenBlockEntityWalksOnTheBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -1303,7 +1303,7 @@
           "src/main/resources/data/fightsfrights/loot_tables/blocks/rotten_block.json",
           "src/main/resources/assets/fightsfrights/models/item/rotten_block.json",
           "src/main/resources/assets/fightsfrights/models/block/rotten_block.json",
-          "src/main/java/net/mcreator/fightsfrights/block/RottenBlockBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/RottenBlockBlock.java"
         ]
       },
       "path": "~/Items/Rotten_Block"
@@ -1342,7 +1342,7 @@
       "registry_name": "totem_block_on_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TotemBlockOnTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TotemBlockOnTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -1374,7 +1374,7 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/loot_tables/blocks/totem_block.json",
-          "src/main/java/net/mcreator/fightsfrights/block/TotemBlockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/TotemBlockBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/totem_block.json",
           "src/main/resources/assets/fightsfrights/models/block/totem_block.json",
           "src/main/resources/assets/fightsfrights/blockstates/totem_block.json"
@@ -1419,7 +1419,7 @@
           "src/main/resources/assets/fightsfrights/models/block/empty_hex_block.json",
           "src/main/resources/assets/fightsfrights/blockstates/empty_hex_block.json",
           "src/main/resources/assets/fightsfrights/models/item/empty_hex_block.json",
-          "src/main/java/net/mcreator/fightsfrights/block/EmptyHexBlockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/EmptyHexBlockBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/empty_hex_block.json"
         ]
       },
@@ -1434,7 +1434,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/hex.json",
-          "src/main/java/net/mcreator/fightsfrights/item/HexItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/HexItem.java"
         ]
       },
       "path": "~/Items/Hexblock/Hex"
@@ -1447,7 +1447,7 @@
       "registry_name": "empty_hex",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/EmptyHexItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/EmptyHexItem.java",
           "src/main/resources/assets/fightsfrights/models/item/empty_hex.json"
         ]
       },
@@ -1461,7 +1461,7 @@
       "registry_name": "ominous_bottle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/OminousBottleItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/OminousBottleItem.java",
           "src/main/resources/assets/fightsfrights/models/item/ominous_bottle.json"
         ]
       },
@@ -1475,7 +1475,7 @@
       "registry_name": "ominous_bottle_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/OminousBottlePlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/OminousBottlePlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -1514,7 +1514,7 @@
       "registry_name": "bottling_omen",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BottlingOmenProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BottlingOmenProcedure.java"
         ],
         "dependencies": [
           {
@@ -1557,7 +1557,7 @@
           "src/main/resources/assets/fightsfrights/models/item/hexblock.json",
           "src/main/resources/assets/fightsfrights/models/block/hexblock.json",
           "src/main/resources/assets/fightsfrights/blockstates/hexblock.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HexblockBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/HexblockBlock.java"
         ]
       },
       "path": "~/Items/Hexblock/Hex"
@@ -1570,7 +1570,7 @@
       "registry_name": "hex_block_on_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/HexBlockOnTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/HexBlockOnTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -1601,7 +1601,7 @@
       "registry_name": "ravager_horn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/RavagerHornItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/RavagerHornItem.java",
           "src/main/resources/assets/fightsfrights/models/item/ravager_horn.json"
         ]
       },
@@ -1615,7 +1615,7 @@
       "registry_name": "ravager_horn_rightclicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/RavagerHornRightclickedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/RavagerHornRightclickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -1654,7 +1654,7 @@
       "registry_name": "ravager_drop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/RavagerDropProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/RavagerDropProcedure.java"
         ],
         "dependencies": [
           {
@@ -1689,7 +1689,7 @@
       "registry_name": "elder_drop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ElderDropProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ElderDropProcedure.java"
         ],
         "dependencies": [
           {
@@ -1724,7 +1724,7 @@
       "registry_name": "elder_spine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/ElderSpineItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/ElderSpineItem.java",
           "src/main/resources/assets/fightsfrights/models/item/elder_spine.json"
         ]
       },
@@ -1749,7 +1749,7 @@
       "registry_name": "guardians_strength_crafting",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/GuardiansStrengthCraftingBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/GuardiansStrengthCraftingBrewingRecipe.java"
         ]
       },
       "path": "~/Items/Elder Spine"
@@ -1840,7 +1840,7 @@
       "registry_name": "monstruous_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/MonstruousPlateItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/MonstruousPlateItem.java",
           "src/main/resources/assets/fightsfrights/models/item/monstruous_plate.json"
         ]
       },
@@ -1867,7 +1867,7 @@
       "registry_name": "monstrous_armor_helmet_tick_event",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MonstrousArmorHelmetTickEventProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MonstrousArmorHelmetTickEventProcedure.java"
         ],
         "dependencies": [
           {
@@ -1886,7 +1886,7 @@
       "registry_name": "monstrous_armor_chestplate_tick_event",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MonstrousArmorChestplateTickEventProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MonstrousArmorChestplateTickEventProcedure.java"
         ],
         "dependencies": [
           {
@@ -1905,7 +1905,7 @@
       "registry_name": "monstrous_armor_leggings_tick_event",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MonstrousArmorLeggingsTickEventProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MonstrousArmorLeggingsTickEventProcedure.java"
         ],
         "dependencies": [
           {
@@ -1926,7 +1926,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/monstrous_armor_chestplate.json",
           "src/main/resources/assets/fightsfrights/models/item/monstrous_armor_helmet.json",
-          "src/main/java/net/mcreator/fightsfrights/item/MonstrousArmorItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/MonstrousArmorItem.java",
           "src/main/resources/assets/fightsfrights/models/item/monstrous_armor_leggings.json",
           "src/main/resources/assets/fightsfrights/models/item/monstrous_armor_boots.json"
         ]
@@ -1993,7 +1993,7 @@
       "registry_name": "monstrous_armor_boots_tick_event",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MonstrousArmorBootsTickEventProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MonstrousArmorBootsTickEventProcedure.java"
         ],
         "dependencies": [
           {
@@ -2092,7 +2092,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/blight_stem.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_stem.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightStemBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightStemBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/blight_stem.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blight_stem.json"
         ]
@@ -2107,7 +2107,7 @@
       "registry_name": "bllight_cap_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/BllightCapBlockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BllightCapBlockBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/bllight_cap_block.json",
           "src/main/resources/assets/fightsfrights/blockstates/bllight_cap_block.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/bllight_cap_block.json",
@@ -2124,7 +2124,7 @@
       "registry_name": "blightcap_mobplayer_collides_with_plant",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BlightcapMobplayerCollidesWithPlantProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BlightcapMobplayerCollidesWithPlantProcedure.java"
         ],
         "dependencies": [
           {
@@ -2156,8 +2156,8 @@
       "registry_name": "blightcap",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/grower/BlightcapTreeGrower.java",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightcapBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/grower/BlightcapTreeGrower.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightcapBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blightcap.json",
           "src/main/resources/assets/fightsfrights/models/item/blightcap.json",
           "src/main/resources/assets/fightsfrights/models/block/blightcap.json",
@@ -2198,7 +2198,7 @@
       "registry_name": "deathblightbrew",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/DeathblightbrewBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/DeathblightbrewBrewingRecipe.java"
         ]
       },
       "path": "~/Items/Blightcap"
@@ -2214,7 +2214,7 @@
           "src/main/resources/data/fightsfrights/loot_tables/blocks/dark_trama.json",
           "src/main/resources/assets/fightsfrights/models/item/dark_trama.json",
           "src/main/resources/assets/fightsfrights/blockstates/dark_trama.json",
-          "src/main/java/net/mcreator/fightsfrights/block/DarkTramaBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/DarkTramaBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/dark_trama.json"
         ]
       },
@@ -2245,7 +2245,7 @@
           "src/main/resources/assets/fightsfrights/models/item/blight_planks.json",
           "src/main/resources/assets/fightsfrights/blockstates/blight_planks.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blight_planks.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightPlanksBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/BlightPlanksBlock.java"
         ]
       },
       "path": "~/Items/Blightcap/BlightWood"
@@ -2262,7 +2262,7 @@
           "src/main/resources/assets/fightsfrights/blockstates/blight_hyphae.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_hyphae.json",
           "src/main/resources/assets/fightsfrights/models/item/blight_hyphae.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightHyphaeBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/BlightHyphaeBlock.java"
         ]
       },
       "path": "~/Items/Blightcap/BlightWood"
@@ -2277,7 +2277,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/blight_stairs_inner.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blight_stairs.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightStairsBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightStairsBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/blight_stairs.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_stairs.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_stairs_outer.json",
@@ -2295,7 +2295,7 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blight_slab.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightSlabBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightSlabBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/blight_slab.json",
           "src/main/resources/assets/fightsfrights/models/item/blight_slab.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_slab.json",
@@ -2317,7 +2317,7 @@
           "src/main/resources/assets/fightsfrights/models/block/blight_fence.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_fence_inventory.json",
           "src/main/resources/assets/fightsfrights/blockstates/blight_fence.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightFenceBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightFenceBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blight_fence.json",
           "src/main/resources/assets/fightsfrights/models/item/blight_fence.json"
         ]
@@ -2334,7 +2334,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/blight_fencegate.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_fencegate_wall.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightFencegateBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightFencegateBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/blight_fencegate_open.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blight_fencegate.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_fencegate.json",
@@ -2354,7 +2354,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/blight_button_pressed.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_button_inventory.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightButtonBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightButtonBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/blight_button.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_button.json",
           "src/main/resources/assets/fightsfrights/models/item/blight_button.json",
@@ -2376,7 +2376,7 @@
           "src/main/resources/assets/fightsfrights/models/block/blight_trapdoor.json",
           "src/main/resources/assets/fightsfrights/models/block/blight_trapdoor_open.json",
           "src/main/resources/assets/fightsfrights/blockstates/blight_trapdoor.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightTrapdoorBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightTrapdoorBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/blight_trapdoor.json"
         ]
       },
@@ -2392,7 +2392,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/blightdoor_top_right.json",
           "src/main/resources/assets/fightsfrights/models/block/blightdoor_top_left_open.json",
-          "src/main/java/net/mcreator/fightsfrights/block/BlightdoorBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/BlightdoorBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/blightdoor_top_right_open.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/blightdoor.json",
           "src/main/resources/assets/fightsfrights/models/block/blightdoor_bottom_left.json",
@@ -2739,9 +2739,9 @@
       "registry_name": "crusher_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/world/inventory/GUIthingyMenu.java",
-          "src/main/java/net/mcreator/fightsfrights/client/gui/GUIthingyScreen.java",
-          "src/main/java/net/mcreator/fightsfrights/network/GUIthingyButtonMessage.java"
+          "src/main/java/com/FnF/fightsfrights/world/inventory/GUIthingyMenu.java",
+          "src/main/java/com/FnF/fightsfrights/client/gui/GUIthingyScreen.java",
+          "src/main/java/com/FnF/fightsfrights/network/GUIthingyButtonMessage.java"
         ]
       },
       "path": "~/Items/Crusher"
@@ -2754,7 +2754,7 @@
       "registry_name": "xp_converter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/XpCoverterProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/XpCoverterProcedure.java"
         ],
         "dependencies": [
           {
@@ -2789,7 +2789,7 @@
       "registry_name": "crusher",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/CrusherBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/CrusherBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/crusher.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/crusher.json",
           "src/main/resources/assets/fightsfrights/models/item/crusher.json",
@@ -2806,7 +2806,7 @@
       "registry_name": "hostile_sound",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/HostileSoundProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/HostileSoundProcedure.java"
         ],
         "dependencies": [
           {
@@ -2860,7 +2860,7 @@
       "registry_name": "summon_monster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SummonMonsterProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SummonMonsterProcedure.java"
         ],
         "dependencies": [
           {
@@ -2895,7 +2895,7 @@
       "registry_name": "reanimated_it_is_struck_by_lightning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ReanimatedItIsStruckByLightningProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ReanimatedItIsStruckByLightningProcedure.java"
         ],
         "dependencies": [
           {
@@ -2930,7 +2930,7 @@
       "registry_name": "reanimated_entity_dies",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ReanimatedEntityDiesProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ReanimatedEntityDiesProcedure.java"
         ],
         "dependencies": [
           {
@@ -2961,7 +2961,7 @@
       "registry_name": "reanimated_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ReanimatedEntityIsHurtProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ReanimatedEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -2992,10 +2992,10 @@
       "registry_name": "reanimated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/ReanimatedEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ReanimatedRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ReanimatedModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/ReanimatedLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/ReanimatedEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ReanimatedRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/ReanimatedModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/ReanimatedLayer.java",
           "src/main/resources/assets/fightsfrights/models/item/reanimated_spawn_egg.json"
         ]
       },
@@ -3009,7 +3009,7 @@
       "registry_name": "charged_scrap",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/ChargedScrapItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/ChargedScrapItem.java",
           "src/main/resources/assets/fightsfrights/models/item/charged_scrap.json"
         ]
       },
@@ -3023,7 +3023,7 @@
       "registry_name": "charged_scrap_proyectile_projectile_hits_living_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ChargedScrapProyectileProjectileHitsLivingEntityProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ChargedScrapProyectileProjectileHitsLivingEntityProcedure.java"
         ],
         "dependencies": [
           {
@@ -3054,8 +3054,8 @@
       "registry_name": "charged_scrap_proyectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/ChargedScrapProyectileEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ChargedScrapProyectileRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/ChargedScrapProyectileEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ChargedScrapProyectileRenderer.java"
         ]
       },
       "path": "~/Items/ChargedScrap"
@@ -3105,7 +3105,7 @@
       "registry_name": "charged_flesh_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ChargedFleshPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ChargedFleshPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -3141,7 +3141,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/charged_flesh.json",
-          "src/main/java/net/mcreator/fightsfrights/item/ChargedFleshItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/ChargedFleshItem.java"
         ]
       },
       "path": "~/Items/Charged_Flesh"
@@ -3193,7 +3193,7 @@
       "registry_name": "ominous_hex_advancement",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/OminousHexAdvancementProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/OminousHexAdvancementProcedure.java"
         ],
         "dependencies": [
           {
@@ -3216,11 +3216,11 @@
       "registry_name": "ghastly_general",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/GhastlyGeneralRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/GhastlyGeneralRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/ghastly_general_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/GhastlyGeneralEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/GhastlyGeneralLayer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/GhastlyGeneralModel.java"
+          "src/main/java/com/FnF/fightsfrights/entity/GhastlyGeneralEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/GhastlyGeneralLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/GhastlyGeneralModel.java"
         ]
       },
       "path": "~/Mobs/Bosses/GhastlyGeneral"
@@ -3234,7 +3234,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/poison_orb_item.json",
-          "src/main/java/net/mcreator/fightsfrights/item/PoisonOrbItemItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/PoisonOrbItemItem.java"
         ]
       },
       "path": "~/Items/Weapons/DeadsteelScimitar"
@@ -3247,7 +3247,7 @@
       "registry_name": "poison_orb_projectile_hits_living_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoisonOrbProjectileHitsLivingEntityProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoisonOrbProjectileHitsLivingEntityProcedure.java"
         ],
         "dependencies": [
           {
@@ -3282,8 +3282,8 @@
       "registry_name": "poison_orb",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/PoisonOrbEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/PoisonOrbRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/PoisonOrbEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/PoisonOrbRenderer.java"
         ]
       },
       "path": "~/Items/Weapons/DeadsteelScimitar/orb"
@@ -3296,7 +3296,7 @@
       "registry_name": "poison_orb_projectile_hits_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoisonOrbProjectileHitsBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoisonOrbProjectileHitsBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -3327,7 +3327,7 @@
       "registry_name": "poison_orb_while_projectile_flying_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoisonOrbWhileProjectileFlyingTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoisonOrbWhileProjectileFlyingTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -3359,7 +3359,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/ominous_soul.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/OminousSoulParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/OminousSoulParticle.java"
         ]
       },
       "path": "~/Effects/Cursed"
@@ -3372,7 +3372,7 @@
       "registry_name": "nominion_aggression",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/NominionAggressionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/NominionAggressionProcedure.java"
         ],
         "dependencies": [
           {
@@ -3407,7 +3407,7 @@
       "registry_name": "deadsteel_scimitar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/DeadsteelScimitarItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/DeadsteelScimitarItem.java",
           "src/main/resources/assets/fightsfrights/models/item/deadsteel_scimitar.json"
         ]
       },
@@ -3421,7 +3421,7 @@
       "registry_name": "putrid_scythe_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/PutridScythe2Item.java",
+          "src/main/java/com/FnF/fightsfrights/item/PutridScythe2Item.java",
           "src/main/resources/assets/fightsfrights/models/item/putrid_scythe_2.json"
         ]
       },
@@ -3448,7 +3448,7 @@
       "registry_name": "ominoustrannsformation",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/UhhhProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/UhhhProcedure.java"
         ],
         "dependencies": [
           {
@@ -3475,7 +3475,7 @@
       "registry_name": "cursed_effect_expires",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/CursedEffectExpiresProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/CursedEffectExpiresProcedure.java"
         ],
         "dependencies": [
           {
@@ -3510,7 +3510,7 @@
       "registry_name": "cursed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/CursedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/CursedMobEffect.java"
         ]
       },
       "path": "~/Effects/Cursed"
@@ -3523,7 +3523,7 @@
       "registry_name": "ultimate_method_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/UltimateMethodLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/UltimateMethodLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -3555,7 +3555,7 @@
       "registry_name": "ghastly_general_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GhastlyGeneralOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GhastlyGeneralOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -3578,7 +3578,7 @@
       "registry_name": "shackled_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShackledOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShackledOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -3613,11 +3613,11 @@
       "registry_name": "shackled",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ShackledModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/ShackledModel.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/shackled_biome_modifier.json",
           "src/main/resources/assets/fightsfrights/models/item/shackled_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/ShackledEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ShackledRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/ShackledEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ShackledRenderer.java"
         ]
       },
       "path": "~/Mobs/Shackled"
@@ -3630,7 +3630,7 @@
       "registry_name": "shackled_entity_dies",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShackledEntityDiesProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShackledEntityDiesProcedure.java"
         ],
         "dependencies": [
           {
@@ -3661,7 +3661,7 @@
       "registry_name": "allbomb",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/AllbombItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/AllbombItem.java",
           "src/main/resources/assets/fightsfrights/models/item/allbomb.json"
         ]
       },
@@ -3675,7 +3675,7 @@
       "registry_name": "allbomb_proyectile_projectile_hits_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AllbombProyectileProjectileHitsBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AllbombProyectileProjectileHitsBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -3706,7 +3706,7 @@
       "registry_name": "allbomb_proyectile_projectile_hits_living_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AllbombProyectileProjectileHitsLivingEntityProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AllbombProyectileProjectileHitsLivingEntityProcedure.java"
         ],
         "dependencies": [
           {
@@ -3741,7 +3741,7 @@
       "registry_name": "allbomb_proyectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/AllbombProyectileEntity.java"
+          "src/main/java/com/FnF/fightsfrights/entity/AllbombProyectileEntity.java"
         ]
       },
       "path": "~/Items/Allbomb"
@@ -3767,11 +3767,11 @@
       "registry_name": "piglin_prosecutor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/PiglinProsecutorRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/PiglinProsecutorRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/piglin_prosecutor_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/PiglinProsecutorLayer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/PiglinProsecutorEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/PiglinProsecutorModel.java"
+          "src/main/java/com/FnF/fightsfrights/entity/layer/PiglinProsecutorLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/PiglinProsecutorEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/PiglinProsecutorModel.java"
         ]
       },
       "path": "~/Mobs/Bosses/Piglin Prosecutor"
@@ -3784,7 +3784,7 @@
       "registry_name": "nominion_aggression_pp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/NominionAggressionPPProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/NominionAggressionPPProcedure.java"
         ],
         "dependencies": [
           {
@@ -3819,7 +3819,7 @@
       "registry_name": "p_ptick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PPtickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PPtickProcedure.java"
         ],
         "dependencies": [
           {
@@ -3854,7 +3854,7 @@
       "registry_name": "spawn_pp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SpawnPPProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SpawnPPProcedure.java"
         ],
         "dependencies": [
           {
@@ -3882,7 +3882,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/blunt_javelin.json",
-          "src/main/java/net/mcreator/fightsfrights/item/BluntJavelinItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/BluntJavelinItem.java"
         ]
       },
       "path": "~/Items/Blunt Javelin"
@@ -3895,8 +3895,8 @@
       "registry_name": "bluntjavelinproyectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/BluntjavelinproyectileRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/BluntjavelinproyectileEntity.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/BluntjavelinproyectileRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/BluntjavelinproyectileEntity.java"
         ]
       },
       "path": "~/Items/Blunt Javelin"
@@ -3923,7 +3923,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/goopparticle.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/GoopparticleParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/GoopparticleParticle.java"
         ]
       },
       "path": "~/Items/Blunt Javelin"
@@ -3936,7 +3936,7 @@
       "registry_name": "bluntjavelinproyectile_projectile_hits_living_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BluntjavelinproyectileProjectileHitsLivingEntityProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BluntjavelinproyectileProjectileHitsLivingEntityProcedure.java"
         ],
         "dependencies": [
           {
@@ -3967,7 +3967,7 @@
       "registry_name": "bluntjavelinproyectile_projectile_hits_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BluntjavelinproyectileProjectileHitsBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BluntjavelinproyectileProjectileHitsBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -3998,7 +3998,7 @@
       "registry_name": "pungent_soup_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PungentSoupPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PungentSoupPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -4021,7 +4021,7 @@
       "registry_name": "pungent_soup",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/PungentSoupItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/PungentSoupItem.java",
           "src/main/resources/assets/fightsfrights/models/item/pungent_soup.json"
         ]
       },
@@ -4048,7 +4048,7 @@
       "registry_name": "ominous_tusk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/OminousTuskItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/OminousTuskItem.java",
           "src/main/resources/assets/fightsfrights/models/item/ominous_tusk.json"
         ]
       },
@@ -4062,7 +4062,7 @@
       "registry_name": "ominous_tusk_use",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/OminousTuskUseProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/OminousTuskUseProcedure.java"
         ],
         "dependencies": [
           {
@@ -4101,7 +4101,7 @@
       "registry_name": "ominous_tusk_item_in_inventory_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/OminousTuskItemInInventoryTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/OminousTuskItemInInventoryTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -4132,7 +4132,7 @@
       "registry_name": "terrified",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/TerrifiedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/TerrifiedMobEffect.java"
         ]
       },
       "path": "~/Effects/Terrified"
@@ -4145,7 +4145,7 @@
       "registry_name": "sweat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SweatProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SweatProcedure.java"
         ],
         "dependencies": [
           {
@@ -4191,11 +4191,11 @@
       "registry_name": "imperial_illager_p_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/ImperialIllagerP1Entity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/ImperialIllagerP1Layer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/ImperialIllagerP1Entity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/ImperialIllagerP1Layer.java",
           "src/main/resources/assets/fightsfrights/models/item/imperial_illager_p_1_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ImperialIllagerP1Renderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ImperialIllagerP1Model.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ImperialIllagerP1Renderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/ImperialIllagerP1Model.java"
         ]
       },
       "path": "~/Mobs/Bosses/Imperial Illager"
@@ -4208,7 +4208,7 @@
       "registry_name": "tick_p_1_imperial_illager",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TickP1ImperialIllagerProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TickP1ImperialIllagerProcedure.java"
         ],
         "dependencies": [
           {
@@ -4244,10 +4244,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/imperial_illager_p_2_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ImperialIllagerP2Model.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/ImperialIllagerP2Entity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ImperialIllagerP2Renderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/ImperialIllagerP2Layer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/model/ImperialIllagerP2Model.java",
+          "src/main/java/com/FnF/fightsfrights/entity/ImperialIllagerP2Entity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ImperialIllagerP2Renderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/ImperialIllagerP2Layer.java"
         ]
       },
       "path": "~/Mobs/Bosses/Imperial Illager"
@@ -4260,7 +4260,7 @@
       "registry_name": "imperial_illager_p_2_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ImperialIllagerP2OnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ImperialIllagerP2OnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -4279,7 +4279,7 @@
       "registry_name": "tick_p_2_imperial_illager",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TickP2ImperialIllagerProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TickP2ImperialIllagerProcedure.java"
         ],
         "dependencies": [
           {
@@ -4314,7 +4314,7 @@
       "registry_name": "no_minion_aggresion_ii",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/NoMinionAggresionIIProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/NoMinionAggresionIIProcedure.java"
         ],
         "dependencies": [
           {
@@ -4349,7 +4349,7 @@
       "registry_name": "spawn_ii",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SpawnIIProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SpawnIIProcedure.java"
         ],
         "dependencies": [
           {
@@ -4376,7 +4376,7 @@
       "registry_name": "soulstorm",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SoulstormProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SoulstormProcedure.java"
         ],
         "dependencies": [
           {
@@ -4412,7 +4412,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/ominous_scepter.json",
-          "src/main/java/net/mcreator/fightsfrights/item/OminousScepterItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/OminousScepterItem.java"
         ]
       },
       "path": "~/Items/OminousScepter"
@@ -4425,7 +4425,7 @@
       "registry_name": "ominous_scepter_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/OminousScepterPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/OminousScepterPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -4460,7 +4460,7 @@
       "registry_name": "i_iproyectile_projectile_hits_living_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/IIproyectileProjectileHitsLivingEntityProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/IIproyectileProjectileHitsLivingEntityProcedure.java"
         ],
         "dependencies": [
           {
@@ -4491,8 +4491,8 @@
       "registry_name": "i_iproyectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/IIproyectileRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/IIproyectileEntity.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/IIproyectileRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/IIproyectileEntity.java"
         ]
       },
       "path": "~/Items/OminousScepter"
@@ -4505,11 +4505,11 @@
       "registry_name": "effigy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/EffigyLayer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/EffigyEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/EffigyModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/EffigyLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/EffigyEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/EffigyModel.java",
           "src/main/resources/assets/fightsfrights/models/item/effigy_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/EffigyRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/EffigyRenderer.java"
         ]
       },
       "path": "~/Mobs/Effigy"
@@ -4522,7 +4522,7 @@
       "registry_name": "summon_time",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/SummonTimeMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/SummonTimeMobEffect.java"
         ]
       },
       "path": "~/Effects/Summoned"
@@ -4535,7 +4535,7 @@
       "registry_name": "summon_storm",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SummonStormProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SummonStormProcedure.java"
         ],
         "dependencies": [
           {
@@ -4570,7 +4570,7 @@
       "registry_name": "summon_time_effect_expires",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SummonTimeEffectExpiresProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SummonTimeEffectExpiresProcedure.java"
         ],
         "dependencies": [
           {
@@ -4593,7 +4593,7 @@
       "registry_name": "scepterhitsentity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ScepterhitsentityProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ScepterhitsentityProcedure.java"
         ],
         "dependencies": [
           {
@@ -4624,7 +4624,7 @@
       "registry_name": "i_iproyectile_while_projectile_flying_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/IIproyectileWhileProjectileFlyingTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/IIproyectileWhileProjectileFlyingTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -4655,7 +4655,7 @@
       "registry_name": "p_2nominionaggresion",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/P2nominionaggresionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/P2nominionaggresionProcedure.java"
         ],
         "dependencies": [
           {
@@ -4703,7 +4703,7 @@
       "registry_name": "vsd_entity_walks_on_the_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/VSDEntityWalksOnTheBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/VSDEntityWalksOnTheBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -4722,7 +4722,7 @@
       "registry_name": "vsd",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/VSDBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/VSDBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/vsd.json",
           "src/main/resources/assets/fightsfrights/models/block/vsd.json",
           "src/main/resources/assets/fightsfrights/blockstates/vsd.json",
@@ -4765,7 +4765,7 @@
       "registry_name": "charged_chili_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ChargedChiliPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ChargedChiliPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -4800,7 +4800,7 @@
       "registry_name": "charged_chili",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/ChargedChiliItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/ChargedChiliItem.java",
           "src/main/resources/assets/fightsfrights/models/item/charged_chili.json"
         ]
       },
@@ -4827,7 +4827,7 @@
       "registry_name": "cheese_stick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/CheeseStickItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/CheeseStickItem.java",
           "src/main/resources/assets/fightsfrights/models/item/cheese_stick.json"
         ]
       },
@@ -4841,7 +4841,7 @@
       "registry_name": "cheese_stick_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/CheeseStickPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/CheeseStickPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -4889,9 +4889,9 @@
       "registry_name": "wicke_warmonger",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/WickeWarmongerRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/WickeWarmongerEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/WickeWarmongerModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/WickeWarmongerRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/WickeWarmongerEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/WickeWarmongerModel.java",
           "src/main/resources/assets/fightsfrights/models/item/wicke_warmonger_spawn_egg.json"
         ]
       },
@@ -4905,7 +4905,7 @@
       "registry_name": "spawn_ww",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SpawnWWProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SpawnWWProcedure.java"
         ],
         "dependencies": [
           {
@@ -4932,7 +4932,7 @@
       "registry_name": "w_wtick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/WWtickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/WWtickProcedure.java"
         ],
         "dependencies": [
           {
@@ -4967,7 +4967,7 @@
       "registry_name": "wwnma",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/WWNMAProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/WWNMAProcedure.java"
         ],
         "dependencies": [
           {
@@ -5003,10 +5003,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/malicious_monarch_p_1_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MaliciousMonarchP1Renderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MaliciousMonarchP1Entity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MaliciousMonarchP1Model.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/MaliciousMonarchP1Layer.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MaliciousMonarchP1Renderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MaliciousMonarchP1Entity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MaliciousMonarchP1Model.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/MaliciousMonarchP1Layer.java"
         ]
       },
       "path": "~/Mobs/Bosses/Imperial Illager/MaliciousMonarch"
@@ -5019,11 +5019,11 @@
       "registry_name": "malicious_monarch_p_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/MaliciousMonarchP2Layer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MaliciousMonarchP2Entity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/MaliciousMonarchP2Layer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MaliciousMonarchP2Entity.java",
           "src/main/resources/assets/fightsfrights/models/item/malicious_monarch_p_2_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MaliciousMonarchP2Renderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MaliciousMonarchP2Model.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MaliciousMonarchP2Renderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MaliciousMonarchP2Model.java"
         ]
       },
       "path": "~/Mobs/Bosses/Imperial Illager/MaliciousMonarch"
@@ -5036,7 +5036,7 @@
       "registry_name": "mmp_1tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MMP1tickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MMP1tickProcedure.java"
         ],
         "dependencies": [
           {
@@ -5071,7 +5071,7 @@
       "registry_name": "mmnmap_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MMNMAP1Procedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MMNMAP1Procedure.java"
         ],
         "dependencies": [
           {
@@ -5106,7 +5106,7 @@
       "registry_name": "mmnmap_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MMNMAP2Procedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MMNMAP2Procedure.java"
         ],
         "dependencies": [
           {
@@ -5141,7 +5141,7 @@
       "registry_name": "m_mtick_p_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MMtickP2Procedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MMtickP2Procedure.java"
         ],
         "dependencies": [
           {
@@ -5176,7 +5176,7 @@
       "registry_name": "spawn_mm",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SpawnMMProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SpawnMMProcedure.java"
         ],
         "dependencies": [
           {
@@ -5203,11 +5203,11 @@
       "registry_name": "callous_commander_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/CallousCommander1Renderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/CallousCommander1Layer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/CallousCommander1Model.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/CallousCommander1Renderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/CallousCommander1Layer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/CallousCommander1Model.java",
           "src/main/resources/assets/fightsfrights/models/item/callous_commander_1_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/CallousCommander1Entity.java"
+          "src/main/java/com/FnF/fightsfrights/entity/CallousCommander1Entity.java"
         ]
       },
       "path": "~/Mobs/Bosses/GhastlyGeneral/CallousCommander"
@@ -5220,7 +5220,7 @@
       "registry_name": "cc_shoot_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/CCShoot3Procedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/CCShoot3Procedure.java"
         ],
         "dependencies": [
           {
@@ -5255,7 +5255,7 @@
       "registry_name": "ccnma",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/CCNMAProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/CCNMAProcedure.java"
         ],
         "dependencies": [
           {
@@ -5290,7 +5290,7 @@
       "registry_name": "uhh_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/Uhh2Procedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/Uhh2Procedure.java"
         ],
         "dependencies": [
           {
@@ -5317,7 +5317,7 @@
       "registry_name": "ultimate_method_tool_in_inventory_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/UltimateMethodToolInInventoryTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/UltimateMethodToolInInventoryTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -5362,7 +5362,7 @@
       "registry_name": "averted",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/AvertedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/AvertedMobEffect.java"
         ]
       },
       "path": "~/Effects/Averted"
@@ -5375,7 +5375,7 @@
       "registry_name": "averted_on_effect_activation",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AvertedOnEffectActivationProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AvertedOnEffectActivationProcedure.java"
         ],
         "dependencies": [
           {
@@ -5421,7 +5421,7 @@
       "registry_name": "averted_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/AvertedCraftBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/AvertedCraftBrewingRecipe.java"
         ]
       },
       "path": "~/Effects/Averted"
@@ -5434,7 +5434,7 @@
       "registry_name": "calm",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/CalmMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/CalmMobEffect.java"
         ]
       },
       "path": "~/Effects/Calm"
@@ -5448,7 +5448,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/gazed_particle.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/GazedParticleParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/GazedParticleParticle.java"
         ]
       },
       "path": "~/Effects/Gazed"
@@ -5461,7 +5461,7 @@
       "registry_name": "mad_particlle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/particle/MadParticlleParticle.java",
+          "src/main/java/com/FnF/fightsfrights/client/particle/MadParticlleParticle.java",
           "src/main/resources/assets/fightsfrights/particles/mad_particlle.json"
         ]
       },
@@ -5476,7 +5476,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/calm_particle.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/CalmParticleParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/CalmParticleParticle.java"
         ]
       },
       "path": "~/Effects/Calm"
@@ -5489,7 +5489,7 @@
       "registry_name": "eyed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/EyedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/EyedProcedure.java"
         ],
         "dependencies": [
           {
@@ -5524,7 +5524,7 @@
       "registry_name": "hate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/HateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/HateProcedure.java"
         ],
         "dependencies": [
           {
@@ -5559,7 +5559,7 @@
       "registry_name": "sleepy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SleepyProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SleepyProcedure.java"
         ],
         "dependencies": [
           {
@@ -5594,7 +5594,7 @@
       "registry_name": "jellied_on_effect_active_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/JelliedOnEffectActiveTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/JelliedOnEffectActiveTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -5613,7 +5613,7 @@
       "registry_name": "hardened",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/HardenedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/HardenedMobEffect.java"
         ]
       },
       "path": "~/Effects/Jellied"
@@ -5626,7 +5626,7 @@
       "registry_name": "mimicbeetlesspawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimicdiamspawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimicdiamspawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -5665,7 +5665,7 @@
       "registry_name": "beetle_blue",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/particle/BeetleBlueParticle.java",
+          "src/main/java/com/FnF/fightsfrights/client/particle/BeetleBlueParticle.java",
           "src/main/resources/assets/fightsfrights/particles/beetle_blue.json"
         ]
       },
@@ -5679,7 +5679,7 @@
       "registry_name": "ultimate_method_updated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/UltimateMethodUpdatedItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/UltimateMethodUpdatedItem.java",
           "src/main/resources/assets/fightsfrights/models/item/ultimate_method_updated.json"
         ]
       },
@@ -5707,7 +5707,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/beetleyellow.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/BeetleyellowParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/BeetleyellowParticle.java"
         ]
       },
       "path": "~/Mobs/MimicBeetles"
@@ -5720,7 +5720,7 @@
       "registry_name": "beetle_red",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/particle/BeetleRedParticle.java",
+          "src/main/java/com/FnF/fightsfrights/client/particle/BeetleRedParticle.java",
           "src/main/resources/assets/fightsfrights/particles/beetle_red.json"
         ]
       },
@@ -5735,7 +5735,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/beetle_gold.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/BeetleGoldParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/BeetleGoldParticle.java"
         ]
       },
       "path": "~/Mobs/MimicBeetles"
@@ -5748,7 +5748,7 @@
       "registry_name": "mimic_beetle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/MimicBeetleItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/MimicBeetleItem.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_beetle.json"
         ]
       },
@@ -5841,11 +5841,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/grimmsquito_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/GrimmsquitoRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/GrimmsquitoRenderer.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/grimmsquito_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/GrimmsquitoLayer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/GrimmsquitoModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/GrimmsquitoEntity.java"
+          "src/main/java/com/FnF/fightsfrights/entity/layer/GrimmsquitoLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/GrimmsquitoModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/GrimmsquitoEntity.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito"
@@ -5858,7 +5858,7 @@
       "registry_name": "grimmsquito_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GrimmsquitoOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GrimmsquitoOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -5877,7 +5877,7 @@
       "registry_name": "forewings_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ForewingsPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ForewingsPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -5916,7 +5916,7 @@
       "registry_name": "forewings",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/ForewingsItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/ForewingsItem.java",
           "src/main/resources/assets/fightsfrights/models/item/forewings.json"
         ]
       },
@@ -5943,7 +5943,7 @@
       "registry_name": "addicted",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/AddictedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/AddictedMobEffect.java"
         ]
       },
       "path": "~/Effects/Addicted"
@@ -5956,7 +5956,7 @@
       "registry_name": "addicted_effect_expires",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AddictedEffectExpiresProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AddictedEffectExpiresProcedure.java"
         ],
         "dependencies": [
           {
@@ -5979,7 +5979,7 @@
       "registry_name": "bug_dust_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BugDustPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BugDustPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -5998,7 +5998,7 @@
       "registry_name": "bug_dust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/BugDustItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/BugDustItem.java",
           "src/main/resources/assets/fightsfrights/models/item/bug_dust.json"
         ]
       },
@@ -6040,9 +6040,9 @@
         "files": [
           "src/main/resources/data/fightsfrights/forge/biome_modifier/shadow_biome_modifier.json",
           "src/main/resources/assets/fightsfrights/models/item/shadow_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/ShadowEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ShadowRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ShadowModel.java"
+          "src/main/java/com/FnF/fightsfrights/entity/ShadowEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ShadowRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/ShadowModel.java"
         ]
       },
       "path": "~/Mobs/Shadow"
@@ -6055,7 +6055,7 @@
       "registry_name": "shadow_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShadowOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShadowOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -6087,7 +6087,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/shadowparticle.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/ShadowparticleParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/ShadowparticleParticle.java"
         ]
       },
       "path": "~/Mobs/Shadow"
@@ -6100,7 +6100,7 @@
       "registry_name": "shadow_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShadowOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShadowOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -6135,10 +6135,10 @@
       "registry_name": "shadowcompanion",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ShadowcompanionRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ShadowcompanionModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ShadowcompanionRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/ShadowcompanionModel.java",
           "src/main/resources/assets/fightsfrights/models/item/shadowcompanion_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/ShadowcompanionEntity.java"
+          "src/main/java/com/FnF/fightsfrights/entity/ShadowcompanionEntity.java"
         ]
       },
       "path": "~/Mobs/Shadow"
@@ -6151,9 +6151,9 @@
       "registry_name": "shadowcompanioncompanion",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/model/ShadowcompanioncompanionModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/ShadowcompanioncompanionEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ShadowcompanioncompanionRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/ShadowcompanioncompanionModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/ShadowcompanioncompanionEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ShadowcompanioncompanionRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/shadowcompanioncompanion_spawn_egg.json"
         ]
       },
@@ -6167,7 +6167,7 @@
       "registry_name": "shadow_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShadowEntityIsHurtProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShadowEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -6202,7 +6202,7 @@
       "registry_name": "shadowcompanion_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShadowcompanionEntityIsHurtProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShadowcompanionEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -6237,7 +6237,7 @@
       "registry_name": "effigy_dash",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/EffigyDashProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/EffigyDashProcedure.java"
         ],
         "dependencies": [
           {
@@ -6257,9 +6257,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/forge/biome_modifier/mimentis_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimentisRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimentisModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimentisEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimentisRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimentisModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimentisEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/mimentis_spawn_egg.json"
         ]
       },
@@ -6273,10 +6273,10 @@
       "registry_name": "mimic_scowl",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicScowlModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicScowlEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicScowlModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicScowlEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_scowl_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicScowlRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicScowlRenderer.java"
         ]
       },
       "path": "~/Mobs/Mimentis/mimicScowl"
@@ -6289,9 +6289,9 @@
       "registry_name": "mimic_banshaa",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicBanshaaRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicBanshaaModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicBanshaaEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicBanshaaRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicBanshaaModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicBanshaaEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_banshaa_spawn_egg.json"
         ]
       },
@@ -6305,10 +6305,10 @@
       "registry_name": "mimic_terrantula",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicTerrantulaRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/MimicTerrantulaLayer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicTerrantulaEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicTerrantulaModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicTerrantulaRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/MimicTerrantulaLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicTerrantulaEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicTerrantulaModel.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_terrantula_spawn_egg.json"
         ]
       },
@@ -6322,11 +6322,11 @@
       "registry_name": "mimic_pioneer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicPioneerModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicPioneerModel.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_pioneer_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicPioneerEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicPioneerRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/MimicPioneerLayer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/MimicPioneerEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicPioneerRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/MimicPioneerLayer.java"
         ]
       },
       "path": "~/Mobs/Mimentis/mimiPioneer"
@@ -6339,7 +6339,7 @@
       "registry_name": "mimic_banshaatick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimicBanshaatickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimicBanshaatickProcedure.java"
         ],
         "dependencies": [
           {
@@ -6374,7 +6374,7 @@
       "registry_name": "procmimictransform",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ProcmimictransformProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ProcmimictransformProcedure.java"
         ],
         "dependencies": [
           {
@@ -6409,7 +6409,7 @@
       "registry_name": "mimentis_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimentisOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimentisOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -6444,7 +6444,7 @@
       "registry_name": "procdisguisedeath",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ProcdisguisedeathProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ProcdisguisedeathProcedure.java"
         ],
         "dependencies": [
           {
@@ -6475,11 +6475,11 @@
       "registry_name": "mimic_seer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicSeerRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicSeerRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_seer_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicSeerModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicSeerEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/MimicSeerLayer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicSeerModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicSeerEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/MimicSeerLayer.java"
         ]
       },
       "path": "~/Mobs/Mimentis/mimicSeer"
@@ -6492,9 +6492,9 @@
       "registry_name": "mimic_allman",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicAllmanModel.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicAllmanRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicAllmanEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicAllmanModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicAllmanRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicAllmanEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_allman_spawn_egg.json"
         ]
       },
@@ -6508,10 +6508,10 @@
       "registry_name": "mimic_grimmsquito",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicGrimmsquitoRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicGrimmsquitoEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicGrimmsquitoModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/MimicGrimmsquitoLayer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicGrimmsquitoRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicGrimmsquitoEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicGrimmsquitoModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/MimicGrimmsquitoLayer.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_grimmsquito_spawn_egg.json"
         ]
       },
@@ -6525,9 +6525,9 @@
       "registry_name": "mimic_patuti",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicPatutiEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicPatutiModel.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicPatutiRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicPatutiEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicPatutiModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicPatutiRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_patuti_spawn_egg.json"
         ]
       },
@@ -6554,7 +6554,7 @@
       "registry_name": "mimentis_claw",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/MimentisClawItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/MimentisClawItem.java",
           "src/main/resources/assets/fightsfrights/models/item/mimentis_claw.json"
         ]
       },
@@ -6568,7 +6568,7 @@
       "registry_name": "mimentis_claw_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimentisClawLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimentisClawLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -6624,7 +6624,7 @@
       "registry_name": "mimentis_claw_rightclicked_on_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimentisClawRightclickedOnBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimentisClawRightclickedOnBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -6668,7 +6668,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/mimentis_claw_single_use.json",
-          "src/main/java/net/mcreator/fightsfrights/item/MimentisClawSingleUseItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/MimentisClawSingleUseItem.java"
         ]
       },
       "path": "~/Items/MimentisClaw/SingleUse"
@@ -6681,7 +6681,7 @@
       "registry_name": "single_use_pull",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SingleUsePullProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SingleUsePullProcedure.java"
         ],
         "dependencies": [
           {
@@ -6724,7 +6724,7 @@
       "registry_name": "single_use_push",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SingleUsePushProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SingleUsePushProcedure.java"
         ],
         "dependencies": [
           {
@@ -6780,7 +6780,7 @@
       "registry_name": "slow_falling",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/SlowFallingBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/SlowFallingBrewingRecipe.java"
         ]
       },
       "path": "~/Items/Grimmsquito_Wings"
@@ -6796,7 +6796,7 @@
           "src/main/resources/data/fightsfrights/loot_tables/blocks/mime_block.json",
           "src/main/resources/assets/fightsfrights/models/block/mime_block.json",
           "src/main/resources/assets/fightsfrights/models/item/mime_block.json",
-          "src/main/java/net/mcreator/fightsfrights/block/MimeBlockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/MimeBlockBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/mime_block.json"
         ]
       },
@@ -6824,9 +6824,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/supai_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/SupaiRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/SupaiEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/SupaiModel.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/SupaiRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/SupaiEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/SupaiModel.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/supai_biome_modifier.json"
         ]
       },
@@ -6840,7 +6840,7 @@
       "registry_name": "infected",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/InfectedMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/InfectedMobEffect.java"
         ]
       },
       "path": "~/Effects/Infected"
@@ -6853,7 +6853,7 @@
       "registry_name": "pathogen_item_in_inventory_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PathogenItemInInventoryTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PathogenItemInInventoryTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -6889,7 +6889,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/pathogen.json",
-          "src/main/java/net/mcreator/fightsfrights/item/PathogenItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/PathogenItem.java"
         ]
       },
       "path": "~/Effects/Infected"
@@ -6902,7 +6902,7 @@
       "registry_name": "pathogen_item_in_inventory_tick_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PathogenItemInInventoryTick2Procedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PathogenItemInInventoryTick2Procedure.java"
         ],
         "dependencies": [
           {
@@ -6949,7 +6949,7 @@
       "registry_name": "dropdamage_virus",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/DropdamageVirusProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/DropdamageVirusProcedure.java"
         ],
         "dependencies": [
           {
@@ -6976,7 +6976,7 @@
       "registry_name": "tickvariableinfected",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TickvariableinfectedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TickvariableinfectedProcedure.java"
         ],
         "dependencies": [
           {
@@ -6999,7 +6999,7 @@
       "registry_name": "tickvariableinfectedreversed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TickvariableinfectedreversedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TickvariableinfectedreversedProcedure.java"
         ],
         "dependencies": [
           {
@@ -7022,7 +7022,7 @@
       "registry_name": "antidote",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/AntidoteItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/AntidoteItem.java",
           "src/main/resources/assets/fightsfrights/models/item/antidote.json"
         ]
       },
@@ -7036,7 +7036,7 @@
       "registry_name": "antidote_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AntidotePlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AntidotePlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -7088,7 +7088,7 @@
       "registry_name": "food_infection",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/FoodInfectionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/FoodInfectionProcedure.java"
         ],
         "dependencies": [
           {
@@ -7115,7 +7115,7 @@
       "registry_name": "asymptomatic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/potion/AsymptomaticMobEffect.java"
+          "src/main/java/com/FnF/fightsfrights/potion/AsymptomaticMobEffect.java"
         ]
       },
       "path": "~/Effects/Asymptomatic"
@@ -7128,7 +7128,7 @@
       "registry_name": "asymptomatic_on_effect_active_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AsymptomaticOnEffectActiveTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AsymptomaticOnEffectActiveTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -7163,7 +7163,7 @@
       "registry_name": "syringe_living_entity_is_hit_with_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SyringeLivingEntityIsHitWithItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SyringeLivingEntityIsHitWithItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -7190,7 +7190,7 @@
       "registry_name": "syringe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/SyringeItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/SyringeItem.java",
           "src/main/resources/assets/fightsfrights/models/item/syringe.json"
         ]
       },
@@ -7204,7 +7204,7 @@
       "registry_name": "infection_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/InfectionSpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/InfectionSpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -7240,7 +7240,7 @@
       "registry_name": "infection_p_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/InfectionPCraftBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/InfectionPCraftBrewingRecipe.java"
         ]
       },
       "path": "~/Effects/Infected"
@@ -7253,7 +7253,7 @@
       "registry_name": "infected_effect_startedapplied",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/InfectedEffectStartedappliedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/InfectedEffectStartedappliedProcedure.java"
         ],
         "dependencies": [
           {
@@ -7285,7 +7285,7 @@
       "registry_name": "emmanence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/EmmanenceProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/EmmanenceProcedure.java"
         ],
         "dependencies": [
           {
@@ -7320,7 +7320,7 @@
       "registry_name": "infection_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/particle/InfectionParticleParticle.java",
+          "src/main/java/com/FnF/fightsfrights/client/particle/InfectionParticleParticle.java",
           "src/main/resources/assets/fightsfrights/particles/infection_particle.json"
         ]
       },
@@ -7334,7 +7334,7 @@
       "registry_name": "grimmsquito_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GrimmsquitoOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GrimmsquitoOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -7369,7 +7369,7 @@
       "registry_name": "hurt_mosquito",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/HurtMosquitoProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/HurtMosquitoProcedure.java"
         ],
         "dependencies": [
           {
@@ -7393,7 +7393,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/poisonous_proboscis.json",
-          "src/main/java/net/mcreator/fightsfrights/item/PoisonousProboscisItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/PoisonousProboscisItem.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Poison"
@@ -7406,8 +7406,8 @@
       "registry_name": "poison_proboscis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/PoisonProboscisEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/PoisonProboscisRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/PoisonProboscisEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/PoisonProboscisRenderer.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Poison"
@@ -7420,7 +7420,7 @@
       "registry_name": "poison_proboscis_projectile_hits_living_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoisonProboscisProjectileHitsLivingEntityProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoisonProboscisProjectileHitsLivingEntityProcedure.java"
         ],
         "dependencies": [
           {
@@ -7459,7 +7459,7 @@
       "registry_name": "terrifying_proboscis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/TerrifyingProboscisItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/TerrifyingProboscisItem.java",
           "src/main/resources/assets/fightsfrights/models/item/terrifying_proboscis.json"
         ]
       },
@@ -7473,8 +7473,8 @@
       "registry_name": "terrified_proboscis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/TerrifiedProboscisEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/TerrifiedProboscisRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/TerrifiedProboscisEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/TerrifiedProboscisRenderer.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Terrified"
@@ -7488,7 +7488,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/blinding_proboscis.json",
-          "src/main/java/net/mcreator/fightsfrights/item/BlindingProboscisItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/BlindingProboscisItem.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Blindness"
@@ -7501,8 +7501,8 @@
       "registry_name": "blindness_proboscis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/BlindnessProboscisRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/BlindnessProboscisEntity.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/BlindnessProboscisRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/BlindnessProboscisEntity.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Blindness"
@@ -7516,7 +7516,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/infectious_proboscis.json",
-          "src/main/java/net/mcreator/fightsfrights/item/InfectiousProboscisItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/InfectiousProboscisItem.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Infected"
@@ -7529,8 +7529,8 @@
       "registry_name": "infected_proboscis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/InfectedProboscisEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/InfectedProboscisRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/InfectedProboscisEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/InfectedProboscisRenderer.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Infected"
@@ -7543,7 +7543,7 @@
       "registry_name": "withered_proboscis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/WitheredProboscisItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/WitheredProboscisItem.java",
           "src/main/resources/assets/fightsfrights/models/item/withered_proboscis.json"
         ]
       },
@@ -7557,8 +7557,8 @@
       "registry_name": "wither_proboscis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/WitherProboscisEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/WitherProboscisRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/WitherProboscisEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/WitherProboscisRenderer.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis/Wither"
@@ -7571,7 +7571,7 @@
       "registry_name": "grimmsquito_proboscis_drop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GrimmsquitoProboscisDropProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GrimmsquitoProboscisDropProcedure.java"
         ],
         "dependencies": [
           {
@@ -7658,7 +7658,7 @@
       "registry_name": "poison_proboscis_projectile_hits_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoisonProboscisProjectileHitsBlockProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoisonProboscisProjectileHitsBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -7690,7 +7690,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/proboscisparticle.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/ProboscisparticleParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/ProboscisparticleParticle.java"
         ]
       },
       "path": "~/Mobs/Grimmsquito/Proboscis"
@@ -7717,7 +7717,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/fly.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/FlyParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/FlyParticle.java"
         ]
       },
       "path": "~/Biomes/BugDen"
@@ -7734,7 +7734,7 @@
           "src/main/resources/assets/fightsfrights/models/item/cocoon.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/cocoon.json",
           "src/main/resources/assets/fightsfrights/models/block/cocoon.json",
-          "src/main/java/net/mcreator/fightsfrights/block/CocoonBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/CocoonBlock.java"
         ]
       },
       "path": "~/Items/Cocoon"
@@ -7747,7 +7747,7 @@
       "registry_name": "cocoon_block_destroyed_by_player",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/CocoonBlockDestroyedByPlayerProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/CocoonBlockDestroyedByPlayerProcedure.java"
         ],
         "dependencies": [
           {
@@ -7860,7 +7860,7 @@
           "src/main/resources/data/fightsfrights/forge/biome_modifier/hivestone_biome_modifier.json",
           "src/main/resources/data/fightsfrights/worldgen/configured_feature/hivestone.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneBlock.java",
           "src/main/resources/data/fightsfrights/worldgen/placed_feature/hivestone.json",
           "src/main/resources/assets/fightsfrights/blockstates/hivestone.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone.json",
@@ -7951,7 +7951,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/peeping_hivestone.json",
-          "src/main/java/net/mcreator/fightsfrights/block/PeepingHivestoneBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/PeepingHivestoneBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/peeping_hivestone.json",
           "src/main/resources/assets/fightsfrights/blockstates/peeping_hivestone.json"
         ]
@@ -7982,7 +7982,7 @@
           "src/main/resources/assets/fightsfrights/models/block/hivestone_slab_top.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_slab.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone_slab.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneSlabBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneSlabBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_slab_full.json",
           "src/main/resources/assets/fightsfrights/blockstates/hivestone_slab.json",
           "src/main/resources/assets/fightsfrights/models/item/hivestone_slab.json"
@@ -7998,7 +7998,7 @@
       "registry_name": "hivestone_stair",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneStairBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneStairBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone_stair.json",
           "src/main/resources/assets/fightsfrights/models/item/hivestone_stair.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_stair.json",
@@ -8018,7 +8018,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/hivestone_wall_inventory.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneWallBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneWallBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone_wall.json",
           "src/main/resources/assets/fightsfrights/blockstates/hivestone_wall.json",
           "src/main/resources/assets/fightsfrights/models/item/hivestone_wall.json",
@@ -8038,7 +8038,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone_slab.json",
-          "src/main/java/net/mcreator/fightsfrights/block/PolishedHivestoneSlabBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/PolishedHivestoneSlabBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/polished_hivestone_slab.json",
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone_slab_top.json",
           "src/main/resources/assets/fightsfrights/blockstates/polished_hivestone_slab.json",
@@ -8057,7 +8057,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/polished_hivestone.json",
-          "src/main/java/net/mcreator/fightsfrights/block/PolishedHivestoneBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/PolishedHivestoneBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/polished_hivestone.json",
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone.json",
           "src/main/resources/assets/fightsfrights/blockstates/polished_hivestone.json"
@@ -8076,7 +8076,7 @@
           "src/main/resources/assets/fightsfrights/models/item/polished_hivestone_stairs.json",
           "src/main/resources/assets/fightsfrights/blockstates/polished_hivestone_stairs.json",
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone_stairs_inner.json",
-          "src/main/java/net/mcreator/fightsfrights/block/PolishedHivestoneStairsBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/PolishedHivestoneStairsBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone_stairs.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/polished_hivestone_stairs.json",
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone_stairs_outer.json"
@@ -8099,7 +8099,7 @@
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone_wall_post.json",
           "src/main/resources/assets/fightsfrights/blockstates/polished_hivestone_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/polished_hivestone_wall_inventory.json",
-          "src/main/java/net/mcreator/fightsfrights/block/PolishedHivestoneWallBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/PolishedHivestoneWallBlock.java"
         ]
       },
       "path": "~/Items/Hivestone/SmoothHivestone"
@@ -8113,7 +8113,7 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone_bricks.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneBricksBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneBricksBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/hivestone_bricks.json",
           "src/main/resources/assets/fightsfrights/blockstates/hivestone_bricks.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks.json"
@@ -8132,7 +8132,7 @@
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_slab.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_slab_top.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone_bricks_slab.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneBricksSlabBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneBricksSlabBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/hivestone_bricks_slab.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_slab_full.json",
           "src/main/resources/assets/fightsfrights/models/item/hivestone_bricks_slab.json"
@@ -8153,7 +8153,7 @@
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_stairs.json",
           "src/main/resources/assets/fightsfrights/models/item/hivestone_bricks_stairs.json",
           "src/main/resources/assets/fightsfrights/blockstates/hivestone_bricks_stairs.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneBricksStairsBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneBricksStairsBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone_bricks_stairs.json"
         ]
       },
@@ -8171,7 +8171,7 @@
           "src/main/resources/assets/fightsfrights/models/item/hivestone_bricks_wall.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/hivestone_bricks_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_wall_inventory.json",
-          "src/main/java/net/mcreator/fightsfrights/block/HivestoneBricksWallBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/HivestoneBricksWallBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_wall_post.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/hivestone_bricks_wall_side_tall.json"
@@ -8190,7 +8190,7 @@
           "src/main/resources/assets/fightsfrights/blockstates/chiseled_hivestone.json",
           "src/main/resources/assets/fightsfrights/models/item/chiseled_hivestone.json",
           "src/main/resources/assets/fightsfrights/models/block/chiseled_hivestone.json",
-          "src/main/java/net/mcreator/fightsfrights/block/ChiseledHivestoneBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/ChiseledHivestoneBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/chiseled_hivestone.json"
         ]
       },
@@ -8542,7 +8542,7 @@
         "files": [
           "src/main/resources/data/fightsfrights/loot_tables/blocks/dreamcatcher.json",
           "src/main/resources/assets/fightsfrights/blockstates/dreamcatcher.json",
-          "src/main/java/net/mcreator/fightsfrights/block/DreamcatcherBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/DreamcatcherBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/dreamcatcher.json",
           "src/main/resources/assets/fightsfrights/models/block/dreamcatcher.json"
         ]
@@ -8557,7 +8557,7 @@
       "registry_name": "sleep_dreamcatcher_logic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SleepDreamcatcherLogicProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SleepDreamcatcherLogicProcedure.java"
         ],
         "dependencies": [
           {
@@ -8605,7 +8605,7 @@
       "registry_name": "dreamcatcher_on_block_right_clicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/DreamcatcherOnBlockRightClickedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/DreamcatcherOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -8641,7 +8641,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/DreamcatcherBlockValidPlacementConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/DreamcatcherBlockValidPlacementConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -8700,7 +8700,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ScowlNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ScowlNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -8744,7 +8744,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SeerNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SeerNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -8788,7 +8788,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/AllmanNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/AllmanNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -8832,7 +8832,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PatutiNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PatutiNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -8876,7 +8876,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TerrantulaNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TerrantulaNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -8920,7 +8920,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PioneerNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PioneerNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -8964,7 +8964,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/BanshaaNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/BanshaaNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -9008,7 +9008,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShackledNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShackledNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -9052,7 +9052,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GrimmsquitoNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GrimmsquitoNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -9108,7 +9108,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ShadowNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ShadowNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -9152,7 +9152,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimentisNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimentisNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -9196,7 +9196,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/SupaiNaturalEntitySpawningConditionProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/SupaiNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
           {
@@ -9228,7 +9228,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/chitin.json",
-          "src/main/java/net/mcreator/fightsfrights/item/ChitinItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/ChitinItem.java"
         ]
       },
       "path": "~/Items/chitin"
@@ -9242,7 +9242,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/blockstates/chitinblock.json",
-          "src/main/java/net/mcreator/fightsfrights/block/ChitinblockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/ChitinblockBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/chitinblock.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/chitinblock.json",
           "src/main/resources/assets/fightsfrights/models/item/chitinblock.json"
@@ -9259,7 +9259,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/blockstates/smoothchitin.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothchitinBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SmoothchitinBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/smoothchitin.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/smoothchitin.json",
           "src/main/resources/assets/fightsfrights/models/item/smoothchitin.json"
@@ -9278,7 +9278,7 @@
           "src/main/resources/assets/fightsfrights/blockstates/chitinbricks.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/chitinbricks.json",
           "src/main/resources/assets/fightsfrights/models/item/chitinbricks.json",
-          "src/main/java/net/mcreator/fightsfrights/block/ChitinbricksBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/ChitinbricksBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/chitinbricks.json"
         ]
       },
@@ -9297,7 +9297,7 @@
           "src/main/resources/data/fightsfrights/loot_tables/blocks/smoothchitinslabs.json",
           "src/main/resources/assets/fightsfrights/models/block/smoothchitinslabs_top.json",
           "src/main/resources/assets/fightsfrights/models/block/smoothchitinslabs_full.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothchitinslabsBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SmoothchitinslabsBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/smoothchitinslabs.json"
         ]
       },
@@ -9314,7 +9314,7 @@
           "src/main/resources/assets/fightsfrights/models/block/smooth_chitin_stairs.json",
           "src/main/resources/assets/fightsfrights/models/block/smooth_chitin_stairs_outer.json",
           "src/main/resources/assets/fightsfrights/models/block/smooth_chitin_stairs_inner.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothChitinStairsBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SmoothChitinStairsBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/smooth_chitin_stairs.json",
           "src/main/resources/assets/fightsfrights/models/item/smooth_chitin_stairs.json",
           "src/main/resources/assets/fightsfrights/blockstates/smooth_chitin_stairs.json"
@@ -9335,7 +9335,7 @@
           "src/main/resources/assets/fightsfrights/models/block/smooth_chitin_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/smooth_chitin_wall_side_tall.json",
           "src/main/resources/assets/fightsfrights/models/item/smooth_chitin_wall.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothChitinWallBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SmoothChitinWallBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/smooth_chitin_wall_post.json",
           "src/main/resources/assets/fightsfrights/models/block/smooth_chitin_wall_inventory.json"
         ]
@@ -9404,7 +9404,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/chitinbricksslab.json",
           "src/main/resources/assets/fightsfrights/models/block/chitinbricksslab_full.json",
-          "src/main/java/net/mcreator/fightsfrights/block/ChitinbricksslabBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/ChitinbricksslabBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/chitinbricksslab.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/chitinbricksslab.json",
           "src/main/resources/assets/fightsfrights/models/block/chitinbricksslab.json",
@@ -9427,7 +9427,7 @@
           "src/main/resources/assets/fightsfrights/models/block/chitinbricksstairs_outer.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/chitinbricksstairs.json",
           "src/main/resources/assets/fightsfrights/models/block/chitinbricksstairs_inner.json",
-          "src/main/java/net/mcreator/fightsfrights/block/ChitinbricksstairsBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/ChitinbricksstairsBlock.java"
         ]
       },
       "path": "~/Items/chitin/blocks/bricks"
@@ -9441,7 +9441,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/chitinbrickswall.json",
-          "src/main/java/net/mcreator/fightsfrights/block/ChitinbrickswallBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/ChitinbrickswallBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/chitinbrickswall_post.json",
           "src/main/resources/assets/fightsfrights/models/item/chitinbrickswall.json",
           "src/main/resources/assets/fightsfrights/blockstates/chitinbrickswall.json",
@@ -9525,7 +9525,7 @@
       "registry_name": "chiseled_chitin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/ChiseledChitinBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/ChiseledChitinBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/chiseled_chitin.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/chiseled_chitin.json",
           "src/main/resources/assets/fightsfrights/blockstates/chiseled_chitin.json",
@@ -9555,7 +9555,7 @@
       "registry_name": "ominous_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/OminousPlateItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/OminousPlateItem.java",
           "src/main/resources/assets/fightsfrights/models/item/ominous_plate.json"
         ]
       },
@@ -9569,7 +9569,7 @@
       "registry_name": "nightmare",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/NightmareItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/NightmareItem.java",
           "src/main/resources/assets/fightsfrights/models/item/nightmare.json"
         ]
       },
@@ -9584,7 +9584,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/ominous_essence.json",
-          "src/main/java/net/mcreator/fightsfrights/item/OminousEssenceItem.java"
+          "src/main/java/com/FnF/fightsfrights/item/OminousEssenceItem.java"
         ]
       },
       "path": "~/Items/Ominous_Essence"
@@ -9597,7 +9597,7 @@
       "registry_name": "ominous_essence_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/OminousEssencePlayerFinishesUsingItemProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/OminousEssencePlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -9632,7 +9632,7 @@
       "registry_name": "ominous_essence_extraction",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/OminousEssenceExtractionBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/OminousEssenceExtractionBrewingRecipe.java"
         ]
       },
       "path": "~/Items/Ominous_Essence"
@@ -9659,7 +9659,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/ominous_armor_leggings.json",
-          "src/main/java/net/mcreator/fightsfrights/item/OminousArmorItem.java",
+          "src/main/java/com/FnF/fightsfrights/item/OminousArmorItem.java",
           "src/main/resources/assets/fightsfrights/models/item/ominous_armor_chestplate.json",
           "src/main/resources/assets/fightsfrights/models/item/ominous_armor_boots.json",
           "src/main/resources/assets/fightsfrights/models/item/ominous_armor_helmet.json"
@@ -9729,7 +9729,7 @@
         "files": [
           "src/main/resources/data/fightsfrights/loot_tables/blocks/mysteryblock.json",
           "src/main/resources/assets/fightsfrights/models/item/mysteryblock.json",
-          "src/main/java/net/mcreator/fightsfrights/block/MysteryblockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/MysteryblockBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/mysteryblock.json",
           "src/main/resources/assets/fightsfrights/blockstates/mysteryblock.json"
         ]
@@ -9744,7 +9744,7 @@
       "registry_name": "mysteryblock_block_destroyed_by_player",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MysteryblockBlockDestroyedByPlayerProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MysteryblockBlockDestroyedByPlayerProcedure.java"
         ],
         "dependencies": [
           {
@@ -9795,7 +9795,7 @@
           "src/main/resources/assets/fightsfrights/models/block/ominous_plate_block.json",
           "src/main/resources/assets/fightsfrights/models/item/ominous_plate_block.json",
           "src/main/resources/assets/fightsfrights/blockstates/ominous_plate_block.json",
-          "src/main/java/net/mcreator/fightsfrights/block/OminousPlateBlockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/OminousPlateBlockBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/ominous_plate_block.json"
         ]
       },
@@ -9825,7 +9825,7 @@
           "src/main/resources/data/fightsfrights/loot_tables/blocks/jelly_block.json",
           "src/main/resources/assets/fightsfrights/blockstates/jelly_block.json",
           "src/main/resources/assets/fightsfrights/models/item/jelly_block.json",
-          "src/main/java/net/mcreator/fightsfrights/block/JellyBlockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/JellyBlockBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/jelly_block.json"
         ]
       },
@@ -9856,7 +9856,7 @@
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly.json",
           "src/main/resources/assets/fightsfrights/blockstates/smooth_jelly.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/smooth_jelly.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothJellyBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/SmoothJellyBlock.java"
         ]
       },
       "path": "~/Items/Jelly/SmoothJelly"
@@ -9870,7 +9870,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly_slab.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothJellySlabBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SmoothJellySlabBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly_slab_full.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/smooth_jelly_slab.json",
           "src/main/resources/assets/fightsfrights/blockstates/smooth_jelly_slab.json",
@@ -9889,7 +9889,7 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/loot_tables/blocks/smooth_jelly_stairs.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothJellyStairsBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SmoothJellyStairsBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly_stairs.json",
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly_stairs_inner.json",
           "src/main/resources/assets/fightsfrights/blockstates/smooth_jelly_stairs.json",
@@ -9912,7 +9912,7 @@
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly_wall_post.json",
           "src/main/resources/assets/fightsfrights/blockstates/smooth_jelly_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly_wall_inventory.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SmoothJellyWallBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SmoothJellyWallBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/smooth_jelly_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/smooth_jelly_wall.json"
         ]
@@ -9979,7 +9979,7 @@
       "registry_name": "jelly_bricks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/JellyBricksBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/JellyBricksBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/jelly_bricks.json",
           "src/main/resources/assets/fightsfrights/models/item/jelly_bricks.json",
           "src/main/resources/assets/fightsfrights/blockstates/jelly_bricks.json",
@@ -10000,7 +10000,7 @@
           "src/main/resources/assets/fightsfrights/models/item/jelly_bricks_slab.json",
           "src/main/resources/assets/fightsfrights/models/block/jelly_bricks_slab.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/jelly_bricks_slab.json",
-          "src/main/java/net/mcreator/fightsfrights/block/JellyBricksSlabBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/JellyBricksSlabBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/jelly_bricks_slab_top.json",
           "src/main/resources/assets/fightsfrights/blockstates/jelly_bricks_slab.json"
         ]
@@ -10017,7 +10017,7 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/block/jelly_bricks_stairs_outer.json",
           "src/main/resources/assets/fightsfrights/blockstates/jelly_bricks_stairs.json",
-          "src/main/java/net/mcreator/fightsfrights/block/JellyBricksStairsBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/JellyBricksStairsBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/jelly_bricks_stairs.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/jelly_bricks_stairs.json",
           "src/main/resources/assets/fightsfrights/models/block/jelly_bricks_stairs_inner.json",
@@ -10037,7 +10037,7 @@
           "src/main/resources/assets/fightsfrights/blockstates/jelly_bricks_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/jelly_bricks_wall_side_tall.json",
           "src/main/resources/assets/fightsfrights/models/block/jelly_bricks_wall_post.json",
-          "src/main/java/net/mcreator/fightsfrights/block/JellyBricksWallBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/JellyBricksWallBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/jelly_bricks_wall.json",
           "src/main/resources/assets/fightsfrights/models/block/jelly_bricks_wall.json",
           "src/main/resources/assets/fightsfrights/models/item/jelly_bricks_wall.json",
@@ -10110,7 +10110,7 @@
           "src/main/resources/assets/fightsfrights/blockstates/chiseled_jelly.json",
           "src/main/resources/assets/fightsfrights/models/item/chiseled_jelly.json",
           "src/main/resources/assets/fightsfrights/models/block/chiseled_jelly.json",
-          "src/main/java/net/mcreator/fightsfrights/block/ChiseledJellyBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/ChiseledJellyBlock.java"
         ]
       },
       "path": "~/Items/Jelly"
@@ -10136,7 +10136,7 @@
       "registry_name": "monstrous_plate_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/MonstrousPlateBlockBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/MonstrousPlateBlockBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/monstrous_plate_block.json",
           "src/main/resources/assets/fightsfrights/blockstates/monstrous_plate_block.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/monstrous_plate_block.json",
@@ -10169,9 +10169,9 @@
           "src/main/resources/assets/fightsfrights/blockstates/trashcan.json",
           "src/main/resources/assets/fightsfrights/models/block/trashcan.json",
           "src/main/resources/assets/fightsfrights/models/item/trashcan.json",
-          "src/main/java/net/mcreator/fightsfrights/block/entity/TrashcanBlockEntity.java",
+          "src/main/java/com/FnF/fightsfrights/block/entity/TrashcanBlockEntity.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/trashcan.json",
-          "src/main/java/net/mcreator/fightsfrights/block/TrashcanBlock.java"
+          "src/main/java/com/FnF/fightsfrights/block/TrashcanBlock.java"
         ]
       },
       "path": "~/Items/TrashcanSlop"
@@ -10188,7 +10188,7 @@
           "src/main/resources/assets/fightsfrights/models/item/slop.json",
           "src/main/resources/assets/fightsfrights/models/block/slop_top.json",
           "src/main/resources/assets/fightsfrights/blockstates/slop.json",
-          "src/main/java/net/mcreator/fightsfrights/block/SlopBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/SlopBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/slop.json",
           "src/main/resources/assets/fightsfrights/models/block/slop_full.json"
         ]
@@ -10203,9 +10203,9 @@
       "registry_name": "trashcan_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/network/TrashcanGUIButtonMessage.java",
-          "src/main/java/net/mcreator/fightsfrights/client/gui/TrashcanGUIScreen.java",
-          "src/main/java/net/mcreator/fightsfrights/world/inventory/TrashcanGUIMenu.java"
+          "src/main/java/com/FnF/fightsfrights/network/TrashcanGUIButtonMessage.java",
+          "src/main/java/com/FnF/fightsfrights/client/gui/TrashcanGUIScreen.java",
+          "src/main/java/com/FnF/fightsfrights/world/inventory/TrashcanGUIMenu.java"
         ]
       },
       "path": "~/Items/TrashcanSlop"
@@ -10218,7 +10218,7 @@
       "registry_name": "trashing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TrashingProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TrashingProcedure.java"
         ],
         "dependencies": [
           {
@@ -10253,7 +10253,7 @@
       "registry_name": "trashcan_redstone_on",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TrashcanRedstoneOnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TrashcanRedstoneOnProcedure.java"
         ],
         "dependencies": [
           {
@@ -10297,7 +10297,7 @@
       "registry_name": "trashcan_on_block_right_clicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TrashcanOnBlockRightClickedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TrashcanOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -10328,7 +10328,7 @@
       "registry_name": "g_gtick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/GGtickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/GGtickProcedure.java"
         ],
         "dependencies": [
           {
@@ -10376,10 +10376,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/forge/biome_modifier/nether_banshaa_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/NetherBanshaaModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/model/NetherBanshaaModel.java",
           "src/main/resources/assets/fightsfrights/models/item/nether_banshaa_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/NetherBanshaaRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/NetherBanshaaEntity.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/NetherBanshaaRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/NetherBanshaaEntity.java"
         ]
       },
       "path": "~/Mobs/Banshaa/NetherBanshaa"
@@ -10392,7 +10392,7 @@
       "registry_name": "nether_banshaa_on_entity_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/NetherBanshaaOnEntityTickProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/NetherBanshaaOnEntityTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -10440,7 +10440,7 @@
       "registry_name": "scowl_entity_dies",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ScowlEntityDiesProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ScowlEntityDiesProcedure.java"
         ],
         "dependencies": [
           {
@@ -10500,7 +10500,7 @@
       "registry_name": "levitation_potions",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/recipes/brewing/LevitationPotionsBrewingRecipe.java"
+          "src/main/java/com/FnF/fightsfrights/recipes/brewing/LevitationPotionsBrewingRecipe.java"
         ]
       },
       "path": "~/Items/GoldenTongue"
@@ -10537,7 +10537,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/OverworldBanshaasProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/OverworldBanshaasProcedure.java"
         ],
         "dependencies": [
           {
@@ -10569,7 +10569,7 @@
       "metadata": {
         "return_type": "number",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoppedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoppedProcedure.java"
         ],
         "dependencies": [
           {
@@ -10589,7 +10589,7 @@
       "metadata": {
         "return_type": "number",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoppedMimicProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoppedMimicProcedure.java"
         ],
         "dependencies": [
           {
@@ -10608,7 +10608,7 @@
       "registry_name": "mimic_terrantula_tick_fixed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimicTerrantulaTickFixedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimicTerrantulaTickFixedProcedure.java"
         ],
         "dependencies": [
           {
@@ -10643,7 +10643,7 @@
       "registry_name": "mimic_terrantula_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimicTerrantulaHurtProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimicTerrantulaHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -10678,9 +10678,9 @@
       "registry_name": "circuit_lever",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/block/CircuitLeverBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/CircuitLeverBlock.java",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/circuit_lever.json",
-          "src/main/java/net/mcreator/fightsfrights/block/entity/CircuitLeverBlockEntity.java",
+          "src/main/java/com/FnF/fightsfrights/block/entity/CircuitLeverBlockEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/circuit_lever.json",
           "src/main/resources/assets/fightsfrights/models/block/circuit_lever.json",
           "src/main/resources/assets/fightsfrights/blockstates/circuit_lever.json"
@@ -10697,7 +10697,7 @@
       "metadata": {
         "return_type": "number",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/CircuitLeverEmittedRedstonePowerProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/CircuitLeverEmittedRedstonePowerProcedure.java"
         ],
         "dependencies": [
           {
@@ -10728,7 +10728,7 @@
       "registry_name": "circuit_lever_on_block_right_clicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/CircuitLeverOnBlockRightClickedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/CircuitLeverOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -10766,7 +10766,7 @@
           "src/main/resources/assets/fightsfrights/models/block/redstone_display.json",
           "src/main/resources/assets/fightsfrights/blockstates/redstone_display.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/redstone_display.json",
-          "src/main/java/net/mcreator/fightsfrights/block/RedstoneDisplayBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/RedstoneDisplayBlock.java",
           "src/main/resources/assets/fightsfrights/models/item/redstone_display.json"
         ]
       },
@@ -10808,7 +10808,7 @@
       "registry_name": "redstone_display_redstone_on",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/RedstoneDisplayRedstoneOnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/RedstoneDisplayRedstoneOnProcedure.java"
         ],
         "dependencies": [
           {
@@ -10893,7 +10893,7 @@
       "registry_name": "hex_rightclicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/HexRightclickedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/HexRightclickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -10912,7 +10912,7 @@
       "registry_name": "mimentis_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimentisOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimentisOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -10963,9 +10963,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/forge/biome_modifier/hivemite_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/NethersilverfishEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/NethersilverfishEntity.java",
           "src/main/resources/assets/fightsfrights/models/item/hivemite_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/NethersilverfishRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/NethersilverfishRenderer.java"
         ]
       },
       "path": "~/Mobs/NetherVariants"
@@ -10978,8 +10978,8 @@
       "registry_name": "nether_spider",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/NetherSpiderEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/NetherSpiderRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/NetherSpiderEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/NetherSpiderRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/nether_spider_spawn_egg.json",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/nether_spider_biome_modifier.json"
         ]
@@ -10996,8 +10996,8 @@
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/nethercavespider_spawn_egg.json",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/nethercavespider_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/NethercavespiderEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/NethercavespiderRenderer.java"
+          "src/main/java/com/FnF/fightsfrights/entity/NethercavespiderEntity.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/NethercavespiderRenderer.java"
         ]
       },
       "path": "~/Mobs/NetherVariants"
@@ -11010,7 +11010,7 @@
       "registry_name": "nether_spider_bite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/NetherSpiderBiteProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/NetherSpiderBiteProcedure.java"
         ],
         "dependencies": [
           {
@@ -11073,7 +11073,7 @@
       "metadata": {
         "return_type": "number",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/TerrantulaEntityVisualScaleProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/TerrantulaEntityVisualScaleProcedure.java"
         ],
         "dependencies": [
           {
@@ -11097,7 +11097,7 @@
       "metadata": {
         "return_type": "number",
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimicTerrantulaEntityVisualScaleProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimicTerrantulaEntityVisualScaleProcedure.java"
         ],
         "dependencies": [
           {
@@ -11129,7 +11129,7 @@
       "registry_name": "scowl_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/ScowlEntityIsHurtProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/ScowlEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -11168,7 +11168,7 @@
       "registry_name": "popping",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PoppingProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PoppingProcedure.java"
         ],
         "dependencies": [
           {
@@ -11207,10 +11207,10 @@
       "registry_name": "mimic_beetles",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/MimicBeetlesRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/MimicBeetlesRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/mimic_beetles_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/MimicBeetlesModel.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/MimicBeetlesEntity.java"
+          "src/main/java/com/FnF/fightsfrights/entity/model/MimicBeetlesModel.java",
+          "src/main/java/com/FnF/fightsfrights/entity/MimicBeetlesEntity.java"
         ]
       },
       "path": "~/Mobs/MimicBeetles"
@@ -11223,7 +11223,7 @@
       "registry_name": "mimic_beetles_feed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/MimicBeetlesFeedProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/MimicBeetlesFeedProcedure.java"
         ],
         "dependencies": [
           {
@@ -11276,7 +11276,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/particles/fire_fly_particle.json",
-          "src/main/java/net/mcreator/fightsfrights/client/particle/FireFlyParticleParticle.java"
+          "src/main/java/com/FnF/fightsfrights/client/particle/FireFlyParticleParticle.java"
         ]
       },
       "path": "~/Mobs/NetherVariants/FireFlyer"
@@ -11290,9 +11290,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/forge/biome_modifier/fire_swarm_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/FireSwarmRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/FireSwarmRenderer.java",
           "src/main/resources/assets/fightsfrights/models/item/fire_swarm_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/FireSwarmEntity.java"
+          "src/main/java/com/FnF/fightsfrights/entity/FireSwarmEntity.java"
         ]
       },
       "path": "~/Mobs/NetherVariants/FireFlyer"
@@ -11305,7 +11305,7 @@
       "registry_name": "fire_swarm_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/FireSwarmOnEntityTickUpdateProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/FireSwarmOnEntityTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -11336,7 +11336,7 @@
       "registry_name": "green_fly_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/client/particle/GreenFlyParticleParticle.java",
+          "src/main/java/com/FnF/fightsfrights/client/particle/GreenFlyParticleParticle.java",
           "src/main/resources/assets/fightsfrights/particles/green_fly_particle.json"
         ]
       },
@@ -11350,12 +11350,12 @@
       "registry_name": "pioneer_head",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/entity/PioneerHeadEntity.java",
-          "src/main/java/net/mcreator/fightsfrights/entity/layer/PioneerHeadLayer.java",
+          "src/main/java/com/FnF/fightsfrights/entity/PioneerHeadEntity.java",
+          "src/main/java/com/FnF/fightsfrights/entity/layer/PioneerHeadLayer.java",
           "src/main/resources/assets/fightsfrights/models/item/pioneer_head_spawn_egg.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/PioneerHeadRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/client/renderer/PioneerHeadRenderer.java",
           "src/main/resources/data/fightsfrights/forge/biome_modifier/pioneer_head_biome_modifier.json",
-          "src/main/java/net/mcreator/fightsfrights/entity/model/PioneerHeadModel.java"
+          "src/main/java/com/FnF/fightsfrights/entity/model/PioneerHeadModel.java"
         ]
       },
       "path": "~/Mobs/Pioneer/Pioneer_Head"
@@ -11368,7 +11368,7 @@
       "registry_name": "pioneer_entity_dies_head",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PioneerEntityDiesHeadProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PioneerEntityDiesHeadProcedure.java"
         ],
         "dependencies": [
           {
@@ -11399,7 +11399,7 @@
       "registry_name": "pioneer_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PioneerOnInitialEntitySpawnProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PioneerOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -11418,7 +11418,7 @@
       "registry_name": "patuti_entity_dies",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/PatutiEntityDiesProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/PatutiEntityDiesProcedure.java"
         ],
         "dependencies": [
           {
@@ -11450,7 +11450,7 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fightsfrights/loot_tables/blocks/stripped_blight_stem.json",
-          "src/main/java/net/mcreator/fightsfrights/block/StrippedBlightStemBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/StrippedBlightStemBlock.java",
           "src/main/resources/assets/fightsfrights/models/block/stripped_blight_stem.json",
           "src/main/resources/assets/fightsfrights/blockstates/stripped_blight_stem.json",
           "src/main/resources/assets/fightsfrights/models/item/stripped_blight_stem.json"
@@ -11480,7 +11480,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fightsfrights/models/item/stripped_blight_hyphae.json",
-          "src/main/java/net/mcreator/fightsfrights/block/StrippedBlightHyphaeBlock.java",
+          "src/main/java/com/FnF/fightsfrights/block/StrippedBlightHyphaeBlock.java",
           "src/main/resources/assets/fightsfrights/blockstates/stripped_blight_hyphae.json",
           "src/main/resources/assets/fightsfrights/models/block/stripped_blight_hyphae.json",
           "src/main/resources/data/fightsfrights/loot_tables/blocks/stripped_blight_hyphae.json"
@@ -11496,7 +11496,7 @@
       "registry_name": "stripping_blightwood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/procedures/StrippingBlightwoodProcedure.java"
+          "src/main/java/com/FnF/fightsfrights/procedures/StrippingBlightwoodProcedure.java"
         ],
         "dependencies": [
           {
@@ -11591,10 +11591,10 @@
       "registry_name": "screen_head",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fightsfrights/item/model/ScreenHeadModel.java",
+          "src/main/java/com/FnF/fightsfrights/item/model/ScreenHeadModel.java",
           "src/main/resources/assets/fightsfrights/models/item/screen_head_helmet.json",
-          "src/main/java/net/mcreator/fightsfrights/client/renderer/ScreenHeadArmorRenderer.java",
-          "src/main/java/net/mcreator/fightsfrights/item/ScreenHeadItem.java"
+          "src/main/java/com/FnF/fightsfrights/client/renderer/ScreenHeadArmorRenderer.java",
+          "src/main/java/com/FnF/fightsfrights/item/ScreenHeadItem.java"
         ]
       },
       "path": "~/Items/ScreenHead"

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "fightsfrights:stripped_blight_hyphae",
+    "fightsfrights:stripped_blight_stem",
     "fightsfrights:blightdoor",
     "fightsfrights:blight_trapdoor",
     "fightsfrights:blight_button",
