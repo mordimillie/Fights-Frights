@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fightsfrights:block/circuit_lever_power16",
+    "up": "fightsfrights:block/circuit_lever_power17",
+    "north": "fightsfrights:block/circuit_lever_power01",
+    "east": "fightsfrights:block/circuit_lever_power01",
+    "south": "fightsfrights:block/circuit_lever_power01",
+    "west": "fightsfrights:block/circuit_lever_power01",
+    "particle": "fightsfrights:block/circuit_lever_power_18"
+  },
+  "render_type": "solid"
+}

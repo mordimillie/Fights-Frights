@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fightsfrights:block/vsd_under",
+    "up": "fightsfrights:block/vsd",
+    "north": "fightsfrights:block/vsd_side",
+    "east": "fightsfrights:block/vsd_side",
+    "south": "fightsfrights:block/vsd_side",
+    "west": "fightsfrights:block/vsd_side",
+    "particle": "fightsfrights:block/vsd_under"
+  },
+  "render_type": "solid"
+}

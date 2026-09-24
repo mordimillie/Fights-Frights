@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Shackled smoke cloud",
+    "description": "Controls how many smoke particles appear when a shackled dies (x10)",
+    "category": "MOBS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 50
+  }
+}

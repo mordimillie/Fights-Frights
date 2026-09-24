@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:totem_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}

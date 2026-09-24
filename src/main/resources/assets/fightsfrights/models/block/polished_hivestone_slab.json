@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fightsfrights:block/smoothhivestone",
+    "bottom": "fightsfrights:block/smoothhivestone",
+    "top": "fightsfrights:block/smoothhivestone",
+    "side": "fightsfrights:block/smoothhivestone"
+  },
+  "render_type": "solid"
+}

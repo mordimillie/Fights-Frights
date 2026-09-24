@@ -1,0 +1,138 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 9,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "Whole",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "Ore",
+					"parent": "Whole",
+					"pivot": [0, 20, 0],
+					"cubes": [
+						{"origin": [-8, 12, -8], "size": [16, 16, 16], "inflate": 0.1, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "WholeNoOre",
+					"parent": "Whole",
+					"pivot": [0, 20, 0],
+					"cubes": [
+						{"origin": [-8, 12, -3], "size": [16, 16, 6], "uv": [0, 78]}
+					]
+				},
+				{
+					"name": "RedNeck",
+					"parent": "WholeNoOre",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 28, -4], "size": [8, 8, 8], "uv": [58, 27]}
+					]
+				},
+				{
+					"name": "RedAntennae",
+					"parent": "RedNeck",
+					"pivot": [0, 36, 0],
+					"rotation": [-35, 0, 0],
+					"cubes": [
+						{"origin": [-6, 36, 2], "size": [12, 12, 0], "uv": [104, 12]}
+					]
+				},
+				{
+					"name": "GoldNeck",
+					"parent": "WholeNoOre",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 28, -4], "size": [8, 8, 8], "uv": [54, 104]},
+						{"origin": [-9, 36, -7], "size": [18, 8, 18], "pivot": [0, 40, 2], "rotation": [-33.4032, 39.85571, -22.90981], "uv": [0, 102]}
+					]
+				},
+				{
+					"name": "GoldAntennae",
+					"parent": "GoldNeck",
+					"pivot": [0, 40, 11],
+					"rotation": [-35, 0, 0],
+					"cubes": [
+						{"origin": [-7, 39.10665, 4.27372], "size": [14, 23, 0], "pivot": [0, 45.41405, 6.28363], "rotation": [55, 0, 0], "uv": [100, 105]}
+					]
+				},
+				{
+					"name": "IronNeck",
+					"parent": "WholeNoOre",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 28, -4], "size": [8, 19, 8], "uv": [64, 0]}
+					]
+				},
+				{
+					"name": "IronAntennae",
+					"parent": "IronNeck",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-6, 45, 0], "size": [12, 12, 0], "pivot": [0, 51, 0], "rotation": [0, 0, -45], "uv": [104, 0]}
+					]
+				},
+				{
+					"name": "DiamNeck",
+					"parent": "WholeNoOre",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-2, 28, -2], "size": [4, 19, 4], "uv": [55, 59]},
+						{"origin": [-12, 40, -4], "size": [24, 8, 8], "uv": [56, 43]}
+					]
+				},
+				{
+					"name": "DiamAntennae",
+					"parent": "DiamNeck",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-6, 47, 1], "size": [12, 12, 17], "uv": [54, 65]}
+					]
+				},
+				{
+					"name": "Larm",
+					"parent": "WholeNoOre",
+					"pivot": [-8, 28, 0],
+					"cubes": [
+						{"origin": [-12, 4, -2], "size": [4, 24, 4], "uv": [16, 49]}
+					]
+				},
+				{
+					"name": "Rarm",
+					"parent": "WholeNoOre",
+					"pivot": [8, 28, 0],
+					"cubes": [
+						{"origin": [8, 4, -2], "size": [4, 24, 4], "uv": [0, 49]}
+					]
+				},
+				{
+					"name": "Lleg",
+					"parent": "WholeNoOre",
+					"pivot": [-4, 12, 0],
+					"cubes": [
+						{"origin": [-6, 0, -2], "size": [4, 12, 4], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "Rleg",
+					"parent": "WholeNoOre",
+					"pivot": [4, 12, 0],
+					"cubes": [
+						{"origin": [2, 0, -2], "size": [4, 12, 4], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

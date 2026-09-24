@@ -1,0 +1,45 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "putrid_scythe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Putrid Scythe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:CreativeTab"
+      }
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 1.8,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 70,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Shackle"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "PutridScytheLivingEntityIsHitWithItem"
+    }
+  }
+}

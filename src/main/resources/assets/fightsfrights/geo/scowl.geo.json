@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Scowl",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 25.28571, 1.28571]
+				},
+				{
+					"name": "bone",
+					"parent": "body",
+					"pivot": [0, 11, 2.2],
+					"cubes": [
+						{"origin": [-16, 11, -11], "size": [32, 27, 22], "uv": [0, 0]},
+						{"origin": [-16, 15.25, -11], "size": [32, 22, 22], "inflate": 1, "uv": [0, 49]}
+					]
+				},
+				{
+					"name": "Lwing",
+					"parent": "bone",
+					"pivot": [16.5, 34, 0],
+					"cubes": [
+						{"origin": [16, 13, 0], "size": [25, 24, 0], "uv": [108, 27], "mirror": true}
+					]
+				},
+				{
+					"name": "Rwing",
+					"parent": "bone",
+					"pivot": [-16.5, 34, 0],
+					"cubes": [
+						{"origin": [-41, 13, 0], "size": [25, 24, 0], "uv": [108, 27]}
+					]
+				},
+				{
+					"name": "TopJaw",
+					"parent": "bone",
+					"pivot": [0, 37, 11],
+					"cubes": [
+						{"origin": [-16, 39.25, -11], "size": [32, 5, 22], "inflate": 1, "uv": [108, 0]},
+						{"origin": [-16, 38, -11], "size": [32, 6, 22], "uv": [0, 93]}
+					]
+				},
+				{
+					"name": "Rleg",
+					"parent": "body",
+					"pivot": [-11, 11, -1],
+					"cubes": [
+						{"origin": [-13, 0, -3], "size": [4, 18, 4], "uv": [108, 51]}
+					]
+				},
+				{
+					"name": "Lleg",
+					"parent": "body",
+					"pivot": [11, 11, -1],
+					"cubes": [
+						{"origin": [9, 0, -3], "size": [4, 18, 4], "uv": [108, 51], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

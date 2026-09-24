@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MonstruousPlate"
+      },
+      {
+        "value": "Blocks.LEVER"
+      },
+      {
+        "value": "CUSTOM:MonstruousPlate"
+      },
+      {
+        "value": "CUSTOM:Chip"
+      },
+      {
+        "value": "CUSTOM:RedstoneDisplay"
+      },
+      {
+        "value": "CUSTOM:Chip"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CircuitLever"
+    },
+    "name": "circuit_lever_craft",
+    "namespace": "mod"
+  }
+}

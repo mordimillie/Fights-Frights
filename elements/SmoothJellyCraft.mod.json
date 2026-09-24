@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmoothJelly"
+    },
+    "name": "smooth_jelly_craft",
+    "namespace": "mod"
+  }
+}

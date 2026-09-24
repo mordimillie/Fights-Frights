@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "fightsfrights:block/blight_plank",
+    "bottom": "fightsfrights:block/blight_plank",
+    "top": "fightsfrights:block/blight_plank",
+    "side": "fightsfrights:block/blight_plank"
+  },
+  "render_type": "solid"
+}

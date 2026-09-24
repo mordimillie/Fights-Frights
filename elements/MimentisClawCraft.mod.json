@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MimentisClawSingleUse"
+      },
+      {
+        "value": "CUSTOM:MimentisClawSingleUse"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "Items.IRON_PICKAXE"
+      },
+      {
+        "value": "CUSTOM:MimentisClawSingleUse"
+      },
+      {
+        "value": "CUSTOM:RottenHandle"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MimentisClaw"
+    },
+    "name": "mimentis_claw_craft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fightsfrights:item/blight_door_invicon"
+  },
+  "render_type": "translucent"
+}

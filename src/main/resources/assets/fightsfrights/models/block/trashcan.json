@@ -1,0 +1,9 @@
+{
+  "parent": "fightsfrights:custom/trashcan",
+  "textures": {
+    "all": "fightsfrights:block/trashcan",
+    "particle": "fightsfrights:block/trashcan_particle",
+    "2": "fightsfrights:block/trashcan"
+  },
+  "render_type": "cutout_mipped"
+}

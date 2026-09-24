@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "fightsfrights:block/hivestonebricks",
+    "bottom": "fightsfrights:block/hivestonebricks",
+    "top": "fightsfrights:block/hivestonebricks",
+    "side": "fightsfrights:block/hivestonebricks"
+  },
+  "render_type": "solid"
+}

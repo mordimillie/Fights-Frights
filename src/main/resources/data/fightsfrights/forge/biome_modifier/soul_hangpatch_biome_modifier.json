@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fightsfrights:bug_den",
+  "features": "fightsfrights:soul_hangpatch",
+  "step": "local_modifications"
+}

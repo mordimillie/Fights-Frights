@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedHivestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedHivestone"
+      },
+      {
+        "value": "CUSTOM:PolishedHivestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedHivestone"
+      },
+      {
+        "value": "CUSTOM:PolishedHivestone"
+      },
+      {
+        "value": "CUSTOM:PolishedHivestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedHivestoneStairs"
+    },
+    "name": "polished_hivestone_stairscraft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "_fv": 73,
+  "_type": "blockstates",
+  "definition": {
+    "block": "CircuitLever",
+    "blockstateList": [
+      {
+        "texture": "circuit_lever_power_18",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power00",
+        "textureFront": "circuit_lever_power00",
+        "textureRight": "circuit_lever_power00",
+        "textureBack": "circuit_lever_power00",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power01",
+        "textureFront": "circuit_lever_power01",
+        "textureRight": "circuit_lever_power01",
+        "textureBack": "circuit_lever_power01",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 1,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power02",
+        "textureFront": "circuit_lever_power02",
+        "textureRight": "circuit_lever_power02",
+        "textureBack": "circuit_lever_power02",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 2,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power03",
+        "textureFront": "circuit_lever_power03",
+        "textureRight": "circuit_lever_power03",
+        "textureBack": "circuit_lever_power03",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 3,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power04",
+        "textureFront": "circuit_lever_power04",
+        "textureRight": "circuit_lever_power04",
+        "textureBack": "circuit_lever_power04",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 4,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power05",
+        "textureFront": "circuit_lever_power05",
+        "textureRight": "circuit_lever_power05",
+        "textureBack": "circuit_lever_power05",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 5,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power06",
+        "textureFront": "circuit_lever_power06",
+        "textureRight": "circuit_lever_power06",
+        "textureBack": "circuit_lever_power06",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 6,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power07",
+        "textureFront": "circuit_lever_power07",
+        "textureRight": "circuit_lever_power07",
+        "textureBack": "circuit_lever_power08",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 7,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power08",
+        "textureFront": "circuit_lever_power08",
+        "textureRight": "circuit_lever_power08",
+        "textureBack": "circuit_lever_power08",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 8,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power09",
+        "textureFront": "circuit_lever_power09",
+        "textureRight": "circuit_lever_power09",
+        "textureBack": "circuit_lever_power09",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 9,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power10",
+        "textureFront": "circuit_lever_power10",
+        "textureRight": "circuit_lever_power10",
+        "textureBack": "circuit_lever_power10",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power11",
+        "textureFront": "circuit_lever_power11",
+        "textureRight": "circuit_lever_power11",
+        "textureBack": "circuit_lever_power11",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 11,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power12",
+        "textureFront": "circuit_lever_power12",
+        "textureRight": "circuit_lever_power12",
+        "textureBack": "circuit_lever_power12",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 12,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power13",
+        "textureFront": "circuit_lever_power13",
+        "textureRight": "circuit_lever_power13",
+        "textureBack": "circuit_lever_power13",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 13,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power14",
+        "textureFront": "circuit_lever_power14",
+        "textureRight": "circuit_lever_power14",
+        "textureBack": "circuit_lever_power14",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 14,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "circuit_lever_power16",
+        "textureTop": "circuit_lever_power17",
+        "textureLeft": "circuit_lever_power15",
+        "textureFront": "circuit_lever_power15",
+        "textureRight": "circuit_lever_power15",
+        "textureBack": "circuit_lever_power15",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 15,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

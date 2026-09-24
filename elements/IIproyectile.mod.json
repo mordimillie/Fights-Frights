@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:OminousScepter"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 7.0,
+    "knockback": 1,
+    "entityModel": "Modelmossbomb",
+    "customModelTexture": "ill_orb.png",
+    "modelWidth": 0.4,
+    "modelHeight": 0.4,
+    "onHitsBlock": {
+      "name": "IIproyectileProjectileHitsLivingEntity"
+    },
+    "onHitsEntity": {
+      "name": "Scepterhitsentity"
+    },
+    "onFlyingTick": {
+      "name": "IIproyectileWhileProjectileFlyingTick"
+    }
+  }
+}

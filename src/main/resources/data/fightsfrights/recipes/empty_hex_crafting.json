@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:shackle"
+    },
+    {
+      "item": "fightsfrights:monstruous_plate"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "fightsfrights:monstruous_plate"
+    },
+    {
+      "item": "fightsfrights:shackle"
+    }
+  ],
+  "result": {
+    "item": "fightsfrights:empty_hex",
+    "count": 1
+  }
+}

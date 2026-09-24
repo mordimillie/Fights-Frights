@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "fightsfrights:terrifying_proboscis"
+    },
+    "c": {
+      "item": "fightsfrights:antidote"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:syringe",
+    "count": 1
+  }
+}

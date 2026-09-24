@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fightsfrights:jelly_bricks_wall",
+    "fightsfrights:smooth_jelly_wall",
+    "fightsfrights:chitinbrickswall",
+    "fightsfrights:smooth_chitin_wall",
+    "fightsfrights:hivestone_bricks_wall",
+    "fightsfrights:polished_hivestone_wall",
+    "fightsfrights:hivestone_wall"
+  ]
+}

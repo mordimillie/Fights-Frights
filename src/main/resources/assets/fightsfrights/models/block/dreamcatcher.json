@@ -1,0 +1,9 @@
+{
+  "parent": "fightsfrights:custom/dreamcatcher",
+  "textures": {
+    "all": "fightsfrights:block/dreamcatcher",
+    "particle": "fightsfrights:block/dreamcatcher",
+    "1": "fightsfrights:block/dreamcatcher"
+  },
+  "render_type": "cutout_mipped"
+}

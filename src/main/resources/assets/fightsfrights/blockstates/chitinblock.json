@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fightsfrights:block/chitinblock",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fightsfrights:block/chitinblock"
+    },
+    "axis=z": {
+      "model": "fightsfrights:block/chitinblock",
+      "x": 90
+    }
+  }
+}

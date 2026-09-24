@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Terrifying Potion",
+    "splashName": "Terrifying Splash Potion",
+    "lingeringName": "Terrifying Lingering Potion",
+    "arrowName": "Terrifying Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Terrified"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

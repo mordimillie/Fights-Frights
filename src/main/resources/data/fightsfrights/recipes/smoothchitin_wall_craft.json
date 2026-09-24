@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:smoothchitin"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:smooth_chitin_wall",
+    "count": 6
+  }
+}

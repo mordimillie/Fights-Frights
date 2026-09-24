@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Gazing",
+    "splashName": "Splash Potion of Gazing",
+    "lingeringName": "Lingering Potion of Gazing",
+    "arrowName": "Arrow of Gazing",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Gazed"
+        },
+        "duration": 3000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:JellyBricks"
+      },
+      {
+        "value": "CUSTOM:JellyBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:JellyBricks"
+      },
+      {
+        "value": "CUSTOM:JellyBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChiseledJelly"
+    },
+    "name": "chiseled_jelly_craft",
+    "namespace": "mod"
+  }
+}

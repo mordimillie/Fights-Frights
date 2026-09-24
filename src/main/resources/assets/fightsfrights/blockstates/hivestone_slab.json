@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fightsfrights:block/hivestone_slab"
+    },
+    "type=top": {
+      "model": "fightsfrights:block/hivestone_slab_top"
+    },
+    "type=double": {
+      "model": "fightsfrights:block/hivestone_slab_full"
+    }
+  }
+}

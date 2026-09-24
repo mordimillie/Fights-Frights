@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:huge_red_mushroom",
+  "config": {
+    "cap_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "fightsfrights:bllight_cap_block"
+      }
+    },
+    "stem_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "fightsfrights:blight_stem"
+      }
+    },
+    "foliage_radius": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "fightsfrights:rotten_handle"
+    },
+    "b": {
+      "item": "fightsfrights:monstruous_plate"
+    },
+    "c": {
+      "item": "fightsfrights:chip"
+    },
+    "d": {
+      "item": "fightsfrights:golden_tongue"
+    },
+    "e": {
+      "item": "fightsfrights:bllight_cap_block"
+    }
+  },
+  "result": {
+    "item": "fightsfrights:crusher",
+    "count": 1
+  }
+}

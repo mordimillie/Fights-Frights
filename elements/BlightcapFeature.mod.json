@@ -1,0 +1,14 @@
+{
+  "_fv": 73,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": true,
+    "generationStep": "UNDERGROUND_DECORATION",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BugDen"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"152\" y=\"35\"><value name=\"feature\"><block type=\"feature_huge_red_mushroom\"><field name=\"radius\">1</field><value name=\"cap\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:BllightCapBlock</field></block></value><value name=\"stem\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:BlightStem</field></block></value></block></value><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Blightcap</field></block></value></block></next></block></xml>"
+  }
+}

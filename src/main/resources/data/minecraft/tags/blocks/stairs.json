@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "fightsfrights:jelly_bricks_stairs",
+    "fightsfrights:smooth_jelly_stairs",
+    "fightsfrights:chitinbricksstairs",
+    "fightsfrights:smooth_chitin_stairs",
+    "fightsfrights:hivestone_bricks_stairs",
+    "fightsfrights:polished_hivestone_stairs",
+    "fightsfrights:hivestone_stair",
+    "fightsfrights:blight_stairs"
+  ]
+}

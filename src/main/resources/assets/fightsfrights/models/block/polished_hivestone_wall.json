@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "fightsfrights:block/smoothhivestone",
+    "particle": "fightsfrights:block/smoothhivestone"
+  },
+  "render_type": "solid"
+}

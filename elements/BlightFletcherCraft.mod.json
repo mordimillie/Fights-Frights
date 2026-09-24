@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlightPlanks"
+      },
+      {
+        "value": "CUSTOM:BlightPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlightPlanks"
+      },
+      {
+        "value": "CUSTOM:BlightPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.FLETCHING_TABLE"
+    },
+    "name": "blight_fletcher_craft",
+    "namespace": "mod"
+  }
+}

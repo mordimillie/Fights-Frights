@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:terrantula_leg"
+    },
+    {
+      "item": "fightsfrights:forewings"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "fightsfrights:mimic_beetle"
+    },
+    {
+      "item": "fightsfrights:mimentis_claw_single_use"
+    }
+  ],
+  "result": {
+    "item": "fightsfrights:bug_dust",
+    "count": 1
+  }
+}

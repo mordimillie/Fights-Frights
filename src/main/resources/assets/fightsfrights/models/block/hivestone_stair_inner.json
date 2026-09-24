@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "fightsfrights:block/hivestone",
+    "bottom": "fightsfrights:block/hivestone",
+    "top": "fightsfrights:block/hivestone",
+    "side": "fightsfrights:block/hivestone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fightsfrights:item/mime_block"
+  },
+  "render_type": "translucent"
+}

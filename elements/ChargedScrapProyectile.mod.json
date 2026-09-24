@@ -1,0 +1,27 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:ChargedScrap"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.respawn_anchor.deplete"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 0,
+    "entityModel": "Modelmossbomb",
+    "customModelTexture": "balllightning.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "ChargedScrapProyectileProjectileHitsLivingEntity"
+    },
+    "onHitsEntity": {
+      "name": "ChargedScrapProyectileProjectileHitsLivingEntity"
+    }
+  }
+}

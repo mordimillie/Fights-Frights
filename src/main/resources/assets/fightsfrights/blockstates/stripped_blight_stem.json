@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fightsfrights:block/stripped_blight_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fightsfrights:block/stripped_blight_stem"
+    },
+    "axis=z": {
+      "model": "fightsfrights:block/stripped_blight_stem",
+      "x": 90
+    }
+  }
+}

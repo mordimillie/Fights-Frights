@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MonstruousPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MonstruousPlate"
+      },
+      {
+        "value": "CUSTOM:MonstruousPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MonstruousPlate"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goop"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MonstrousArmor.legs"
+    },
+    "name": "monstrous_leggins_crafting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Fights&Frights Mob Spawn Chance",
+    "description": "Adjusts the spawn of FF mobs (the number mean \"x chance of 20\" to succeed spawn)",
+    "category": "SPAWNING",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 20
+  }
+}

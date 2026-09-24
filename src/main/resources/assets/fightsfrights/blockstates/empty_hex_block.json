@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fightsfrights:block/empty_hex_block"
+    },
+    "facing=east": {
+      "model": "fightsfrights:block/empty_hex_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fightsfrights:block/empty_hex_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fightsfrights:block/empty_hex_block",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 73,
+  "_type": "particle",
+  "definition": {
+    "texture": "beetleparticleiron",
+    "animate": true,
+    "frameDuration": 5,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": {
+      "fixedValue": 1.5
+    },
+    "speedFactor": 1.0,
+    "gravity": 1.0,
+    "maxAge": 40,
+    "maxAgeDiff": 40,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

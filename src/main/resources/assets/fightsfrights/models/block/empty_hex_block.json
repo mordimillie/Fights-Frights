@@ -1,0 +1,9 @@
+{
+  "parent": "fightsfrights:custom/emptyhexblock",
+  "textures": {
+    "all": "fightsfrights:block/emptyhexblock",
+    "particle": "fightsfrights:block/emptyhexblock",
+    "3": "fightsfrights:block/emptyhexblock"
+  },
+  "render_type": "cutout"
+}

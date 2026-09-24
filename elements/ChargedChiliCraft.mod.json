@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "CUSTOM:ChargedFlesh"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChargedFlesh"
+      },
+      {
+        "value": "Items.BUCKET"
+      },
+      {
+        "value": "CUSTOM:ChargedFlesh"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChargedFlesh"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChargedChili"
+    },
+    "name": "charged_chili_craft",
+    "namespace": "mod"
+  }
+}

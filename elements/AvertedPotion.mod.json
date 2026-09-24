@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Aversion",
+    "splashName": "Splash Potion of Aversion",
+    "lingeringName": "Lingering Potion of Aversion",
+    "arrowName": "Arrow of Aversion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Averted"
+        },
+        "duration": 3000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

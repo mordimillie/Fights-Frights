@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "snowy_taiga",
+    "taiga",
+    "old_growth_birch_forest",
+    "dark_forest"
+  ],
+  "spawners": {
+    "type": "fightsfrights:allman",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Deathblight",
+    "splashName": "Splash Potion of Deathblight",
+    "lingeringName": "Lingering Potion of Deathblight",
+    "arrowName": "Arrow of Deathblight",
+    "effects": [
+      {
+        "effect": {
+          "value": "POISON"
+        },
+        "duration": 500,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 500,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "DARKNESS"
+        },
+        "duration": 500,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

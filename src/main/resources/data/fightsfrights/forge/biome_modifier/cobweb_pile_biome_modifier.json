@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fightsfrights:bug_den",
+  "features": "fightsfrights:cobweb_pile",
+  "step": "local_modifications"
+}

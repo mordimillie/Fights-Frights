@@ -1,0 +1,56 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+issueTrackerURL="https://discord.com/channels/1507895529198321704/1507896071592874066"
+license="CC-BY-NC-SA 4.0"
+displayURL="https://modrinth.com/mod/fights-frights"
+logoFile="logo.png"
+credits="§6Lamescauce/Wheepy: §0modler and artist, §6Mordimillie: §0modler artist and secondary dev, §6☽Eclipse_Valley☼: §0modler and artist, §6Patuti/Mr. Fights: §0discord admin, §6The discord: §0for giving ideas"
+authors="§6Lebeno/Mr. Frights"
+
+[[mods]]
+modId="fightsfrights"
+version="2.5.2"
+displayName="Fights & Frights"
+description="Populate the overworld with new creepy crawlies! A vanilla style monster expansion adding unique behaviors, items, and bosses."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.fightsfrights]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fightsfrights]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1)"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.fightsfrights]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.2.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fightsfrights]]
+    modId="jei"
+    mandatory=false
+    versionRange="[15.0.0.12,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.fightsfrights]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
