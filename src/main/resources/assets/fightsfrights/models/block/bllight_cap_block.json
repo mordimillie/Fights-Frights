@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "fightsfrights:block/blightcap_block",
-    "particle": "fightsfrights:block/blightcap_block"
-  },
-  "render_type": "solid"
-}

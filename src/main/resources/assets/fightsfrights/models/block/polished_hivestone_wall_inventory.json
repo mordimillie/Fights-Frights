@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "fightsfrights:block/smoothhivestone",
-    "particle": "fightsfrights:block/smoothhivestone"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "fightsfrights:block/smooth_jelly",
-    "particle": "fightsfrights:block/smooth_jelly"
-  },
-  "render_type": "solid"
-}

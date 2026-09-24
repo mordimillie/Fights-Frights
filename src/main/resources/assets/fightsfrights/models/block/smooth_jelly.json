@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "fightsfrights:block/smooth_jelly",
-    "particle": "fightsfrights:block/smooth_jelly"
-  },
-  "render_type": "solid"
-}

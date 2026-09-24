@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "fightsfrights:hivestone"
-  },
-  "result": "fightsfrights:polished_hivestone_wall"
-}

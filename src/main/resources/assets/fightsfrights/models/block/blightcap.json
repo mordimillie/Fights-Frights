@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "fightsfrights:block/blightcap",
-    "particle": "fightsfrights:block/blightcap"
-  },
-  "render_type": "cutout"
-}

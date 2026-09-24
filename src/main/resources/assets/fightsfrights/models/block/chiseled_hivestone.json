@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "fightsfrights:block/chiseled_hivestone",
-    "particle": "fightsfrights:block/chiseled_hivestone"
-  },
-  "render_type": "solid"
-}

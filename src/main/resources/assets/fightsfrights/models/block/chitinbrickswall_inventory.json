@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "fightsfrights:block/chitin_bricks",
-    "particle": "fightsfrights:block/chitin_bricks"
-  },
-  "render_type": "solid"
-}

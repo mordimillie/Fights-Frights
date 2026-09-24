@@ -1,8 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "particle": "fightsfrights:block/blight_plank",
-    "texture": "fightsfrights:block/blight_plank"
-  },
-  "render_type": "solid"
-}
