@@ -1,16 +1,17 @@
 modLoader="javafml"
 loaderVersion="[47,)"
 issueTrackerURL="https://discord.com/channels/1507895529198321704/1507896071592874066"
+showAsResourcePack=true
 license="CC-BY-NC-SA 4.0"
-displayURL="https://modrinth.com/mod/fights-frights"
-logoFile="logo.png"
-credits="§6Lamescauce/Wheepy: §0modler and artist, §6Mordimillie: §0modler artist and secondary dev, §6☽Eclipse_Valley☼: §0modler and artist, §6Patuti/Mr. Fights: §0discord admin, §6The discord: §0for giving ideas"
-authors="§6Lebeno/Mr. Frights"
 
 [[mods]]
 modId="fightsfrights"
 version="2.5.3"
 displayName="Fights & Frights"
+displayURL="https://modrinth.com/mod/fights-frights"
+logoFile="logo.png"
+credits="§6Lamescauce/Wheepy: §0modler and artist, §6Mordimillie: §0modler artist and secondary dev, §6☽Eclipse_Valley☼: §0modler and artist, §6Patuti/Mr. Fights: §0discord admin, §6The discord: §0for giving ideas"
+authors="§6Lebeno/Mr. Frights"
 description="Populate the overworld with new creepy crawlies! A vanilla style monster expansion adding unique behaviors, items, and bosses."
 
 # Start of user code block mod configuration
