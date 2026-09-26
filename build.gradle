@@ -3,7 +3,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
 }
 
-version = '2.5.5'
+version = '2.3.6'
 group = 'com.lebeno.fightsfrights'
 archivesBaseName = 'fightsfrights-forge-1.20.1'
 
