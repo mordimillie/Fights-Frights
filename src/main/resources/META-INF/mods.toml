@@ -6,7 +6,7 @@ license="CC-BY-NC-SA 4.0"
 
 [[mods]]
 modId="fightsfrights"
-version="2.3.5"
+version="2.3.6"
 displayName="Fights & Frights"
 displayURL="https://modrinth.com/mod/fights-frights"
 logoFile="logo.png"
@@ -57,14 +57,14 @@ description="Populate the overworld with new creepy crawlies! A vanilla style mo
     mandatory=true
     versionRange="[4.2.1,)"
     ordering="NONE"
-    side="BOTH"
+    side="CLIENT"
 
 [[dependencies.fightsfrights]]
     modId="jei"
     mandatory=false
     versionRange="[15.0.0.12,)"
     ordering="NONE"
-    side="BOTH"
+    side="CLIENT"
 
 # Start of user code block dependencies configuration
 # End of user code block dependencies configuration
