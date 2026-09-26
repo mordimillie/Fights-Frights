@@ -6,12 +6,32 @@ license="CC-BY-NC-SA 4.0"
 
 [[mods]]
 modId="fightsfrights"
-version="2.5.4"
+version="2.3.5"
 displayName="Fights & Frights"
 displayURL="https://modrinth.com/mod/fights-frights"
 logoFile="logo.png"
-credits="§6Lamescauce/Wheepy: §0modler and artist, §6Mordimillie: §0modler artist and secondary dev, §6☽Eclipse_Valley☼: §0modler and artist, §6Patuti/Mr. Fights: §0discord admin, §6The discord: §0for giving ideas"
-authors="§6Lebeno/Mr. Frights"
+credits=""
+authors='''
+    • §6Lebeno/Mr. Frights:
+        §7• owner
+        • main artist
+        • main modler
+        • main developer
+    • §6Lamescauce/Wheepy: 
+        §7• modler
+        • artist
+    • §6Mordimillie: 
+        §7• modler
+        • artist
+        • secondary devoloper
+    • §6☽Eclipse_Valley☼: 
+        §7• modler
+        • artist
+    • §6Patuti/Mr. Fights: 
+        §7• discord admin
+    • §6The discord: 
+        §7• ideas
+    '''
 description="Populate the overworld with new creepy crawlies! A vanilla style monster expansion adding unique behaviors, items, and bosses."
 
 # Start of user code block mod configuration
